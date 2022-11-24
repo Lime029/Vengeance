@@ -456,6 +456,7 @@ Field Effect Listing
 *	The following abilities instead activate whenever using a damaging move:
 		Black Light Propulsion	Black Light Absorption
 *	Mystical Gem additionally activates with Dark moves
+*	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	Light moves as well as the following moves increase in power x1.5:
 		Dark Pulse		Night Daze		Night Slash		Shadow Ball		Shadow Claw
@@ -852,6 +853,7 @@ Field Effect Listing
 *	Pokemon with Disguise are immune to the field burning if the disguise is not broken
 *	Pokemon with the following abilities are immune to the field burning:
 		Magma Armor		Flame Body		Flash Fire		Flare Boost		Heatproof
+*	Rock Peak Titan no longer increases the Pokemon's Defense stat
 :::MOVE MODIFIERS:::
 *	The base Accuracy of these moves becomes 100:
 		Will-O-Wisp		Blast Burn		Blue Flare		Fire Spin		Inferno
@@ -1104,6 +1106,7 @@ Field Effect Listing
 *	Magic Wand's activation chance is doubled
 *	Spacial Connection instead boosts the Pokemon's attacking stat x1.3 for each other Pokemon on the field with the Psychic- or Fairy-type
 *	Palindrome additionally inverts the effectiveness of moves used by and against the Pokemon
+*	Empyrean additionally boosts Sp. Atk upon entry
 :::MOVE MODIFIERS:::
 *	Light moves as well as the following moves increase in power x1.5 and gain all types whose damage is boosted as additional types:
 		Silver Wind		Mystical Fire 		Dragon Pulse 		Tri Attack 		Sacred Fire
@@ -1487,6 +1490,7 @@ Field Effect Listing
 *	Iceberg Titan's Sp. Def boost is increased to x1.5
 *	Dwindling Flame causes the Pokemon to deal 1 tier of damage less than it normally would
 *	Unyielding Fang additionally applies to Ice-type Pokemon
+*	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	Grounded Pokemon not Sticky Webbed or holding Heavy-Duty Boots switch places with a random partner when using any of the following moves, contact priority moves, or dance moves:
 		Rollout			Steamroller		Defense Curl		Lunge			Rolling Kick
@@ -1558,6 +1562,7 @@ Field Effect Listing
 		Crystallize		Earthen Aura
 *	Shackle is activated at all times
 *	Bodyguard instead activates after using any move
+*	Rock Peak Titan's damage boost is increased to x1.5 for affected moves
 :::MOVE MODIFIERS:::
 *	Damage from the following effects is doubled:
 		Stealth Rock		Spikes
@@ -1734,6 +1739,7 @@ Field Effect Listing
 *	Shimmering Haze is activated an additional time
 *	Spacial Connection additionally activates with Rock Pokemon
 *	Behemoth's Slumber instead heals full HP upon activation
+*	Rock Peak Titan's damage boost is increased to x1.5 for affected moves
 :::MOVE MODIFIERS:::
 *	Tailwind lasts 6 turns and creates Strong Winds for its duration
 *	These moves suffer a x0.5 decrease in power and lower all active Pokemon's Accuracy after use:
@@ -2390,6 +2396,7 @@ Field Effect Listing
 		Solid Rock		Mirror Armor
 *	Pokemon with the following abilities take no damage from a collapse:
 		Bulletproof		Rock Head		Magic Guard		Invisible Wall		Dauntless Shield
+		Rock Peak Titan
 *	Rock Head additionally boosts the power of recoil moves x1.2
 *	Arena Trap additionally affects airborne Pokemon
 *	The following abilities are disabled:
@@ -2399,6 +2406,7 @@ Field Effect Listing
 		Earthen Aura		Earthinize
 *	The following abilities instead heal to full HP upon activation:
 		Leviathan's Slumber	Behemoth's Slumber
+*	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	The following moves collapse the cave after 2 uses, instantly knocking out all active Pokemon
 		Earthquake		Bulldoze		Tectonic Rage		Continental Crush	Magnitude
@@ -2531,6 +2539,7 @@ Field Effect Listing
 *	Mirror Armor additionally gives the Pokemon increased Evasion x1.5
 *	Spacial Connection is disabled
 *	Mystical Gem is additionally activated by moves of the type corresponding to the field's background
+*	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	The following moves gain additional Fire, Water, Grass, Electric, Fairy, Ghost, or Psychic typing, and increase in power x1.5:
 		Judgment		Prismatic Laser		Multi-Attack		Tri Attack		Aurora Beam
@@ -2714,6 +2723,7 @@ Field Effect Listing
 *	Stamina additionally boosts Speed upon entry
 *	Spacial Connection additionally activates with Rock Pokemon
 *	Air Filtration additionally heals for 1/8 max HP at the end of each round during Strong Winds
+*	Rock Peak Titan's Defense boost and damage boost for affected moves are increased to x1.5
 :::MOVE MODIFIERS:::
 *	Tailwind instead lasts for 6 turns, and creates Strong Winds for its duration
 *	The following moves increase in power x1.5:
@@ -2782,6 +2792,7 @@ Field Effect Listing
 *	The damage boost from Iceberg Titan is increased to x1.5
 *	Spacial Connection additionally activates with Rock Pokemon
 *	Air Filtration additionally heals for 1/8 max HP at the end of each round during Strong Winds
+*	Rock Peak Titan's damage boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	Tailwind lasts 6 turns and creates Strong Winds for its duration
 *   	Enables the use of Aurora Veil
@@ -2867,7 +2878,7 @@ Field Effect Listing
 *	Life Force instead heals for 1/8 max HP upon activation
 *	Overlord instead lowers Attack upon activation
 *	The following abilities additionally boost Sp. Atk and Sp. Def upon entry:
-		Divine			Truth Seeker
+		Divine			Truth Seeker		Empyrean
 *	Pokemon with Stalwart additionally deal double damage
 *	Alphabetization additionally copies the effect of other Pokemon on the field with Alphabetization
 *	The following abilities instead boost the power of affected moves x1.5:
@@ -3225,6 +3236,7 @@ Field Effect Listing
 *	Leviathan's Slumber instead heals full HP and sharply boosts Sp. Def upon activation
 *	Leadership instead boosts affected stats x1.5
 *	Behemoth's Slumber instead heals full HP and sharply boosts Defense upon activation
+*	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	The following moves increase in power x2:
 		Pay Day
@@ -3471,7 +3483,8 @@ Field Effect Listing
 *	The healing effects of Black Light Absorption are doubled
 *	Supernova no longer cuts the Pokemon's HP upon activation
 *	Sun Devourer additionally boosts Attack upon entry
-*	Moon Caller additionally boosts Sp. Atk upon entry
+*	The following abilities additionally boost Sp. Atk upon entry:
+		Moon Caller		Empyrean
 *	Spacial Connection additionally boosts the Pokemon's attacking stat x1.2 if it is Fairy- or Psychic-type
 :::MOVE MODIFIERS:::
 *	Enables the use of the following moves:
@@ -3712,7 +3725,7 @@ Field Effect Listing
 		Deep Sleep		Life Force		Jungle Totem		Confidence		Earthen Aura
 		Ripen			Sun Shade		Divine			Alphabetization		Power Spot
 		Gulp Missile		Earthinize		Cultivate		Eternal Light		Storm Prediction
-		Sun Devourer		Moon Caller		Seasonal Heart
+		Sun Devourer		Moon Caller		Seasonal Heart		Empyrean
 *	Air Lock removes weather instead of nullifying it
 *	Bad Dreams is activated
 *	The following abilities instead boost the power of affected moves x1.5:
@@ -3779,7 +3792,7 @@ Field Effect Listing
 		Deep Sleep		Jungle Totem		Cautious		Earthen Aura		Ripen
 		Stalwart		Power Spot		Punk Rock		Steam Engine		Earthinize
 		Cultivate		Immolate		Animate			Leadership		Storm Prediction
-		Seasonal Heart
+		Seasonal Heart		Empyrean
 *	Rattled additionally boosts Speed upon entry
 *	The following abilities have their stat-changing effects doubled:
 		Intimidate		Berserk			Frighten
@@ -3880,6 +3893,7 @@ Field Effect Listing
 		Serene Grace		Vital Spirit		Justified		Zen Mode		Fairy Aura
 		Pixilate		Dazzling		Merciful Heart		Deep Sleep		Life Force
 		Bodyguard		Awaken			Divine			Inspire			Eternal Light
+		Empyrean
 *	Pokemon with Keen Eye have perfect Accuracy against Ghost Pokemon
 *	Forewarn additionally boosts Sp. Def upon entry
 *	Tinted Lens additionally increases crit rate by 1 stage
@@ -4003,6 +4017,7 @@ Field Effect Listing
 *	Neutralizing Gas additionally Paralyzes all other Pokemon on the field upon entry
 *	The following abilities are activated an additional time for grounded non-Poison Pokemon:
 		Guts			Quick Feet
+*	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	The following moves gain additional Rock-type:
 		Gunk Shot		Sludge Wave
@@ -4210,6 +4225,7 @@ Field Effect Listing
 *	Spacial Connection instead boosts the Pokemon's attacking stat x1.3 for each other Pokemon on the field with the Psychic- or Fairy-type
 *	Serpentine Intervention is activated an additional time during Strong Winds
 *	Air Filtration additionally heals for 1/8 max HP at the end of each round during Strong Winds
+*	Empyrean additionally boosts Sp. Atk upon entry
 :::MOVE MODIFIERS:::
 *	The following moves no longer use a charging turn:
 		Razor Wind		Sky Attack		Bounce			Fly			Solar Beam
