@@ -27,14 +27,11 @@ or not it is immune to the attack
 	Rain Dance		Triple Axel
 - Hyper Cutter additionally ignores opposing increases in Defense
 - Big Pecks additionally ignores opposing increases in Attack
-- The following moves are considered as "slashing moves":
-	Slash			False Swipe		Cut			Leaf Blade		Metal Claw
-	Night Slash		Air Slash		X-Scissor		Psycho Cut		Cross Poison
-	Sacred Sword		Razor Shell		Secret Sword		Solar Blade		Crush Claw
-	Mist Slash		Air Cutter		Fury Cutter		Dragon Claw		Shadow Claw
-	Behemoth Blade		Royal Blades		Hone Claws		Blade Maelstrom		Luminous Blade
-	Gale Blade		Ceaseless Edge		Stone Axe		Dire Claw		Razor Leaf
-	Multi-Attack		Spacial Rend		Razor Wind		Scratch			Fury Swipes
+- The following moves additionally count as slicing moves:
+	False Swipe		Metal Claw		Secret Sword		Crush Claw		Mist Slash
+	Fury Cutter		Dragon Claw		Shadow Claw		Royal Blades		Hone Claws
+	Blade Maelstrom		Luminous Blade		Gale Blade		Dire Claw		Multi-Attack
+	Spacial Rend		Razor Wind		Scratch			Fury Swipes
 - The following moves are considered as "kicking moves":
 	Stomp			Double Kick		Mega Kick		Jump Kick		Rolling Kick
 	Low Kick		High Jump Kick		Triple Kick		Blaze Kick		Low Sweep
@@ -60,6 +57,13 @@ or not it is immune to the attack
 	Smart Strike		Beak Blast		Splintered Stormshards	Snipe Shot		Dragon Darts
 	Bolt Beak		Branch Poke		Meteor Assault		Glacial Lance		Barb Barrage
 	Triple Arrows		Missile Jab		Polar Spear		Sudden Sting
+- The following moves are considered as "light moves":
+	Aurora Beam		Confuse Ray		Light Screen		Reflect			Flash
+	Morning Sun		Moonlight		Mirror Coat		Tail Glow		Luster Purge
+	Signal Beam		Power Gem		Mirror Shot		Flash Cannon		Judgment
+	Dazzling Gleam		Light of Ruin		Spotlight		Aurora Veil		Light That Burns the Sky
+	Moongeist Beam		Photon Geyser		Prismatic Laser		Luminous Blade		Menacing Moonraze Maelstrom
+	Twinkle Tackle		Solar Beam		Solar Blade		Techno Blast
 - Moves that target multiple Pokemon aren't affected by opposing increases in Evasion
 - Moves that never miss always Crit against Pokemon with stat increases in Evasion
 - Weather Ball becomes Flying-type in Strong Winds (and doubles in power)
@@ -67,7 +71,7 @@ or not it is immune to the attack
 - Unown learns Metronome at level 50
 - Kecleon learns Nature Power at level 40
 - Carnivine learns Snap Trap at level 1
-- The following moves additionally count as a biting moves:
+- The following moves additionally count as biting moves:
 	Snap Trap		Bug Bite
 - Damp no longer prevents the use of Misty Explosion
 - Figy Berries, Wiki Berries, Mago Berries, Aguav Berries, and Iapapa Berries instead 
@@ -199,6 +203,7 @@ Field Effect Listing
 *	Paining Paralysis instead deals 1/4 max HP damage upon activation
 *	Transistor instead boosts the power of affected moves x2
 :::MOVE MODIFIERS:::
+*	Moves have double the chance to Paralyze
 *	The following moves gain additional Electric type and increase in power x1.5:
 		Explosion		Self-Destruct		Surf			Hurricane		Bubble
 		Energy Ball		Psyshock		Venoshock		Thunderous Kick		Turbo Drive
@@ -236,7 +241,6 @@ Field Effect Listing
 *   	Created for 5 turns by Electric Surge
 :::OTHER EFFECTS:::
 *	Grounded Pokemon cannot fall asleep
-*	Moves have double the chance to Paralyze
 *	Grounded Pokemon boost their Speed at the end of each round unless they are Frozen or holding Heavy-Duty Boots
 
 #-------------------------------- 2. Grassy Terrain [GRT] --------------------------------#
@@ -420,7 +424,7 @@ Field Effect Listing
 		Tailwind		Strong Winds		Gravity
 :::OTHER EFFECTS:::
 *	All Pokemon are immune to status conditions and Confusion
-*	Fairy type Pokemon's Sp. Def increases x1.5
+*	The Sp. Def of Fairy Pokemon increases x1.5
 
 #-------------------------------- 4. Dark Crystal Cavern [DCC] --------------------------------#
 "The crystals in the cave glimmer faintly."
@@ -453,13 +457,11 @@ Field Effect Listing
 		Black Light Propulsion	Black Light Absorption
 *	Mystical Gem additionally activates with Dark moves
 :::MOVE MODIFIERS:::
-*	These moves increase in base power x1.5:
+*	Light moves as well as the following moves increase in power x1.5:
 		Dark Pulse		Night Daze		Night Slash		Shadow Ball		Shadow Claw
-		Shadow Force		Shadow Sneak		Shadow Punch		Aurora Beam		Signal Beam
-		Flash Cannon		Luster Purge		Dazzling Gleam		Mirror Shot		Shadow Bone
-		Power Gem		Moongeist Beam		Black Hole Eclipse	Stone Edge		Menacing Moonraze Maelstrom
-		Charge Beam		Ominous Wind		Diamond Storm		Light of Ruin		Darkest Lariat
-		Photon Geyser		Absorb Vitality		Gold Rush
+		Shadow Force		Shadow Sneak		Shadow Punch		Shadow Bone		Black Hole Eclipse
+		Stone Edge		Ominous Wind		Diamond Storm		Darkest Lariat		Absorb Vitality
+		Gold Rush
 *	The stat-changing effects of the following moves are amplified by 1 stage:
 		Flash			Scary Face
 *	The base Accuracy of these moves becomes 80:
@@ -475,16 +477,14 @@ Field Effect Listing
 * 	Nature Power becomes Prismatic Laser
 *	Camouflage changes the user's type to Dark
 *	Secret Power may lower the target's Accuracy
-*	Missing any of these moves as well as beam moves has a 50% chance of causing the move to instead hit both opposing Pokemon and activate their additional effect:
-		Fire Spin		Thunder Shock		Thunderbolt		Confuse Ray		Flash
-		Tri Attack		Zap Cannon		Hidden Power		Shadow Ball		Luster Purge
-		Blast Burn		Hydro Cannon		Weather Ball		Water Pulse		Power Gem
-		Energy Ball		Mirror Shot		Judgment		Spacial Rend		Psyshock
-		Venoshock		Electro Ball		Hex			Water Pledge		Fire Pledge
-		Grass Pledge		Night Daze		Psystrike		Fusion Flare		Moonblast
-		Mystical Fire		Core Enforcer		Photon Geyser		Expanding Force		Dragon Energy
-		Reactive Poison		Absorb Vitality		Turbo Drive		Eternal Flame		Infinite Force
-		Chain Lightning
+*	Missing any of these moves as well as beam and special light moves has a 50% chance of causing the move to instead hit both opposing Pokemon and activate their additional effect:
+		Fire Spin		Thunder Shock		Thunderbolt		Tri Attack		Zap Cannon
+		Hidden Power		Shadow Ball		Blast Burn		Hydro Cannon		Weather Ball
+		Water Pulse		Energy Ball		Spacial Rend		Psyshock		Venoshock
+		Electro Ball		Hex			Water Pledge		Fire Pledge		Grass Pledge
+		Night Daze		Psystrike		Fusion Flare		Moonblast		Mystical Fire
+		Core Enforcer		Expanding Force		Dragon Energy		Reactive Poison		Absorb Vitality
+		Turbo Drive		Eternal Flame		Infinite Force		Chain Lightning
 *	Night Shade's damage increases x1.5
 *	Taunt instead lasts 6 turns
 *	Magic Coat additionally increases Sp. Def upon use
@@ -737,6 +737,8 @@ Field Effect Listing
 *	Maraca Movement no longer sets the priority of dance moves to -1
 *	Scarecrow additionally copies Intimidate's effect
 :::MOVE MODIFIERS:::
+* 	Sound-based attacks receive a x1.5 increase in power
+*	Moves affected by Dancer receive a x1.5 increase in power
 *	Physical Fighting moves, punching moves, and these moves become High Striker attacks, which deal a random increment of damage between x0.5 and x3
 		Strength		Wood Hammer		Dual Chop		Heat Crash		Sky Drop
 		Icicle Crash		Body Slam		Stomp			Giga Impact		Brutal Swing
@@ -804,8 +806,6 @@ Field Effect Listing
 *	The following moves transform the field into a Boxing Ring temporarily:
 		Taunt			Torment			Swagger
 :::OTHER EFFECTS:::
-* 	Sound-based attacks receive a x1.5 increase in power
-*	Moves affected by Dancer receive a x1.5 increase in power
 
 #--------------------------- 7. Volcanic Field [VCF] --------------------------------#
 "Magma flows throughout the battlefield."
@@ -846,6 +846,12 @@ Field Effect Listing
 *	Dwindling Flame causes the Pokemon to deal damage as if it was at full HP
 *	Flaming Feet instead boosts the power of affected moves x1.5
 *	Behemoth's Slumber instead heals full HP and drastically boosts Defense upon activation
+*	Pokemon with the following abilities instead have a 100% chance to be burned at the end of each round:
+		Cotton Down		Leaf Guard		Grass Pelt		Fluffy			Fur Coat
+		Tough Bark
+*	Pokemon with Disguise are immune to the field burning if the disguise is not broken
+*	Pokemon with the following abilities are immune to the field burning:
+		Magma Armor		Flame Body		Flash Fire		Flare Boost		Heatproof
 :::MOVE MODIFIERS:::
 *	The base Accuracy of these moves becomes 100:
 		Will-O-Wisp		Blast Burn		Blue Flare		Fire Spin		Inferno
@@ -907,6 +913,7 @@ Field Effect Listing
 *	The effects of the following items are nullified:
 		Absorb Bulb		Hard Stone		Luminous Moss		Snowball
 *	Flame Orb additionally boosts the holder's Sp. Atk upon entry
+*	Pokemon holding Heavy Duty Boots are immune to the field burning
 :::FIELD TRANSFORMATION:::
 *	Created temporarily by Grass Pledge + Fire Pledge
 *	These moves will change this field into a Cave field temporarily:
@@ -921,16 +928,9 @@ Field Effect Listing
 *	The following moves transform the field into a Dragon's Den:
 		Devastating Drake	Dragon Fleet
 :::OTHER EFFECTS:::
-* 	Grounded non Fire-types take type-scaling Fire damage (1/8 max HP) at the end of each round
-*	Pokemon with the following abilities are immune to the field damage:
-		Magma Armor		Flame Body		Flash Fire		Flare Boost		Water Veil
- 		Heatproof		Water Bubble
+* 	Grounded Pokemon have a 50% chance to be burned at the end of each round
+*	Grounded Grass Pokemon instead have a 100% chance to be burned at the end of each round
 *	Pokemon in an Aqua Ring are immune to the field damage
-*	Pokemon with Disguise are immune to the field damage if the disguise is not broken
-*	Pokemon holding Heavy Duty Boots are immune to the field damage
-*	Pokemon with the following abilities take x2 field damage:
-		Ice Body		Leaf Guard		Grass Pelt		Fluffy			Fur Coat
-		Tough Bark		Cotton Down
 *	No Pokemon can be Frozen
 *	Hail is terminated
 	
@@ -1047,9 +1047,24 @@ Field Effect Listing
 #--------------------------- 9. Rainbow Field [RBF] --------------------------------#
 "A colorful prism surrounds the field."
 :::TYPE MODIFIERS:::
-*	Special Normal moves increase in base power x1.5 and gain an additional random type
-*	Dark moves decrease in base power x0.7
-*	Fairy moves increase in base power x1.2
+*	Normal moves increase in power x1.5 when there are at least 2 White-colored Pokemon on the field
+*	Fire moves increase in power x1.5 when there is at least 1 Red- and 1 Yellow-colored Pokemon on the field
+*	Fighting moves increase in power x1.5 when there is at least 1 Red- and 1 Brown-colored Pokemon on the field
+*	Water moves increase in power x1.5 when there are at least 2 Blue-colored Pokemon on the field
+*	Flying moves increase in power x1.5 when there is at least 1 Purple- and 1 White-colored Pokemon on the field
+*	Grass moves increase in power x1.5 when there are at least 2 Green-colored Pokemon on the field
+*	Poison moves increase in power x1.5 when there are at least 2 Purple-colored Pokemon on the field
+*	Electric moves increase in power x1.5 when there are at least 2 Yellow-colored Pokemon on the field
+*	Ground moves increase in power x1.5 when there is at least 1 Brown- and 1 White-colored Pokemon on the field
+*	Psychic moves increase in power x1.5 when there is at least 1 Pink- and 1 Purple-colored Pokemon on the field
+*	Rock moves increase in power x1.5 when there are at least 2 Brown-colored Pokemon on the field
+*	Ice moves increase in power x1.5 when there is at least 1 Blue- and 1 White-colored Pokemon on the field
+*	Bug moves increase in power x1.5 when there is at least 1 Green- and 1 Yellow-colored Pokemon on the field
+*	Dragon moves increase in power x1.5 when there is at least 1 Purple- and 1 Blue-colored Pokemon on the field
+*	Ghost moves increase in power x1.5 when there is at least 1 Purple- and 1 Gray-colored Pokemon on the field
+*	Dark moves increase in power x1.5 when there are at least 2 Black-colored Pokemon on the field
+*	Steel moves increase in power x1.5 when there are at least 2 Gray-colored Pokemon on the field
+*	Fairy moves increase in power x1.5 when there are at least 2 Pink-colored Pokemon on the field
 :::ABILITY MODIFIERS:::
 *	The following abilities will additionally randomly boost one stat at the end of each round:
 		Cloud Nine		Pastel Veil
@@ -1068,7 +1083,6 @@ Field Effect Listing
 *	Color Change changes the secondary type of the user to the type of the moves it uses
 *	Serene Grace instead boosts additional effect chance x2.5
 *	Pokemon with Forecast deal double damage as long as they aren't in their normal form
-*	Pokemon with Skill Link instead make special Normal moves (and other affected moves) gain every type as an additional type
 *	The following abilities additionally boost Sp. Def upon entry:
 		Magic Guard		Divine
 *	Super Luck instead boosts crit rate 2 stages
@@ -1091,17 +1105,15 @@ Field Effect Listing
 *	Spacial Connection instead boosts the Pokemon's attacking stat x1.3 for each other Pokemon on the field with the Psychic- or Fairy-type
 *	Palindrome additionally inverts the effectiveness of moves used by and against the Pokemon
 :::MOVE MODIFIERS:::
-*	The following moves increase in power x1.5 and gain an additional random type:
+*	Light moves as well as the following moves increase in power x1.5 and gain all types whose damage is boosted as additional types:
 		Silver Wind		Mystical Fire 		Dragon Pulse 		Tri Attack 		Sacred Fire
-		Judgment		Hidden Power 		Secret Power 		Mist Ball		Comet Punch
-		Zen Headbutt		Light of Ruin	   	Twinkle Tackle		Multi Attack		Ice Beam
-		Bubble Beam		Solar Beam		Sky Attack		Bubble			Luster Purge
-		Signal Beam		Magical Leaf		Power Gem		Mirror Shot		Charge Beam
-		Freeze Shock		Ice Burn		Fusion Flare		Fusion Bolt		Dazzling Gleam
-		Moongeist Beam		Photon Geyser		Mirror Launch		Mist Slash
-*	The following moves increase in power x2 and gain an additional random type:
+		Hidden Power 		Secret Power 		Mist Ball		Comet Punch		Zen Headbutt
+		Multi Attack		Ice Beam		Bubble Beam		Sky Attack		Bubble
+		Magical Leaf		Freeze Shock		Ice Burn		Fusion Flare		Fusion Bolt
+		Mirror Launch		Mist Slash		Sparkling Aria		Oceanic Operetta
+*	The following moves increase in power x2 and gain all types whose damage is boosted as additional types:
 		Fire Pledge		Water Pledge		Grass Pledge		Aurora Beam		Weather Ball
-		Prismatic Laser		Sparkling Aria		Flash Cannon		Oceanic Operetta	Luminous Blade
+		Prismatic Laser
 *	The following moves decrease in power x0.5:
 		Dark Pulse		Night Daze		Shadow Ball		Frustration		Never-Ending Nightmare
 		Shadow Punch		Shadow Claw		Shadow Sneak		Shadow Force		Black Hole Eclipse
@@ -1501,9 +1513,6 @@ Field Effect Listing
 *	Barrier additionally boosts the user's Sp. Def
 *	The effects of the following moves instead last 8 turns
 		Light Screen		Reflect
-*	The following moves increase in power x1.3:
-		Aurora Beam		Signal Beam		Flash Cannon		Luster Purge		Dazzling Gleam
-		Techno Blast		Prismatic Laser		Mirror Shot		Photon Geyser
 *	The following moves increase in power x1.5:
 		Icicle Spear		Twineedle		Barrage			Spike Cannon		Ice Shard
 		Icicle Crash		Glacial Lance		Polar Spear		Barb Barrage
@@ -1525,6 +1534,7 @@ Field Effect Listing
 *	Pokemon no longer take damage from Burns
 *	Beam moves have a 50% chance of hitting anyway when missing, dealing x1.5 damage when this is the case
 *	Confused Pokemon have their Accuracy halved when using contact moves
+*	Light moves increase in power x1.3
 
 #--------------------------- 14. Rocky Field [ROF] --------------------------------#
 "Jagged rocks cover the field."
@@ -1911,8 +1921,6 @@ Field Effect Listing
 		Water Veil		Water Bubble
 *	Unseen Archer is instead activated at above 1/2 max HP
 :::MOVE MODIFIERS:::
-*	These moves increase in base power x1.5:
-		Dazzling Gleam		Flash Cannon		Photon Geyser
 *	These moves increase in base power x1.3:
 		Dark Pulse		Night Daze		Night Slash		Shadow Ball		Shadow Claw
 		Shadow Force		Shadow Sneak		Shadow Punch		Shadow Bone		Darkest Lariat
@@ -1955,6 +1963,7 @@ Field Effect Listing
 *	Electric Surge transforms the field into a Factory Field
 :::OTHER EFFECTS:::
 *	Each grounded Pokemon has a 25% chance of being Paralyzed at the end of each round
+*	Light moves increase in power x1.5
 
 #--------------------------- 19. Wasteland [WSL] --------------------------------#
 "The waste moves beneath your feet..."
@@ -2418,8 +2427,6 @@ Field Effect Listing
 *	Dive instead becomes Dig
 *	Tailwind instead lasts 2 turns
 *	Rock Climb becomes Rock-type and increases in power x1.5
-*	The following moves increase in power x1.5:
-		Dazzling Gleam		Photon Geyser		Luster Purge
 *	Light That Burns the Sky decreases in power x0.5
 *	Terrain Pulse increases in power x2 and becomes Rock-type
 :::ITEM MODIFIERS:::
@@ -2440,6 +2447,7 @@ Field Effect Listing
 :::OTHER EFFECTS:::
 * 	Sound-based moves increase in power x1.5 and instead hit both opposing Pokemon when originally single-target
 *	Wind moves decrease in power x0.5
+*	Light moves increase in power x1.3
 		
 #--------------------------- 24. Glitch Field [GLF] --------------------------------#
 "Error! The dat4 h@s b3E\\| c0R&#|3|)"
@@ -2524,15 +2532,11 @@ Field Effect Listing
 *	Spacial Connection is disabled
 *	Mystical Gem is additionally activated by moves of the type corresponding to the field's background
 :::MOVE MODIFIERS:::
-*	The following moves gain additional Fire, Water, Grass, Electric, Fairy, Ghost, or Psychic typing, and increase in power x1.5
+*	The following moves gain additional Fire, Water, Grass, Electric, Fairy, Ghost, or Psychic typing, and increase in power x1.5:
 		Judgment		Prismatic Laser		Multi-Attack		Tri Attack		Aurora Beam
 		Hidden Power
 *	The following moves increase in power x1.5:
 		Power Gem		Diamond Storm		Rock Smash		Gold Rush
-*	The following moves increase in power x1.3:
-		Moongeist Beam		Signal Beam		Flash Cannon		Luster Purge		Dazzling Gleam
-		Mirror Shot		Techno Blast		Light of Ruin		Twinkle Tackle		Light That Burns the Sky
-		Photon Geyser		Mirror Launch		Luminous Blade
 *	Rock Polish additionally boosts Attack and Sp. Atk
 *	Stealth Rock's damage type is additionally Fire, Water, Grass, Electric, Ghost, Fairy, or Psychic
 * 	Nature Power becomes Power Gem
@@ -2540,16 +2544,14 @@ Field Effect Listing
 *	Enables the use of the following moves:
 		Aurora Veil		Steel Roller
 *	Secret Power may boost the user's Sp. Atk
-*	Missing any of these moves as well as beam moves causes the move to instead hit both opposing Pokemon and gain additional Fire, Water, Grass, Electric, Fairy, Ghost, or Psychic typing:
-		Fire Spin		Thunder Shock		Thunderbolt		Confuse Ray		Flash
-		Tri Attack		Zap Cannon		Hidden Power		Shadow Ball		Luster Purge
-		Blast Burn		Hydro Cannon		Weather Ball		Water Pulse		Power Gem
-		Energy Ball		Mirror Shot		Judgment		Spacial Rend		Psyshock
-		Venoshock		Electro Ball		Hex			Water Pledge		Fire Pledge
-		Grass Pledge		Night Daze		Psystrike		Fusion Flare		Moonblast
-		Mystical Fire		Core Enforcer		Photon Geyser		Expanding Force		Dragon Energy
-		Reactive Poison		Absorb Vitality		Turbo Drive		Eternal Flame		Infinite Force
-		Chain Lightning
+*	Missing any of these moves as well as beam and special light moves causes the move to instead hit both opposing Pokemon and gain additional Fire, Water, Grass, Electric, Fairy, Ghost, or Psychic typing:
+		Fire Spin		Thunder Shock		Thunderbolt		Tri Attack		Zap Cannon
+		Hidden Power		Shadow Ball		Blast Burn		Hydro Cannon		Weather Ball
+		Water Pulse		Energy Ball		Spacial Rend		Psyshock		Venoshock
+		Electro Ball		Hex			Water Pledge		Fire Pledge		Grass Pledge
+		Night Daze		Psystrike		Fusion Flare		Moonblast		Mystical Fire
+		Core Enforcer		Expanding Force		Dragon Energy		Reactive Poison		Absorb Vitality
+		Turbo Drive		Eternal Flame		Infinite Force		Chain Lightning
 *	Pay Day gives 20 times as much money as usual upon use
 *	The following moves' effects instead last 8 turns:
 		Wonder Room		Magic Room		Reflect			Light Screen		Trick Room
@@ -2590,6 +2592,7 @@ Field Effect Listing
 		The user gains additional Fairy-type and becomes affected by Heal Block
 		The user gains additional Ghost-type and becomes affected by Curse
 		The user gains additional Electric-type and becomes affected by Magnet Rise
+*	Light moves increase in power x1.3
 
 #--------------------------- 26. Murkwater Surface [MWS] --------------------------------#
 "Murk swirls about the water..."
@@ -2874,9 +2877,6 @@ Field Effect Listing
 *	Idealism additionally boosts Attack and Sp. Def upon entry
 *	Serpentine Intervention is activated an additional time
 :::MOVE MODIFIERS:::
-*	The following moves increase in power x1.3:
-		Prismatic Laser		Luster Purge		Flash Cannon		Solar Beam		Solar Blade
-		Dazzling Gleam		Light of Ruin		Photon Geyser		Genesis Supernova	Light That Burns the Sky
 *	The following moves increase in power x1.5:
 		Mystical Fire		Magical Leaf		Judgment		Sacred Fire		Ancient Power
 		Aura Sphere		Round			Echoed Voice		Fire Pledge		Water Pledge
@@ -2939,8 +2939,9 @@ Field Effect Listing
 *	All Pokemon have access to all (typically 4) abilities they could possibly have (this does not affect As One)
 *	Effects that manipulate abilities (like Skill Swap and Gastro Acid) affect all of the Pokemon's abilities
 *	Curses are lifted at the end of each round
-*	Dark and Ghost Pokemon do not receive additional effects on their attacks
+*	Dark and Ghost Pokemon ignore additional effects on their attacks
 *	Fairy, Normal, and Psychic Pokemon have their additional effect chance doubled
+*	Light moves increase in power x1.3
 
 #--------------------------- 30. Mirror Arena [MRA] --------------------------------#
 "Mirror, mirror, on the wall, who's the strongest of them all?"
@@ -2996,9 +2997,6 @@ Field Effect Listing
 *	Mirror Move additionally increases Accuracy, Attack and Sp. Atk on successful use
 *	The following moves increase in power x2, never miss, and have their additional effect chance increased to 100%:
 		Mirror Shot		Mirror Launch
-*	The following moves increase in power x1.5 and instead hit all near opposing Pokemon:
-		Flash Cannon		Luster Purge		Prismatic Laser		Solar Beam		Dazzling Gleam
-		Light of Ruin		Photon Geyser		Genesis Supernova	Luminous Blade		Light That Burns the Sky
 *	The stat changing effect of the following moves is amplified by 1 stage:
 		Flash			Double Team		Metal Sound
 *	Pokemon behind protect moves including Wide Guard are immune to the shatter damage from destroying the field
@@ -3031,6 +3029,7 @@ Field Effect Listing
 *	The critical hit rate is increased by one stage for each of the attacker's increases in Evasion/Accuracy, and the target's decreases in Evasion/Accuracy
 *	Missing a Physical contact attack causes 1/4 max HP recoil damage
 *	Confused Pokemon have their Accuracy halved
+*	Light moves increase in power x1.5 and instead hit all near opposing Pokemon unless they target the user by default
 
 #--------------------------- 31. Fairy Tale Field [FTF] --------------------------------#
 "A land where every fantasy becomes reality..."
@@ -3477,11 +3476,9 @@ Field Effect Listing
 :::MOVE MODIFIERS:::
 *	Enables the use of the following moves:
 		Aurora Veil		Dream Eater
-*	The following moves increase in power x1.5:
-		Flash Cannon		Luster Purge		Dazzling Gleam		Moonblast 		Solar Beam
-		Moongeist Beam		Sunsteel Strike		Searing Sunraze Smash	Solar Blade		Menacing Moonraze Maelstrom
-		Light of Ruin		Malicious Moonsault	Photon Geyser		Astral Barrage		Light That Burns the Sky
-		Infernal Parade
+*	Light moves as well as the following moves increase in power x1.5:
+		Moonblast 		Moongeist Beam		Sunsteel Strike		Searing Sunraze Smash	Menacing Moonraze Maelstrom
+		Malicious Moonsault	Astral Barrage		Infernal Parade
 *	The following moves increase in power x2:
 		Draco Meteor 		Meteor Mash  		Comet Punch 		Spacial Rend		Hyperspace Hole
 		Hyperspace Fury		Black Hole Eclipse	Swift			Aurora Beam		Hidden Power
@@ -3566,9 +3563,6 @@ Field Effect Listing
 		Meteor Mash		Comet Punch		Land's Wrath		Diamond Storm		Soul-Stealing 7-Star Strike
 		Swift			Energy Ball		Photon Geyser		Splintered Stormshards	Light That Burns the Sky
 		Meteor Beam		Meteor Tempest		Infinite Force
-*	The following moves increase in power x1.2:
-		Mirror Shot		Aurora Beam		Signal Beam		Dazzling Gleam		Flash Cannon
-		Moonblast		Photon Geyser		Luster Purge
 *	The following moves increase in power x2:
 		Vacuum Wave		Spacial Rend		Hyperspace Hole		Hyperspace Fury		Shattered Psyche
 *	Heart Swap additionally gains Pain Split's effect
@@ -3603,6 +3597,7 @@ Field Effect Listing
 *	Prevents all weather (besides Strong Winds) and generated Field Effects
 *	Pokemon no longer gain an extra damage boost for using moves that share a type with them
 *	Wind moves and Sound moves fail upon use
+*	Light moves increase in power x1.2
 
 #--------------------------- 36. Inverse Field [IVF] --------------------------------#
 "!trats elttaB"
@@ -3734,9 +3729,6 @@ Field Effect Listing
 *	The following moves will instantly KO the user upon use:
 		Dig			Dive			Fly			Bounce 
 *	Quash's priority is increased by 1
-*	The following moves decrease in power x0.3:
-		Solar Beam		Solar Blade		Luster Purge		Dazzling Gleam		Light That Burns the Sky
-		Flash Cannon		Light of Ruin		Twinkle Tackle		Prismatic Laser		Photon Geyser
 *	The following moves instead last randomly between 3 and 8 turns:
 		Gravity			Trick Room		Magic Room		Wonder Room
 *	Heal Block effect additionally deals 1/16 max HP at the end of each round
@@ -3766,6 +3758,7 @@ Field Effect Listing
 *	Misty Surge destroys the field temporarily
 :::OTHER EFFECTS:::
 *	Sun is nullified
+*	Light moves decrease in power x0.3
 
 #--------------------------- 39. Frozen Dimensional Field [FDF] --------------------------------#
 "When hell freezes over..."
