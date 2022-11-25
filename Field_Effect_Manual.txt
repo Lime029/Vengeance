@@ -23,15 +23,13 @@ previously unable to be called
 have this requirement (though they may require a certain form number)
 - Illusion wears off whenever the Pokemon is targeted by a damaging move, whether
 or not it is immune to the attack
-- The following moves are additionally affected by Dancer:
+- The following moves additionally count as dance moves:
 	Rain Dance		Triple Axel
 - Hyper Cutter additionally ignores opposing increases in Defense
 - Big Pecks additionally ignores opposing increases in Attack
 - The following moves additionally count as slicing moves:
-	False Swipe		Metal Claw		Secret Sword		Crush Claw		Mist Slash
-	Fury Cutter		Dragon Claw		Shadow Claw		Royal Blades		Hone Claws
-	Blade Maelstrom		Luminous Blade		Gale Blade		Dire Claw		Multi-Attack
-	Spacial Rend		Razor Wind		Scratch			Fury Swipes
+	Secret Sword		Mist Slash		Fury Cutter		Royal Blades		Spacial Rend
+	Blade Maelstrom		Luminous Blade		Gale Blade		Dire Claw		Razor Wind
 - The following moves are considered as "kicking moves":
 	Stomp			Double Kick		Mega Kick		Jump Kick		Rolling Kick
 	Low Kick		High Jump Kick		Triple Kick		Blaze Kick		Low Sweep
@@ -739,7 +737,7 @@ Field Effect Listing
 *	Scarecrow additionally copies Intimidate's effect
 :::MOVE MODIFIERS:::
 * 	Sound-based attacks receive a x1.5 increase in power
-*	Moves affected by Dancer receive a x1.5 increase in power
+*	Dance moves receive a x1.5 increase in power
 *	Physical Fighting moves, punching moves, and these moves become High Striker attacks, which deal a random increment of damage between x0.5 and x3
 		Strength		Wood Hammer		Dual Chop		Heat Crash		Sky Drop
 		Icicle Crash		Body Slam		Stomp			Giga Impact		Brutal Swing
@@ -978,6 +976,11 @@ Field Effect Listing
 *	Grounded Pokemon with Dwindling Flame deal 1 tier of damage less than they normally would
 *	Storm Prediction instead guarantees critical hits upon activation
 *	Dissolution instead triples damage inflicted by trapping moves
+*	The following abilities decrease Speed an extra stage at the end of each round:
+		Battle Armor		Tangled Feet		Heavy Metal
+*	Pokemon with the following abilities are immune to the field's end-of-round Speed decrease:
+		Clear Body		Quick Feet		Swift Swim		White Smoke		Suction Cups
+		Water Veil
 :::MOVE MODIFIERS:::
 *	Ingrain instead damages the user unless it's Poison-type or Steel-type
 *   	Strength Sap's healing is multiplied x1.3
@@ -1028,23 +1031,18 @@ Field Effect Listing
 *	The effects of the following items are nullified:
 		Full Incense		Lax Incense		Odd Incense		Rock Incense		Rose Incense
 		Sea Incense
+*	Pokemon with Heavy-Duty Boots are immune to the field's end-of-round Speed decrease
 :::FIELD TRANSFORMATION:::
 *	Created by Water Pledge + Grass Pledge temporarily
 *	Harsh Sun terminates the field for its duration
 *	Heat Wave terminates the field temporarily
 :::OTHER EFFECTS:::
 *	At the end of each turn the speed of each grounded Pokemon is reduced unless it's sunny
-*	The following abilities decrease Speed an extra stage at the end of each round:
-		Battle Armor		Tangled Feet		Heavy Metal
 *	Pokemon affected by Sand Tomb decrease their Speed an extra stage at the end of each round
-*	Pokemon with the following abilities are immune to the field's end-of-round Speed decrease:
-		Clear Body		Quick Feet		Swift Swim		White Smoke		Suction Cups
-		Water Veil
-*	Pokemon with Heavy-Duty Boots are immune to the field's end-of-round Speed decrease
 *	Pokemon that are asleep decrease their Speed an extra stage at the end of each round
 *	Grounded Pokemon that without Water, Poison, or Ground typing are knocked out at the end of each round if their Speed stat is minimized
 *	Rain instead lasts for 8 turns
-*	Burns are cured at the end of each turn for grounded Pokemon
+*	Burns are cured at the end of each round for grounded Pokemon
 
 #--------------------------- 9. Rainbow Field [RBF] --------------------------------#
 "A colorful prism surrounds the field."
@@ -1108,6 +1106,7 @@ Field Effect Listing
 *	Palindrome additionally inverts the effectiveness of moves used by and against the Pokemon
 *	Empyrean additionally boosts Sp. Atk upon entry
 :::MOVE MODIFIERS:::
+*	The secondary effect chance of all moves is doubled
 *	Light moves as well as the following moves increase in power x1.5 and gain all types whose damage is boosted as additional types:
 		Silver Wind		Mystical Fire 		Dragon Pulse 		Tri Attack 		Sacred Fire
 		Hidden Power 		Secret Power 		Mist Ball		Comet Punch		Zen Headbutt
@@ -1162,7 +1161,6 @@ Field Effect Listing
 *	Light That Burns the Sky terminates the field temporarily
 *	Defog terminates the field
 :::OTHER EFFECTS:::
-*	The secondary effect chance of all moves is doubled
 * 	Pokemon that are asleep recover 1/16 max HP at the end of each round
 *	Infatuation and Captivate work regardless of gender
 *	Prevents all Pokemon from becoming Poisoned
@@ -1194,6 +1192,10 @@ Field Effect Listing
 *	Contaminate instead boosts the damage of affected moves x1.5
 *	Grounded Pokemon with Dissolution instead triple the damage inflicted by trapping moves
 *	Flytrap additionally damages all adjacent opposing Bug Pokemon on the field for 1/8 max HP at the end of each round
+*	Pokemon with the following abilities ignore entry damage caused by the field:
+		Toxic Boost		Poison Heal		Immunity		Wonder Guard		Pastel Veil
+		Overcoat
+*	Pokemon with Disguise ignore entry damage unless the disguise is broken
 :::MOVE MODIFIERS:::
 *	Ingrain instead damages the user for 1/8 of max HP at the end of each round unless it's Poison-type
 *	These moves gain additional Poison-type and increase power x1.5:
@@ -1230,6 +1232,7 @@ Field Effect Listing
 *   	Telluric Seed damages the user for 1/8 its max HP and applies Baneful Bunker to the holder
 *	The effects of the following items are nullified:
 		Absorb Bulb		Luminous Moss		Miracle Seed
+*	Pokemon with Heavy-Duty Boots ignore entry damage caused by the field
 :::FIELD TRANSFORMATION:::
 *	These moves transform this field into the Grassy Terrain:
 		Seed Flare		Purify			Geomancy		Nature's Madness
@@ -1240,12 +1243,7 @@ Field Effect Listing
 *	Misty Surge transforms the field into the Corrosive Mist Field temporarily
 *	Two entries of Psychic Surge transform the field into a Wasteland temporarily
 :::OTHER EFFECTS:::
-* 	Grounded Pokemon without the Poison type take type-scaling Poison damage (1/4 max HP)
-*	Pokemon with the following abilities ignore entry damage:
-		Toxic Boost		Poison Heal		Immunity		Wonder Guard		Pastel Veil
-		Overcoat
-*	Pokemon with Heavy-Duty Boots ignore entry damage
-*	Pokemon with Disguise ignore entry damage unless the disguise is broken
+* 	Grounded Pokemon without the Poison type take type-scaling Poison damage (1/4 max HP) when entering battle
 *	All healing is prevented
 *	Pokemon take double damage from being Poisoned at the end of each round
 
@@ -1279,6 +1277,10 @@ Field Effect Listing
 *	Sponge heals 1/8 max HP for Poison Pokemon and damages for 1/8 max HP for other Pokemon at the end of each round
 *	Dissolution instead triples the damage inflicted by trapping moves
 *	Air Filtration heals the Pokemon for 1/8 max HP at the end of each round
+*	Pokemon with the following abilities are not poisoned at the end of the round:
+		Liquid Ooze		Air Lock		Filter
+*	Pokemon with the following abilities are instead badly poisoned at the end of each round:
+		Water Absorb		Water Veil		Rain Dish		Water Bubble
 :::MOVE MODIFIERS:::
 *	Aqua Ring instead damages the user each turn for 1/16 max HP unless it's Poison or Steel type
 *	These moves gain additional Poison-type:
@@ -1334,10 +1336,7 @@ Field Effect Listing
 *	The following moves temporarily change the field to the Misty Terrain:
 		Purify			Seed Flare
 :::OTHER EFFECTS:::
-*	All Pokemon are Poisoned at the end of each round unless they have any of the following abilities:
-		Liquid Ooze		Air Lock		Filter
-*	Pokemon with the following abilities are instead Badly Poisoned at the end of each round:
-		Water Absorb		Water Veil		Rain Dish		Water Bubble
+*	All Pokemon are poisoned at the end of each round
 
 #--------------------------- 12. Desert Field [DEF] --------------------------------#
 "The desert is hot and dry."
@@ -1386,6 +1385,7 @@ Field Effect Listing
 *	The damaging effects of Prickly are doubled
 *	Grounded Pokemon with Bearded Magnetism boost Defense upon entry
 :::MOVE MODIFIERS:::
+*	Wind moves gain additional Ground-type
 *	These moves increase in power x1.5:
 		Heat Wave  		Dig 			Sand Tomb		Overheat		Scorching Sands
 		Dust Storm
@@ -1442,6 +1442,7 @@ Field Effect Listing
 *	Leftovers instead heals 1/8 max HP upon activation
 *	The following items instead boost the power of affected moves x1.5:
 		Poison Barb		Soft Sand
+*	Consuming berries additionally heals the Pokemon 1/4 max HP
 :::FIELD TRANSFORMATION:::
 *	The following moves transform the field into a Xeric Shrubland temporarily:
 		Growth			Rototiller		Grassy Terrain		Geomancy
@@ -1453,8 +1454,6 @@ Field Effect Listing
 *	Hail instead becomes Rain
 *	Rain instead lasts for 3 turns
 *	There is a 1/5 chance that Sun will be activated for 3 turns at the end of each round in the absence of weather
-*	Consuming berries additionally heals the Pokemon 1/4 max HP
-*	Wind moves gain additional Ground-type
 
 #--------------------------- 13. Icy Cave [ICC] --------------------------------#
 "The cave is covered in ice."
@@ -1492,6 +1491,9 @@ Field Effect Listing
 *	Unyielding Fang additionally applies to Ice-type Pokemon
 *	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
+*	All moves have double the chance to Freeze
+*	Beam moves have a 50% chance of hitting anyway when missing, dealing x1.5 damage when this is the case
+*	Light moves increase in power x1.3
 *	Grounded Pokemon not Sticky Webbed or holding Heavy-Duty Boots switch places with a random partner when using any of the following moves, contact priority moves, or dance moves:
 		Rollout			Steamroller		Defense Curl		Lunge			Rolling Kick
 		Ice Ball		Take Down		Double-Edge		Agility			Double Team
@@ -1534,11 +1536,8 @@ Field Effect Listing
 		Heat Wave		Lava Plume		Eruption		Searing Shot		Inferno Overdrive
 		Fire Pledge		Overheat		Blast Burn		Magma Storm
 :::OTHER EFFECTS:::
-*	All moves have double the chance to Freeze
 *	Pokemon no longer take damage from Burns
-*	Beam moves have a 50% chance of hitting anyway when missing, dealing x1.5 damage when this is the case
 *	Confused Pokemon have their Accuracy halved when using contact moves
-*	Light moves increase in power x1.3
 
 #--------------------------- 14. Rocky Field [ROF] --------------------------------#
 "Jagged rocks cover the field."
@@ -1563,6 +1562,8 @@ Field Effect Listing
 *	Shackle is activated at all times
 *	Bodyguard instead activates after using any move
 *	Rock Peak Titan's damage boost is increased to x1.5 for affected moves
+*	Pokemon with the following abilities no longer take damage upon flinching:
+		Sturdy			Steadfast
 :::MOVE MODIFIERS:::
 *	Damage from the following effects is doubled:
 		Stealth Rock		Spikes
@@ -1596,16 +1597,14 @@ Field Effect Listing
 		Steamroller		Steel Roller
 :::OTHER EFFECTS:::
 *	Missing a Physical contact attack causes 1/8 Max HP recoil damage unless the user has Rock Head
-* 	Flinching Pokemon suffer 1/16 Max HP damage unless they have any of the following abilities:
-		Sturdy			Steadfast
+* 	Pokemon take 1/16 max HP damage upon flinching
 
 #--------------------------- 15. Forest Field [FOF] --------------------------------#
 "Trees surround the battlefield."
 :::TYPE MODIFIERS:::
 *	Grass moves increase in base power x1.5
 *	Special Bug moves increase in base power x1.5 and deal damage to both opposing Pokemon if they usually hit one target
-*	Slashing moves gain additional Grass-type and increase power x1.5
-*	Multi-target moves decrease in power x0.8 (except Special Bug moves which gain this attribute)
+*	Slicing moves gain additional Grass-type and increase power x1.5
 :::ABILITY MODIFIERS:::
 *	Effect Spore's activation chance is doubled to 60%
 *	The following abilities are activated:
@@ -1643,6 +1642,7 @@ Field Effect Listing
 		Autumn - Speed
 		Winter - Defense
 :::MOVE MODIFIERS:::
+*	Multi-target moves decrease in power x0.8 (except Special Bug moves which gain this attribute)
 *   	Strength Sap heals 30% more HP
 *	The following moves have their residual damage increased to 1/6 max HP:
 		Infestation		Snap Trap
@@ -1927,6 +1927,7 @@ Field Effect Listing
 		Water Veil		Water Bubble
 *	Unseen Archer is instead activated at above 1/2 max HP
 :::MOVE MODIFIERS:::
+*	Light moves increase in power x1.5
 *	These moves increase in base power x1.3:
 		Dark Pulse		Night Daze		Night Slash		Shadow Ball		Shadow Claw
 		Shadow Force		Shadow Sneak		Shadow Punch		Shadow Bone		Darkest Lariat
@@ -1969,7 +1970,6 @@ Field Effect Listing
 *	Electric Surge transforms the field into a Factory Field
 :::OTHER EFFECTS:::
 *	Each grounded Pokemon has a 25% chance of being Paralyzed at the end of each round
-*	Light moves increase in power x1.5
 
 #--------------------------- 19. Wasteland [WSL] --------------------------------#
 "The waste moves beneath your feet..."
@@ -2001,7 +2001,10 @@ Field Effect Listing
 *	Curious Medicine additionally applies a random status condition to affected Pokemon upon activation
 *	Pokemon with Pickup instead gather an item as they would at the end of battle at the end of each turn
 *	Animate instead boosts the power of affected moves x1.5
+*	Pokemon with the following abilities are not knocked out when angering the waste:
+		Poison Heal		Gooey			Quick Feet
 :::MOVE MODIFIERS:::
+*	Moves have double the chance to flinch targets
 *	These moves increase in power x1.3 and gain additional Poison-type:
 		Gunk Shot 		Sludge			Sludge Wave		Sludge Bomb		Octazooka
 		Absorb			Hidden Power		Astonish		Fling			Shadow Sneak
@@ -2055,13 +2058,11 @@ Field Effect Listing
 *	Geomancy transforms the field into the Psychic Terrain temporarily
 :::OTHER EFFECTS:::
 *	Entry hazards are consumed at the end of the turn, returning a special effect to the side against which they were used:
-		Stealth Rocks deal double the entry damage they would've taken by switching in
+		Stealth Rocks deal double the entry damage Pokemon would've taken by switching in
 		Spikes deal 1/3 max HP
 		Toxic Spikes deal 1/8 max HP to non-Poison/Steel Pokemon, and Badly Poison them
 		Sticky Web lowers Speed 4 stages
-*	Flinching moves have their additional effect doubled, and separate flinch chances are doubled
-*	Airborne Pokemon that have angered the waste 3 times while active are knocked out unless they have the Poison-type or any of the following abilities:
-		Poison Heal		Gooey			Quick Feet
+*	Grounded non-Poison Pokemon that have angered the waste 3 times while active are knocked out at the end of the round
 
 #--------------------------- 20. Ashen Beach [ASB] --------------------------------#
 "Ash and sand line the field."
@@ -2209,7 +2210,10 @@ Field Effect Listing
 *	Grounded Pokemon with Dwindling Flame deal damage as if they were at 1 HP
 *	Grounded Pokemon with Speed Launcher cause affected moves to gain additional Water-type
 *	Storm Prediction instead guarantees critical hits upon activation
+*	Pokemon with the following abilities do not have their Speed innately decreased by the field:
+		Swift Swim		Propeller Tail
 :::MOVE MODIFIERS:::
+*	Powder moves fail against grounded targets
 *	Dive lasts only one turn
 *	Splash additionally lowers the target's Accuracy
 * 	Aqua Ring instead restores 1/8 max HP each turn
@@ -2265,10 +2269,8 @@ Field Effect Listing
 *	Shore Up transforms the field into a Beach
 *	Harsh Sun transforms the field into a Beach for its duration
 :::OTHER EFFECTS:::
-*	Grounded Pokemon without the Water-type have their Speed decreased x0.8, unless they have any of the following abilities:
-		Swift Swim		Propeller Tail
+*	Grounded Pokemon without the Water-type have their Speed decreased x0.8
 *	Grounded Pokemon cannot be Burned
-*	Powder moves fail against grounded targets
 		
 #--------------------------- 22. Underwater [UDW] --------------------------------#
 "Light can be seen faintly overhead at the water's surface..."
@@ -2319,7 +2321,15 @@ Field Effect Listing
 *	Sponge sharply boosts Sp. Def upon entry
 *	Dwindling Flame causes the Pokemon to deal damage as if it was at 1 HP
 *	Speed Launcher causes affected moves to gain additional Water-type
+*	Pokemon with the following abilities do not have their Speed innately decreased by the field:
+		Swift Swim		Propeller Tail
+*	Pokemon with Swift Swim ignore damage from the field at the end of each round if they are weak to Water
+*	If any active Pokemon has Pressure, the end-of-round field damage is doubled for all affected Pokemon
+*	Pokemon with the following abilities can't avoid field damage and take x2 field damage at the end of each round:
+		Magma Armor		Flame Body
 :::MOVE MODIFIERS:::
+*	Wind moves fail upon use
+*	Powder moves fail upon use
 *	Dive instead lasts 1 turn
 * 	Aqua Ring instead restores 1/8 max HP each round
 *	Whirlpool instead deals 1/6 max HP damage each round, and additionally Confuses the target
@@ -2371,16 +2381,9 @@ Field Effect Listing
 *	Shore Up transforms the field into a Beach
 *	Harsh Sun transforms the field into the Water Surface
 :::OTHER EFFECTS:::
-*	The Speed of all Pokemon is halved, except for Pokemon with the Water-type or any of the following abilities:
-		Swift Swim		Propeller Tail
+*	The Speed of all non-Water Pokemon is halved
 *	All weather is annulled besides Harsh Sun
-* 	Pokemon that are weak to the Water-type take type-scaling Water damage (1/8 max HP) at the end of each round unless they have any of the following abilities:
-		Swift Swim
-*	If any active Pokemon has Pressure, the field damage above is doubled for all Pokemon
-*	Pokemon with the following abilities can't avoid field damage and take x2 field damage:
-		Magma Armor		Flame Body
-*	Wind moves fail upon use
-*	Powder moves fail upon use
+* 	Pokemon that are weak to Water take type-scaling Water damage (1/8 max HP) at the end of each round
 *	No Pokemon can be Burned
 
 #--------------------------- 23. Cave [CAV] --------------------------------#
@@ -2408,6 +2411,9 @@ Field Effect Listing
 		Leviathan's Slumber	Behemoth's Slumber
 *	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
+* 	Sound-based moves increase in power x1.5 and instead hit both opposing Pokemon when originally single-target
+*	Wind moves decrease in power x0.5
+*	Light moves increase in power x1.3
 *	The following moves collapse the cave after 2 uses, instantly knocking out all active Pokemon
 		Earthquake		Bulldoze		Tectonic Rage		Continental Crush	Magnitude
 		Fissure			Self-Destruct		Explosion		Rock Slide
@@ -2453,9 +2459,6 @@ Field Effect Listing
 *	The following moves transform the field into a Dragon's Den temporarily:
 		Dragon Rage		Dragon Fleet		Dragon Energy
 :::OTHER EFFECTS:::
-* 	Sound-based moves increase in power x1.5 and instead hit both opposing Pokemon when originally single-target
-*	Wind moves decrease in power x0.5
-*	Light moves increase in power x1.3
 		
 #--------------------------- 24. Glitch Field [GLF] --------------------------------#
 "Error! The dat4 h@s b3E\\| c0R&#|3|)"
@@ -2477,10 +2480,15 @@ Field Effect Listing
 		Slow Start		Battery
 *	Pixilate allows affected moves to stay Fairy-type and instead boosts affected moves x1.5
 :::MOVE MODIFIERS:::
+*	Damaging moves instead have their category determined by the type of the move (defined type, not altered type)
+		Special - Fire, Water, Grass, Ice, Psychic, Dragon, Dark, Fairy
+		Physical - Normal, Fighting, Poison, Ground, Flying, Bug, Rock, Ghost, Steel
+*	Moves that would usually require a recharge turn no longer require one when knocking out a Pokemon with the move
 *	Rage locks the user into the move indefinitely
 * 	Blizzard's base Accuracy is increased to 90
 *	Metronome will never choose a move with less than 70 base power
 *	The following moves halve the target's Defense/Sp. Def when calculating damage:
+		Explosion		Self-Destruct		Misty Explosion
 *	Nature Power becomes Metronome
 *	Camouflage changes user's type to ???
 *	Secret Power may confuse the target
@@ -2489,7 +2497,7 @@ Field Effect Listing
 		Wrap			Infestation		Snap Trap		Thunder Cage		Whirlpool
 *	The above trapping moves have their residual damage halved and instead last for 2-5 rounds
 *	The above trapping moves additionally use PP each turn the target takes damage from the effect
-*	Focus Energy no longer affects Critical hit rate
+*	Focus Energy fails upon use
 *	Terrain Pulse increases in power x2 and becomes ???-type
 :::ITEM MODIFIERS:::
 *	Synthetic Seed sharply boosts a random stat and makes holder ???-type
@@ -2501,8 +2509,7 @@ Field Effect Listing
 *	Created for 3 turns by using Conversion and Conversion 2 in succession while not holding an Everstone
 *	Refresh terminates the field
 :::OTHER EFFECTS:::
-*	Damaging moves instead have their category determined by the type of the move (defined type, not actual type)
-*	Special Attacks, for both the user and target, calculate off of the higher stat between Sp. Atk and Sp. Def
+*	All Pokemon have their Sp. Atk and Sp. Def replaced by the higher stat between the two
 *	Critical hit rate increases by one stage during damage calculation if an attacker is faster than its target
 *	Sleep instead lasts 1-7 turns
 *	Pokemon no longer have a chance of thawing out of freeze each turn
@@ -2541,6 +2548,7 @@ Field Effect Listing
 *	Mystical Gem is additionally activated by moves of the type corresponding to the field's background
 *	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
+*	Light moves increase in power x1.3
 *	The following moves gain additional Fire, Water, Grass, Electric, Fairy, Ghost, or Psychic typing, and increase in power x1.5:
 		Judgment		Prismatic Laser		Multi-Attack		Tri Attack		Aurora Beam
 		Hidden Power
@@ -2592,7 +2600,7 @@ Field Effect Listing
 *	Misty Surge shifts the field to the Fairy background
 *	Psychic Surge shifts the field to the Psychic background
 :::OTHER EFFECTS:::
-*	Each background of the field corresponds to a specific type which adds an additional type to various attributes
+*	Each background of the field corresponds to a specific type which is added to various attributes
 *	Missing a contact move results in one of the following effects depending on the type background:
 		The user gains additional Water-type and becomes affected by Whirlpool
 		The user gains additional Grass-type and becomes affected by Ingrain
@@ -2601,7 +2609,6 @@ Field Effect Listing
 		The user gains additional Fairy-type and becomes affected by Heal Block
 		The user gains additional Ghost-type and becomes affected by Curse
 		The user gains additional Electric-type and becomes affected by Magnet Rise
-*	Light moves increase in power x1.3
 
 #--------------------------- 26. Murkwater Surface [MWS] --------------------------------#
 "Murk swirls about the water..."
@@ -2650,7 +2657,16 @@ Field Effect Listing
 *	Grounded Pokemon with Dwindling Flame deal damage as if they were at 1 HP
 *	Grounded Pokemon with Speed Launcher cause affected moves to gain additional Water- and Poison-type
 *	Grounded Pokemon with Dissolution instead triple the damage inflicted by trapping moves
+*	The following abilities ignore the Speed reduction caused by the field:
+		Swift Swim		Propeller Tail
+*	Pokemon with any of the following abilities are immune to the end-of-round Sp. Def reduction:
+		Immunity		Toxic Boost		Poison Heal 		Magic Guard		Wonder Guard
+		Thick Fat		Sticky Hold		Filter			Tough Bark		Overcoat
+*	Pokemon with the following abilities decrease their Sp. Def an extra stage at the end of each round:
+		Dry Skin		Water Absorb		Magma Armor		Flame Body		Flower Gift
+		Flower Veil
 :::MOVE MODIFIERS:::
+*	Flinching moves have their additional effect doubled, and separate flinch chances are doubled
 *	The following moves gain additional Water/Poison-type and increase in power x1.5:
 		Brine			Mud Bomb		Mud Shot		Mud-Slap		Thousand Waves
 		Smack Down		Muddy Water		Sludge Wave
@@ -2690,18 +2706,11 @@ Field Effect Listing
 		Blizzard		Glaciate
 *	Misty Surge transforms the field into the Water Surface temporarily
 :::OTHER EFFECTS:::
-*	The Speed of grounded Pokemon without Water- or Poison-type is halved, unless they have any of the following abilities:
-		Swift Swim		Propeller Tail
+*	The Speed of grounded Pokemon without Water- or Poison-type is halved
 *	Grounded Pokemon without Poison- or Steel-type have their Sp. Def decreased at the end of each round
-*	Pokemon with any of the following abilities are immune to the Sp. Def reduction from above:
-		Immunity		Toxic Boost		Poison Heal 		Magic Guard		Wonder Guard
-		Thick Fat		Sticky Hold		Filter			Tough Bark		Overcoat
-*	Pokemon with the following abilities or in the semi-invulnerable turn of Dive decrease their Sp. Def an extra stage at the end of each round:
-		Dry Skin		Water Absorb		Magma Armor		Flame Body		Flower Gift
-		Flower Veil
+*	Pokemon in the semi-invulnerable turn of Dive decrease their Sp. Def an extra stage at the end of each round
 *	Pokemon affected by Whirlpool decrease their Sp. Def an extra stage at the end of each round
 *	Pokemon with a minimized Sp. Def stat faint at the end of the round if they are affected by the field Sp. Def reduction from above
-*	Flinching moves have their additional effect doubled, and separate flinch chances are doubled
 
 #--------------------------- 27. Mountain [MTN] --------------------------------#
 "A beautiful landscape reveals itself below."
@@ -2888,6 +2897,7 @@ Field Effect Listing
 *	Idealism additionally boosts Attack and Sp. Def upon entry
 *	Serpentine Intervention is activated an additional time
 :::MOVE MODIFIERS:::
+*	Light moves increase in power x1.3
 *	The following moves increase in power x1.5:
 		Mystical Fire		Magical Leaf		Judgment		Sacred Fire		Ancient Power
 		Aura Sphere		Round			Echoed Voice		Fire Pledge		Water Pledge
@@ -2952,7 +2962,6 @@ Field Effect Listing
 *	Curses are lifted at the end of each round
 *	Dark and Ghost Pokemon ignore additional effects on their attacks
 *	Fairy, Normal, and Psychic Pokemon have their additional effect chance doubled
-*	Light moves increase in power x1.3
 
 #--------------------------- 30. Mirror Arena [MRA] --------------------------------#
 "Mirror, mirror, on the wall, who's the strongest of them all?"
@@ -3001,6 +3010,7 @@ Field Effect Listing
 *	The healing effects of Black Light Absorption are doubled
 *	Supernova additionally sharply boosts Evasion upon activation
 :::MOVE MODIFIERS:::
+*	Light moves increase in power x1.5 and instead hit all near opposing Pokemon unless they target the user by default
 *	Beam moves instead hit for x2 damage when originally missing
 *	The following moves instead last for 8 turns and additionally increase the user's Evasion:
 		Reflect			Light Screen		Aurora Veil
@@ -3040,7 +3050,6 @@ Field Effect Listing
 *	The critical hit rate is increased by one stage for each of the attacker's increases in Evasion/Accuracy, and the target's decreases in Evasion/Accuracy
 *	Missing a Physical contact attack causes 1/4 max HP recoil damage
 *	Confused Pokemon have their Accuracy halved
-*	Light moves increase in power x1.5 and instead hit all near opposing Pokemon unless they target the user by default
 
 #--------------------------- 31. Fairy Tale Field [FTF] --------------------------------#
 "A land where every fantasy becomes reality..."
@@ -3102,6 +3111,7 @@ Field Effect Listing
 *	Inspire additionally applies to special moves
 *	Idealism instead removes all of the Pokemon's weaknesses
 :::MOVE MODIFIERS:::
+*	Slicing moves increase in power x1.3 and become Steel-type
 *	Floral Healing instead heals 2/3 max HP
 *	The following moves increase in power x1.5:
 		Mystical Fire		Ancient Power		Relic Song		Magical Leaf		Sparkling Aria
@@ -3161,7 +3171,6 @@ Field Effect Listing
 *	King's Rock's activation chance is increased to 20%
 :::FIELD TRANSFORMATION:::
 :::OTHER EFFECTS:::
-*	Slashing moves increase in power x1.3 and become Steel-type
 *	Moves from Dragon Pokemon increase in power x1.5
 *	Pokemon can be assigned Roles based on their actions in battle, with no limit to the number of that can be acquired
 *	Roles are acquired in the following ways:
@@ -3169,7 +3178,7 @@ Field Effect Listing
 		Bard - Use a sound-based move
 		Cleric - Use a healing move (excluded when the user's side has a maximum of 1 Pokemon)
 		Druid - Use 2 different moves in a row that are either Bug-, Fairy-, Flying-, Grass-, Ground-, or Water-type
-		Fighter - Use a slashing move
+		Fighter - Use a slicing move
 		Monk - Use a punching or kicking move without having any stat boosts
 		Paladin - Knock out a Dark, Dragon, Ghost, or Poison Pokemon
 		Ranger - Use a move against an opponent that is normally unreachable from the Pokemon's position
@@ -3182,7 +3191,7 @@ Field Effect Listing
 		Bard - Sound-based moves targeting opposing Pokemon lower their Defense and Sp. Def, and ones targeting the user or its allies raise their Attack and Sp. Atk
 		Cleric - Whenever the Pokemon is healed, all other allied Pokemon are healed for half the same amount
 		Druid - The Pokemon changes its type to Bug, Fairy, Flying, Grass, Ground, or Water right before defending against attacks (whichever is the best defensively)
-		Fighter - The Pokemon's slashing moves deal x1.2 damage and the Pokemon has a 50% chance of using slashing moves back at users that target the Pokemon
+		Fighter - The Pokemon's slicing moves deal x1.2 damage and the Pokemon has a 50% chance of using slicing moves back at users that target the Pokemon
 		Monk - The Pokemon's punching and kicking moves deal x1.5 damage when it doesn't have any stat boosts
 		Paladin - Each of the Pokemon's moves have their effectiveness doubled against Dark, Dragon, Ghost, and Poison Pokemon
 		Ranger - Moves against opponents that are normally unreachable from the Pokemon's position deal x1.5 damage
@@ -3238,6 +3247,7 @@ Field Effect Listing
 *	Behemoth's Slumber instead heals full HP and sharply boosts Defense upon activation
 *	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
+*	Sound-based moves gain additional Dragon-type and increase in power x1.5
 *	The following moves increase in power x2:
 		Pay Day
 *	The following moves increase in power x1.5:
@@ -3336,7 +3346,6 @@ Field Effect Listing
 :::OTHER EFFECTS:::
 *	Fire Spin instead deals 1/6 max HP damage per turn
 *	There is no longer a limit to the number of Pokemon that can achieve Mega Evolution per battle
-*	Sound-based moves gain additional Dragon-type and increase in power x1.5
 
 #--------------------------- 33. Flower Garden Field [FGF] --------------------------------#
 "The ground is rich and fertile."
@@ -3381,6 +3390,9 @@ Field Effect Listing
 *	Scarecrow additionally increases the base power of moves used against Flying Pokemon x1.5
 *	(Stage 3+) Selective Palate instead activates on all berries
 :::MOVE MODIFIERS:::
+*	(Stage 4) Powder moves instead target both opposing Pokemon
+*	(Stage 1+) Slicing moves increase in power x1.3
+*	(Stage 1+) Slicing moves hit Grass Pokemon for super-effective damage
 *	Rototiller additionally applies to the user
 *	The stat-changing effects of the following moves are amplified by 1 stage (parentheses indicate stage):
 		Rototiller		(0,1) Growth		(2,3) Flower Shield	(3+) Cotton Spore	(3,4) Defend Order
@@ -3433,7 +3445,7 @@ Field Effect Listing
 		Drench			Ripen			Grassy Surge
 *	The following abilities cut the field by one stage upon entry:
 		Blight			Contaminate
-*	Slashing moves cut the field by one stage upon use
+*	Slicing moves cut the field by one stage upon use
 *	In the absence of Rain or Water Sport, the following moves cut the field by 1 stage upon use:
 		Heat Wave		Flame Burst		Lava Plume		Eruption		Searing Shot
 		Blast Burn		Incinerate		Burn Up
@@ -3446,9 +3458,6 @@ Field Effect Listing
 :::OTHER EFFECTS:::
 *	The field starts at Stage 0 and grows to a maximum of Stage 4
 *	(Stage 2/3/4) Grass type Pokemon take damage reduced (x3/4)/(x2/3)/(x1/2)
-*	(Stage 4) Powder moves instead target both opposing Pokemon
-*	(Stage 1+) Slashing moves increase in power x1.3
-*	(Stage 1+) Slashing moves hit Grass Pokemon for super-effective damage
 
 #--------------------------- 34. Starlight Arena [STA] --------------------------------#
 "When you wish upon a star, makes no difference who you are. Anything your heart desires will come to you..."
@@ -3564,6 +3573,8 @@ Field Effect Listing
 *	Spacial Connection instead boosts the Pokemon's attacking stat x1.5 for each Psychic or Fairy Pokemon on the field
 *	Serpentine Intervention is activated an additional time
 :::MOVE MODIFIERS:::
+*	Wind moves and Sound moves fail upon use
+*	Light moves increase in power x1.2
 *	The following moves increase in power x1.5:
 		Psystrike		Aeroblast		Sacred Fire		Mist Ball		Origin Pulse
 		Precipice Blades	Dragon Ascent		Psycho Boost		Roar of Time		Shadow Force
@@ -3609,8 +3620,6 @@ Field Effect Listing
 :::OTHER EFFECTS:::
 *	Prevents all weather (besides Strong Winds) and generated Field Effects
 *	Pokemon no longer gain an extra damage boost for using moves that share a type with them
-*	Wind moves and Sound moves fail upon use
-*	Light moves increase in power x1.2
 
 #--------------------------- 36. Inverse Field [IVF] --------------------------------#
 "!trats elttaB"
@@ -3734,6 +3743,7 @@ Field Effect Listing
 *	Unseen Fist additionally copies Infiltrator's effect
 *	The healing effects of Black Light Absorption are doubled
 :::MOVE MODIFIERS:::
+*	Light moves decrease in power x0.3
 *	The following moves increase in power x1.2 and never miss:
 		Dark Pulse		Night Daze		Night Slash		Black Hole Eclipse
 *	The following moves increase in power x1.5:
@@ -3771,7 +3781,6 @@ Field Effect Listing
 *	Misty Surge destroys the field temporarily
 :::OTHER EFFECTS:::
 *	Sun is nullified
-*	Light moves decrease in power x0.3
 
 #--------------------------- 39. Frozen Dimensional Field [FDF] --------------------------------#
 "When hell freezes over..."
@@ -4018,6 +4027,9 @@ Field Effect Listing
 *	The following abilities are activated an additional time for grounded non-Poison Pokemon:
 		Guts			Quick Feet
 *	Rock Peak Titan's Defense boost is increased to x1.5
+*	Pokemon with the following abilities ignore the end-of-round field damage:
+		Wonder Guard		Immunity		Liquid Ooze		Tough Bark
+*	Pokemon with Disguise ignore the end-of-round field damage if their disguise is intact
 :::MOVE MODIFIERS:::
 *	The following moves gain additional Rock-type:
 		Gunk Shot		Sludge Wave
@@ -4050,6 +4062,7 @@ Field Effect Listing
 :::ITEM MODIFIERS:::
 *	The effects of Black Sludge are doubled
 *	Synthetic Seed increases Sp. Def by 1 stage and Defense by 2 stages, and poisons the holder
+*	Pokemon with Heavy-Duty Boots ignore the end-of-round field damage
 :::FIELD TRANSFORMATION:::
 *	The following moves transform the field into a Cave:
 		Seed Flare		Purify			Misty Terrain		Geomancy
@@ -4061,10 +4074,7 @@ Field Effect Listing
 		Earthquake		Bulldoze		Tectonic Rage
 *	Misty Surge transforms the field into a Cave
 :::OTHER EFFECTS:::
-*	All Grounded Pokemon that aren't Poison-, Steel-, or Rock-type take 1/8 max HP type-scaling Poison damage at the end of each round, unless they have any of the following abilities:
-		Wonder Guard		Immunity		Liquid Ooze		Tough Bark
-*	Pokemon with Disguise don't take damage at the end of the round if their disguise is intact
-*	Pokemon with Heavy-Duty Boots don't take damage at the end of the round
+*	All Grounded Pokemon that aren't Poison-, Steel-, or Rock-type take 1/8 max HP type-scaling Poison damage at the end of each round
 
 #--------------------------- 42. Bewitched Woods [BWW] --------------------------------#
 "Eyes can be seen watching closely from the trees..."
@@ -4134,6 +4144,7 @@ Field Effect Listing
 *	Scarecrow additionally boosts the Pokemon's Attack upon entry
 *	Selective Palate instead activates with flavors that the Pokemon dislikes
 :::MOVE MODIFIERS:::
+*	Moves that drain HP from the target drain double the amount
 *	The following moves increase in power x1.5 and apply Mark of the Devil to the user:
 		Magical Leaf		Mystical Fire		Eerie Spell		Signal Beam		Extrasensory
 		Doom Desire		Aura Sphere		Power Gem		Freezing Glare		Infernal Parade
@@ -4191,7 +4202,6 @@ Field Effect Listing
 		Effectiveness from Fire moves against the Pokemon is doubled, and removes the effect after being hit by one
 		After the Pokemon is damaged by a Water move, lowers Sp. Atk, Sp. Def, and Speed, and removes the effect
 		The Pokemon's attacking stat is increased x1.3 when using special moves or moves that apply the Mark of the Devil to the user
-*	Moves that drain HP from the target drain double the amount
 
 #--------------------------- 43. Sky Field [SKF] --------------------------------#
 "The clear sky is visible above the clouds."
@@ -4227,6 +4237,7 @@ Field Effect Listing
 *	Air Filtration additionally heals for 1/8 max HP at the end of each round during Strong Winds
 *	Empyrean additionally boosts Sp. Atk upon entry
 :::MOVE MODIFIERS:::
+*	Wind moves increase in power x1.5 and gain additional Flying-type
 *	The following moves no longer use a charging turn:
 		Razor Wind		Sky Attack		Bounce			Fly			Solar Beam
 		Solar Blade
@@ -4274,7 +4285,6 @@ Field Effect Listing
 *	Misty Surge transforms the field into the Misty Terrain temporarily
 :::OTHER EFFECTS:::
 *	All weather effects and Tailwind will last for 8 turns
-*	Wind moves increase in power x1.5 and gain additional Flying-type
 
 #--------------------------- 44. Indoors [IDR] --------------------------------#
 "It's quiet and tidy inside."
@@ -4302,7 +4312,13 @@ Field Effect Listing
 *	Screen Cleaner additionally removes Lucky Chant, Mist, Safeguard, Spikes, Stealth Rock, Sticky Web, Tailwind, and Toxic Spikes
 *	Fluffy gives the Pokemon a 30% chance to infatuate the attacker when attacked with a contact move
 *	Pokemon with Long Reach additionally suffer a x0.9 Accuracy decrease
+*	Pokemon with the following abilities do not take damage for missing contact moves:
+		Rock Head		Iron Fist		Limber
 :::MOVE MODIFIERS:::
+*	Non-Normal contact moves have x0.9 base Accuracy
+*	Contact moves damage the user for 1/8 max HP when missing
+*	Flinching moves have their additional effect doubled, and separate flinch chances are doubled
+*	Moves can no longer force other Pokemon to switch out
 *	The following moves increase in power x1.5:
 		Strength		Slam			Storm Throw		Circle Throw		Vital Throw
 *	Sweet Scent additionally lowers the target's Defense and Sp. Def upon use
@@ -4347,12 +4363,7 @@ Field Effect Listing
 *	Electric Surge transforms the field into the Short-Circuit Field temporarily
 *	Misty Surge transforms the field into the Misty Terrain temporarily
 :::OTHER EFFECTS:::
-*	Non-Normal contact moves have x0.9 base Accuracy
-*	Contact moves damage the user for 1/8 max HP when missing
-*	Pokemon with Rock Head, Iron Fist, or Limber do not take damage for missing contact moves
 *	Weather is nullified
-*	Flinching moves have their additional effect doubled, and separate flinch chances are doubled
-*	Moves can no longer force other Pokemon to switch out
 
 #--------------------------- 45. Boxing Ring [BXR] --------------------------------#
 "Ready, fight!"
@@ -4417,6 +4428,8 @@ Field Effect Listing
 *	Arm Cannon increases the priority of punching moves by 1
 *	Unyielding Fang additionally increases the base power of biting moves x1.5
 :::MOVE MODIFIERS:::
+*	Recoil moves deal x1.5 damage
+*	Contact moves have their power multiplied by the quotient of the user's height and target's height (minimum x0.75, maximum x1.5)
 *	Punching moves as well as the following moves increase in power x1.5:
 		Bone Club		Crabhammer		Beat Up			Gyro Ball		Smack Down
 		Heavy Slam		Steamroller		Play Rough		Darkest Lariat		Throat Chop
@@ -4458,8 +4471,6 @@ Field Effect Listing
 *	Protective Pads additionally boosts the holder's Defense x1.2
 :::FIELD TRANSFORMATION:::
 :::OTHER EFFECTS:::
-*	Recoil moves deal x1.5 damage
-*	Contact moves have their power multiplied by the quotient of the user's height and target's height (minimum x0.75, maximum x1.5)
 *	When a Pokemon knocks out another Pokemon, it gains the Persistent effect
 *	Pokemon with the Persistent effect have a 50% chance of being revived upon fainting (but then lose the effect), restoring between 1 HP and 1/2 max HP at random
 
@@ -4496,7 +4507,12 @@ Field Effect Listing
 *	Snap Freeze instead deals 1/3 max HP upon activation
 *	Iceberg Titan instead boosts Sp. Def x1.5 and damage from affected moves x1.5
 *	Dwindling Flame causes the Pokemon to deal 1 tier of damage less than it normally would
+*	Pokemon with the following abilities are immune to the end-of-round freezing from the field:
+		Fur Coat		Flame Body		Flash Fire		Magma Armor		Thick Fat
+		Overcoat
 :::MOVE MODIFIERS:::
+*	All moves have double the chance to freeze
+*	Beam moves increase in power x1.5
 *	The following moves increase in power x1.5:
 		Earthquake		Hammer Arm		Rock Wrecker		Stone Edge		Earth Power
 		Tectonic Rage		Pulverizing Pancake
@@ -4517,26 +4533,20 @@ Field Effect Listing
 *	Elemental Seed raises the holder's Evasion and Defense
 *	Never-Melt Ice instead boosts the power of affected moves x1.5
 *	The stat-changing effects of Snowball are amplified by 1 stage
+*	Pokemon with the following items are immune to the end-of-round freezing from the field:
+		Choice Scarf		Silk Scarf		Heavy-Duty Boots
 :::FIELD TRANSFORMATION:::
 *	These moves will transform this field into the Water Surface temporarily:
 		Heat Wave		Overheat		Inferno Overdrive
 *	Dig transforms this field into the Icy Cave
 :::OTHER EFFECTS:::
-*	All Pokemon have a 25% chance to be frozen at the end of each round
+*	All non-Fire Pokemon have a 25% chance to be frozen at the end of each round
 *	Pokemon with Water Veil have double the chance to be frozen at the end of each round
-*	Fire-type Pokemon are immune to the freezing from above
-*	Pokemon with any of the following abilities are immune to the freezing from above:
-		Fur Coat		Flame Body		Flash Fire		Magma Armor		Thick Fat
-		Overcoat
-*	Pokemon with any of the following items are immune to the freezing from above:
-		Choice Scarf		Silk Scarf		Heavy-Duty Boots
 *	Hail lasts for 8 turns (12 if holding Icy Rock)
 *	Rain becomes Hail and lasts for 8 turns (12 if holding Damp Rock)
 *	Ice Pokemon have their Defense and Sp. Def increased x1.5 when defending against contact moves
-*	All moves have double the chance to freeze
 *	Damage from Burn is halved
 *	Damage from Hail is doubled
-*	Beam moves increase in power x1.5
 
 #--------------------------- 47. Jungle [JNG] --------------------------------#
 "In the jungle, the mighty jungle..."
@@ -4576,6 +4586,7 @@ Field Effect Listing
 *	Unseen Archer is instead activated at above 1/2 max HP
 *	Flytrap additionally provides immunity to moves from Bug Pokemon that don't make contact
 :::MOVE MODIFIERS:::
+*	Wind moves decrease in power x0.7
 *	Nature Power turns into Jungle Healing
 *	The healing effects of the following moves are doubled:
 		Leech Seed		Ingrain			Jungle Healing
@@ -4615,12 +4626,11 @@ Field Effect Listing
 *	The stat-changing effects of Luminous Moss are amplified by 1 stage
 *	Sharp Beak instead boosts the power of affected moves x1.5
 :::FIELD TRANSFORMATION:::
-*	Two uses of any slashing moves transform the field into the Forest Field
+*	Two uses of any slicing moves transform the field into the Forest Field
 *	The following moves transform the field into a Bewitched Woods:
 		Forest's Curse		Psychic Terrain		Never-Ending Nightmare
 *	Psychic Surge transforms the field into a Bewitched Woods
 :::OTHER EFFECTS:::
-*	Wind moves decrease in power x0.7
 *	There is a 20% chance that Rain will be activated for 3 turns at the end of each round in the absence of weather
 
 #--------------------------- 48. Beach [BCH] --------------------------------#
@@ -4774,6 +4784,7 @@ Field Effect Listing
 *	The damaging effects of Prickly are doubled
 *	Grounded Pokemon with Bearded Magnetism additionally boost Defense upon entry
 ::MOVE MODIFIERS::
+*	Wind moves gain additional Ground-type
 *	The following moves increase in power x1.5:
 		Poison Sting		Twinneedle		Pin Missile		Absorb			Mega Drain
 		Heat Wave		Needle Arm		Overheat		Giga Drain		Grass Knot
@@ -4809,10 +4820,9 @@ Field Effect Listing
 *	Telluric Seed lowers Speed and applies Spiky Shield
 *	Soft Sand instead boosts the power of affected moves x1.5
 ::FIELD TRANSFORMATION::
-*	Slashing moves as well as the following moves transform the field into the Desert Field after 2 uses:
+*	Slicing moves as well as the following moves transform the field into the Desert Field after 2 uses:
 		Inferno			Inferno Overdrive
 *	Harsh Sun transforms the field into the Desert Field for its duration
 ::OTHER EFFECTS::
 *	Sunlight and Sandstorm last for 8 turns
-*	Wind moves gain additional Ground-type
 *	There is a 1/5 chance that Sandstorm will be activated for 3 turns at the end of each round in the absence of weather
