@@ -852,6 +852,7 @@ Field Effect Listing
 *	Pokemon with the following abilities are immune to the field burning:
 		Magma Armor		Flame Body		Flash Fire		Flare Boost		Heatproof
 *	Rock Peak Titan no longer increases the Pokemon's Defense stat
+*	Iron Titan no longer increases the Pokemon's Defense & Sp. Def stats
 :::MOVE MODIFIERS:::
 *	The base Accuracy of these moves becomes 100:
 		Will-O-Wisp		Blast Burn		Blue Flare		Fire Spin		Inferno
@@ -1196,6 +1197,7 @@ Field Effect Listing
 		Toxic Boost		Poison Heal		Immunity		Wonder Guard		Pastel Veil
 		Overcoat
 *	Pokemon with Disguise ignore entry damage unless the disguise is broken
+*	Iron Titan no longer increases the Pokemon's Defense & Sp. Def stats
 :::MOVE MODIFIERS:::
 *	Ingrain instead damages the user for 1/8 of max HP at the end of each round unless it's Poison-type
 *	These moves gain additional Poison-type and increase power x1.5:
@@ -1839,6 +1841,7 @@ Field Effect Listing
 *	Dual Wield additionally raises Attack upon entry
 *	Alarm instead boosts the power of affected moves x2.5
 *	Transistor instead boosts the power of affected moves x2
+*	Iron Titan instead boosts the power of affected moves x1.5 and boosts the Pokemon's Defense & Sp. Def stats x1.3
 :::MOVE MODIFIERS:::
 *	The following moves increase in power x1.5:
 		Steamroller		Techno Blast		Gear Grind		Gyro Ball		Rolling Kick
@@ -1926,6 +1929,7 @@ Field Effect Listing
 *	Pokemon with the following abilities are guaranteed to be Paralyzed at the end of each round:
 		Water Veil		Water Bubble
 *	Unseen Archer is instead activated at above 1/2 max HP
+*	Iron Titan's damage boost for affected moves is increased to x1.5
 :::MOVE MODIFIERS:::
 *	Light moves increase in power x1.5
 *	These moves increase in base power x1.3:
@@ -3009,6 +3013,7 @@ Field Effect Listing
 *	Black Light Propulsion's stat-changing effects are doubled
 *	The healing effects of Black Light Absorption are doubled
 *	Supernova additionally sharply boosts Evasion upon activation
+*	Iron Titan instead boosts the power of affected moves x1.5 and boosts the Pokemon's Defense & Sp. Def stats x1.3
 :::MOVE MODIFIERS:::
 *	Light moves increase in power x1.5 and instead hit all near opposing Pokemon unless they target the user by default
 *	Beam moves instead hit for x2 damage when originally missing
@@ -3062,9 +3067,9 @@ Field Effect Listing
 *	Pokemon with the following abilities deal x1.5 damage:
 		Queenly Majesty		Strong Will
 *	Pokemon with the following abilities additionally have their Defense boosted upon entry:
-		Battle Armor		Shell Armor
+		Battle Armor		Shell Armor		Rock Peak Titan
 *	Pokemon with the following abilities additionally have their Sp. Def boosted upon entry:
-		Magic Guard		Magic Bounce		Sweet Veil
+		Magic Guard		Magic Bounce		Sweet Veil		Iceberg Titan
 *	Pokemon with the following abilities additionally have their Sp. Atk boosted upon entry:
 		Magician		Divine			Magic Wand		Mystical Gem
 *	Activates Marvel Scale an additional time
@@ -3110,6 +3115,7 @@ Field Effect Listing
 *	Curious Medicine additionally removes all status conditions from allied Pokemon upon entry
 *	Inspire additionally applies to special moves
 *	Idealism instead removes all of the Pokemon's weaknesses
+*	Iron Titan additionally boosts the Pokemon's Defense or Sp. Def at random upon entering battle
 :::MOVE MODIFIERS:::
 *	Slicing moves increase in power x1.3 and become Steel-type
 *	Floral Healing instead heals 2/3 max HP
