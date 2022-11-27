@@ -705,7 +705,7 @@ Field Effect Listing
 *	The following abilities additionally boost Sp. Atk upon entry:
 		Guts			Vital Spirit		Victory Star		Magician		Confidence
 		Motivation		Dancer			Quip			Leadership		Magic Wand
-		Juggling		Performer
+		Juggling		Performer		Tap Dancing		Seductive Cry
 *	Arena Trap additionally affects airborne Pokemon
 *	Tangled Feet is activated an additional time
 *	Unburden additionally raises Attack and Sp. Atk upon activation
@@ -956,7 +956,7 @@ Field Effect Listing
 		Pastel Veil		Cotton Down		Propeller Tail		Screen Cleaner		Steam Engine
 		Frantic			Reconstruct		Transistor		Invisible Wall		Immolate
 		Sand Shield		Combustion		Flame Spiral		Juggling		Flaming Feet
-		Selective Palate
+		Selective Palate	Relaxing Rhythm
 *	Sand Veil is disabled except for Water-types and airborne Pokemon
 *	Pokemon with Dry Skin additionally recover 1/8 max HP at the end of each round
 *   	Activates the following abilities each turn for grounded Pokemon:
@@ -970,7 +970,7 @@ Field Effect Listing
 *	Heatproof provides immunity to Fire moves
 *	Quick Feet's Speed increasing effect is disabled
 *	The following abilities are disabled:
-		Aroma Veil		Soothing Aroma		Parfum Charmant
+		Aroma Veil		Soothing Aroma		Parfum Charmant		Tap Dancing
 *	Symbiosis additionally restores 1/3 max HP to both Pokemon upon activation
 *	Innards Out deals double damage upon activation
 *	Schooling is activated
@@ -2183,7 +2183,7 @@ Field Effect Listing
 :::ABILITY MODIFIERS:::
 *	The following abilities are disabled:
 		Sturdy			Suction Cups		Drought			Arena Trap		Jungle Totem
-		Earthen Aura		Behemoth's Slumber
+		Earthen Aura		Behemoth's Slumber	Tap Dancing
 *	Static causes all Pokemon to take type-scaling Electric damage (1/8 max HP) at the end of each turn except for Electric types and airborne Pokemon
 *	Static's original effect is nullified if not airborne
 *	Disables Speed Boost except for Water-types and airborne Pokemon
@@ -2307,7 +2307,7 @@ Field Effect Listing
 		Luminous Scales		Jungle Totem		Libero			Neutralizing Gas	Cotton Down
 		Immolate		Pollinate		Combustion		Soothing Aroma		Shimmering Haze
 		Unextinguishable	Flaming Feet		Dissolution		Spacial Connection	Behemoth's Slumber
-		Flytrap			Maraca Movement		Parfum Charmant
+		Flytrap			Maraca Movement		Parfum Charmant		Seductive Cry
 *	Marvel Scale boosts Defense x2 when activated
 *	Activates Water Compaction at the end of each round
 *	Forecast transforms Castform into Rainy form in the absence of weather
@@ -2635,7 +2635,7 @@ Field Effect Listing
 		Unextinguishable	Seed Revitalization	Flaming Feet		Selective Palate
 *	Disables the following abilities:
 		Sturdy			Aroma Veil		Sweet Veil		Jungle Totem		Earthen Aura
-		Cultivate		Soothing Aroma		Behemoth's Slumber	Parfum Charmant
+		Cultivate		Soothing Aroma		Behemoth's Slumber	Parfum Charmant		Tap Dancing
 *	Grounded Poison-type Pokemon with the following abilities recover 1/16 max HP at the end of each turn:
 		Dry Skin		Water Absorb
 *	The following abilities are activated for grounded Pokemon:
@@ -2981,7 +2981,7 @@ Field Effect Listing
 		Sand Veil		Snow Cloak		Illusion		Magnet Pull		Magic Bounce
 		Color Change		Battle Armor		Clear Body		Wonder Skin		Disguise
 		Full Metal Body		Prism Armor		Invisible Wall		Luminous Scales		Ice Scales
-		Eternal Light		Shimmering Haze
+		Eternal Light		Shimmering Haze		Tap Dancing
 *	Illuminate lowers opponents' Accuracy on switch-in
 *	The following abilities additionally raise Accuracy upon entry:
 		Compound Eyes		Infiltrator		Attentive		Truth Seeker
@@ -3180,10 +3180,11 @@ Field Effect Listing
 :::ITEM MODIFIERS:::
 *   	Magical Seed lowers Sp. Atk and applies King's Shield to the holder
 *	Dragon Fang instead boosts the power of affected moves x1.5
-*	King's Rock's activation chance is increased to 20%
+*	King's Rock's activation chance is doubled
 :::FIELD TRANSFORMATION:::
 :::OTHER EFFECTS:::
 *	Moves from Dragon Pokemon increase in power x1.5
+*	Whenever a Pokemon would infatuate another Pokemon, both Pokemon instead become infatuated with each other
 *	Pokemon can be assigned Roles based on their actions in battle, with no limit to the number of that can be acquired
 *	Roles are acquired in the following ways:
 		Barbarian - Knock out a Pokemon with a Physical move
@@ -3565,7 +3566,7 @@ Field Effect Listing
 		Ophiuchus (Impish) - Damaging moves have a 50% chance to affect the target with Curse
 
 #--------------------------- 35. Ultra Space [USP] --------------------------------#
-"Cries from distant worlds reverberate..."
+"Everything everywhere, all at once..."
 :::TYPE MODIFIERS:::
 *	Dark moves increase in power x1.5
 :::ABILITY MODIFIERS:::
@@ -4669,15 +4670,16 @@ Field Effect Listing
 *	The following abilities are disabled for grounded Pokemon:
 		Sticky Hold		Gooey
 *	Serene Grace multiplies additional effect chance x2.5 instead of x2
-*	Dazzling infatuates opposing Pokemon upon entry if possible
-*	Regenerator heals for 50% of max HP upon switching out
+*	Dazzling additionally infatuates opposing Pokemon upon entry if possible
+*	Regenerator instead heals for 50% of max HP upon switching out
 *	Natural Cure prevents status
 *	Zen Mode activates at full HP and increases Sp. Atk and Sp. Def upon form change
-*	Dry Skin damages each turn as if in Sunlight
+*	Dry Skin damages each turn as if in sunlight
 *	The following abilities always roll high values with surfing moves:
 		Competitive		Dancer			Limber			Own Tempo		Schooling
 		Serene Grace		Surge Surfer		Swift Swim		Wave Rider
-*	Cute Charm's activation chance is doubled
+*	The activation chances of the following abilities are doubled:
+		Cute Charm		Hypnotic Aura		Relaxing Rhythm
 *	Forecast transforms Castform into Sunny form in the absence of weather
 *	Shell Armor additionally boosts Defense upon entry
 *	Unburden additionally restores 1/4 max HP upon activation
@@ -4685,7 +4687,6 @@ Field Effect Listing
 *	Comatose additionally restores 1/16 max HP at the end of each round
 *	Triage additionally restores 1/4 max HP to all allies upon entry
 *	Deep Sleep instead heals for 1/4 max HP upon activation
-*	Hypnotic Aura's activation chance is doubled
 *	The following abilities additionally boost Speed upon entry:
 		Libero			Ball Fetch
 *	Gulp Missile instead activates when using any damaging Water move
