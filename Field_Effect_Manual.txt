@@ -200,6 +200,7 @@ Field Effect Listing
 *	Water Bubble additionally damages the Pokemon for type-scaling Electric damage (1/8 max HP) upon entry if it is grounded
 *	Paining Paralysis instead deals 1/4 max HP damage upon activation
 *	Transistor instead boosts the power of affected moves x2
+*	Electron Titan instead boosts the Pokemon's Speed x1.3 and the power of affected moves x1.5
 :::MOVE MODIFIERS:::
 *	Moves have double the chance to Paralyze
 *	The following moves gain additional Electric type and increase in power x1.5:
@@ -545,7 +546,7 @@ Field Effect Listing
 :::TYPE MODIFIERS:::
 *	On White turns, Normal moves become Chess Attacks and deal x1.5 damage, but Dark moves deal x0.5 damage
 *	On Black turns, Dark moves become Chess Attacks and deal x1.5 damage, but Normal moves deal x0.5 damage
-*	Chess Attacks gain additional Rock and Psychic types
+*	Chess Attacks gain additional Rock- and Psychic-type
 :::ABILITY MODIFIERS:::
 *	The following abilities additionally raise Speed upon entry:
 		Battle Armor		Own Tempo		Leadership
@@ -613,6 +614,7 @@ Field Effect Listing
 *	Animate instead boosts the power of affected moves x1.5
 *	Pokemon with Vanguard always move first when the field piece is Pawn
 *	Pokemon with Regality act as if they always have fewer HP than opponents
+*	Colossal Titan boosts Attack upon entry
 :::MOVE MODIFIERS:::
 *	These moves become Chess Attacks, gaining a x1.5 increase in power and gain additional Rock-type:
 		Psychic			Strength		Ancient Power		Pursuit			Last Resort
@@ -1929,7 +1931,8 @@ Field Effect Listing
 *	Pokemon with the following abilities are guaranteed to be Paralyzed at the end of each round:
 		Water Veil		Water Bubble
 *	Unseen Archer is instead activated at above 1/2 max HP
-*	Iron Titan's damage boost for affected moves is increased to x1.5
+*	The damage boost for affected moves is increased to x1.5 for the following abilities:
+		Iron Titan		Electron Titan
 :::MOVE MODIFIERS:::
 *	Light moves increase in power x1.5
 *	These moves increase in base power x1.3:
@@ -2865,7 +2868,8 @@ Field Effect Listing
 		Quip			Contaminate		Wandering Spirit	Compulsion		Grim Neigh
 		Perish Body		Gorilla Tactics		Punk Rock		Reincarnate		Curious Medicine
 		Cute Charm		Death Waltz
-*       Normalize makes affected moves deal double damage
+*       The following abilities instead boost the power of affected moves x2:
+		Normalize		Colossal Titan
 *	RKS System's type becomes Dark at all times
 *	Intimidate doesn't work on Normal, Fairy, or Psychic types
 *	Wonder Guard additionally avoids all status moves
@@ -2900,6 +2904,7 @@ Field Effect Listing
 *	Medic instead heals 1/4 max HP upon activation
 *	Idealism additionally boosts Attack and Sp. Def upon entry
 *	Serpentine Intervention is activated an additional time
+*	Dragon Orb Titan's damage boost is increased to x1.5 for affected moves
 :::MOVE MODIFIERS:::
 *	Light moves increase in power x1.3
 *	The following moves increase in power x1.5:
@@ -3082,13 +3087,13 @@ Field Effect Listing
 *	Cute Charm additionally activates when the Pokemon makes contact with the target
 *	Guts heals the Pokemon for 1/8 max HP at the end of each turn when afflicted with status
 *	The following abilities additionally boost Attack upon entry:
-		Rivalry			Justified		Dual Wield
+		Rivalry			Justified		Dual Wield		Colossal Titan
 *	The following abilities are disabled:
 		Normalize		Mold Breaker		Defeatist		Wimp Out		Earthen Aura
 		Awaken			Brutalize
 *	Super Luck makes the Pokemon always crit
 *	The following abilities additionally boost Speed upon entry:
-		Anticipation		Vanguard
+		Anticipation		Vanguard		Electron Titan
 *	The following abilities are activated:
 		Bad Dreams		Unextinguishable
 *	Friend Guard instead reduces damage x0.5 when activated
@@ -3115,7 +3120,8 @@ Field Effect Listing
 *	Curious Medicine additionally removes all status conditions from allied Pokemon upon entry
 *	Inspire additionally applies to special moves
 *	Idealism instead removes all of the Pokemon's weaknesses
-*	Iron Titan additionally boosts the Pokemon's Defense or Sp. Def at random upon entering battle
+*	Iron Titan additionally boosts Defense or Sp. Def at random upon entry
+*	Dragon Orb Titan additionally heals the Pokemon for 1/4 max HP upon entry
 :::MOVE MODIFIERS:::
 *	Slicing moves increase in power x1.3 and become Steel-type
 *	Floral Healing instead heals 2/3 max HP
@@ -3252,6 +3258,7 @@ Field Effect Listing
 *	Leadership instead boosts affected stats x1.5
 *	Behemoth's Slumber instead heals full HP and sharply boosts Defense upon activation
 *	Rock Peak Titan's Defense boost is increased to x1.5
+*	Dragon Orb Titan instead boosts the power of affected moves x1.5 and reduces damage done to the Pokemon x0.5
 :::MOVE MODIFIERS:::
 *	Sound-based moves gain additional Dragon-type and increase in power x1.5
 *	The following moves increase in power x2:
