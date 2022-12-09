@@ -101,6 +101,7 @@ against Rock and Fairy Pokemon
 - Mind Blown is additionally considered a bomb move
 - Roar of Time is additionally considered a sound move
 - Pokemon always succeed in fleeing when attempting to do so
+- Mirror Armor no longer reflects stat changes from Sticky Web
 
 #==============================================================================#
 Field Effects:
