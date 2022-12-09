@@ -81,18 +81,24 @@ Pokemon = SKITTY,18
 #-------------------------------
 [LASS,Crissy]
 LoseText = "You didn't have to win so convincingly!"
-Pokemon = PLUSLE,100
-    Moves = CHARGE,SWIFT,DISCHARGE,THUNDER
-Pokemon = MINUN,100
-    Moves = FAKETEARS,THUNDERBOLT,HELPINGHAND,NUZZLE
-Pokemon = ROSERADE,100
-    Moves = INGRAIN,GIGADRAIN,SLUDGEBOMB,HIDDENPOWERFIR
-Pokemon = DELCATTY,100
-    Moves = FAKEOUT,DOUBLESLAP,HELPINGHAND,WILDCHARGE
-Pokemon = JUMPLUFF,100
-    Moves = ACROBATICS,SEEDBOMB,LEECHSEED,TAILWIND
-Pokemon = WALREIN,100
-    Moves = SURF,BLIZZARD,PROTECT,SIGNALBEAM
+Pokemon = ORANGURU,100
+    Moves = AFTERYOU,TAUNT,CONFUSION,YAWN
+    AbilityIndex = 3
+Pokemon = PANSEAR,100
+    Moves = SCRATCH,PLAYNICE,LEER,FIRESPIN
+    AbilityIndex = 1
+Pokemon = PANPOUR,100
+    Moves = SCRATCH,PLAYNICE,LEER,WATERPULSE
+    AbilityIndex = 2
+Pokemon = MANKEY,100
+    Moves = LOWKICK,BEATUP,FOCUSENERGY,LEER
+    AbilityIndex = 2
+Pokemon = AIPOM,100
+    Moves = SCRATCH,TAILWHIP,SANDATTACK,BEATUP
+    AbilityIndex = 3
+Pokemon = PASSIMIAN,100
+    Moves = TACKLE,LEER,ROCKSMASH,FEINT
+    AbilityIndex = 1
 #-------------------------------
 [COOLCOUPLE,Alice & Bob]
 LoseText = "Our teamwork failed!"
