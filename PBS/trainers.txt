@@ -1922,7 +1922,7 @@ Pokemon = SMOOCHUM,3
 #-------------------------------
 [LASS,Yasemin]
 Pokemon = CHEWTLE,3
-Pokemon = DRIFLOON,3
+Pokemon = CLEFAIRY,3
 #-------------------------------
 [BUGCATCHER,Stephan]
 Pokemon = WIMPOD,3
