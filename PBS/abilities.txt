@@ -441,3 +441,5 @@
 442,PROVOCATION,Provocation,"Status moves make opponents target user."
 443,GRACEFULSTEP,Graceful Step,"Entry hazards have reverse effects."
 444,ASHENMANE,Ashen Mane,"Sun and sand power up Rock and Fire moves."
+445,ROCKHARD,Rock Hard,"Prevents indirect damage and one-hit knockout."
+446,BARRICADE,Barricade,"Adds allied defenses to those of this Pokémon."

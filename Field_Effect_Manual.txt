@@ -1331,7 +1331,7 @@ Field Effect Listing
 		Eruption		Lava Plume		Searing Shot		Fire Pledge		Flame Burst
 		Self-Destruct 		Explosion		Inferno Overdrive	Blast Burn		Overheat
 		Magma Storm		Fusion Flare		Burn Up
-* 	Pokemon using Endure, or having Sturdy may survive the field-termination damage with 1 HP from full health
+* 	Pokemon affected by Endure or having Sturdy may survive the field-termination damage with 1 HP from full health
 *	Pokemon behind protect moves including Wide Guard, or that have any of the following abilities are immune to the field-termination damage:
 		Flash Fire		Invisible Wall
 *	Field-termination damage to Pokemon that are Fire-type is halved
