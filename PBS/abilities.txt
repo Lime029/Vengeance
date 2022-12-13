@@ -163,7 +163,7 @@
 163,TURBOBLAZE,Turboblaze,"Moves can be used regardless of Abilities."
 164,TERAVOLT,Teravolt,"Moves can be used regardless of Abilities."
 165,AERILATE,Aerilate,"Normal-type moves become Flying-type moves."
-166,AROMAVEIL,Aroma Veil,"Protects allies from attacks that affect mental state."
+166,AROMAVEIL,Aroma Veil,"Nullifies effects to allied mental state."
 167,AURABREAK,Aura Break,"The effects of Aura Abilities are reversed."
 168,BULLETPROOF,Bulletproof,"Protects the Pokémon from some ball and bomb moves."
 169,CHEEKPOUCH,Cheek Pouch,"Restores HP as well when the Pokémon eats a Berry."
