@@ -202,6 +202,7 @@ Field Effect Listing
 *	Paining Paralysis instead deals 1/4 max HP damage upon activation
 *	Transistor instead boosts the power of affected moves x2
 *	Electron Titan instead boosts the Pokemon's Speed x1.3 and the power of affected moves x1.5
+*	Charging Sacs can no longer cause confusion
 :::MOVE MODIFIERS:::
 *	Moves have double the chance to Paralyze
 *	The following moves gain additional Electric type and increase in power x1.5:
@@ -261,7 +262,8 @@ Field Effect Listing
 *	Grass Pelt additionally boosts Defense upon entry
 *	Symbiosis additionally restores 1/3 max HP to both Pokemon upon activation
 *	Blight instead boosts the damage of affected moves x2 when activated
-*	Deep Sleep instead heals for 1/4 max HP
+*	The healing effects of the following abilities are doubled:
+		Deep Sleep		Insect Aroma
 *	The following abilities instead boost the damage of affected moves x1.5:
 		Earthen Aura		Earthinize		Cultivate
 *	Ripen instead triples the effect of berries
@@ -353,7 +355,7 @@ Field Effect Listing
 		Cotton Down		Brutalize		Combustion		Dissolution
 *	Healer's activation chance is increased to 100%
 *	The following abilities additionally boost Sp. Atk and Sp. Def upon entry:
-		Aroma Veil		Sweet Veil
+		Aroma Veil		Sweet Veil		Insect Aroma
 *	Dazzling infatuates opposing Pokemon upon entry if possible
 *	Triage additionally boosts the power of affected moves x1.3
 *	The following abilities additionally boost Sp. Def upon entry:
@@ -455,7 +457,8 @@ Field Effect Listing
 *	Unseen Archer is instead activated whenever the Pokemon has more than 1/2 max HP
 *	The following abilities instead activate whenever using a damaging move:
 		Black Light Propulsion	Black Light Absorption
-*	Mystical Gem additionally activates with Dark moves
+*	The following abilities additionally activate with Dark moves:
+		Mystical Gem		Light Geometry
 *	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	Light moves as well as the following moves increase in power x1.5:
@@ -697,7 +700,7 @@ Field Effect Listing
 		Limber			Serene Grace		Gale Wings
 *   	Dancer additionally boosts Speed and Sp. Atk upon using a dance move that targets another Pokemon
 *	Synchronize additionally raises a random stat for each Pokemon on the field that shares a type with it when entering battle
-*	Inner Focus additionally ignores Accuracy decreases or opposing Evasion increases
+*	Inner Focus additionally ignores the Pokemon's Accuracy decreases and opposing Evasion increases
 *	Soundproof additionally copies Oblivious' effect
 *	Pressure's effect is doubled
 *	Pokemon with Pickup have a 33% chance of gaining an Air Balloon at the end of each turn if they don't already have an item
@@ -706,7 +709,7 @@ Field Effect Listing
 *	The following abilities additionally boost Sp. Atk upon entry:
 		Guts			Vital Spirit		Victory Star		Magician		Confidence
 		Motivation		Dancer			Quip			Leadership		Magic Wand
-		Juggling		Performer		Tap Dancing		Seductive Cry
+		Juggling		Performer		Tap Dancing		Seductive Cry		Light Geometry
 *	Arena Trap additionally affects airborne Pokemon
 *	Tangled Feet is activated an additional time
 *	Unburden additionally raises Attack and Sp. Atk upon activation
@@ -971,7 +974,7 @@ Field Effect Listing
 *	Heatproof provides immunity to Fire moves
 *	Quick Feet's Speed increasing effect is disabled
 *	The following abilities are disabled:
-		Aroma Veil		Soothing Aroma		Parfum Charmant		Tap Dancing
+		Aroma Veil		Soothing Aroma		Parfum Charmant		Tap Dancing		Insect Aroma
 *	Symbiosis additionally restores 1/3 max HP to both Pokemon upon activation
 *	Innards Out deals double damage upon activation
 *	Schooling is activated
@@ -1102,7 +1105,7 @@ Field Effect Listing
 *	Reform additionally boosts Sp. Atk upon activation
 *	Magic Bounce additionally activates on single-target Special moves
 *	The stat-changing effects of the following abilities are doubled:
-		Merciful Heart		Supernova
+		Merciful Heart		Supernova		Light Geometry
 *	Inspire instead boosts the power of affected moves x1.5
 *	Medic instead heals 1/4 max HP upon activation
 *	Magic Wand's activation chance is doubled
@@ -1646,6 +1649,7 @@ Field Effect Listing
 		Summer - Sp. Def
 		Autumn - Speed
 		Winter - Defense
+*	The healing effects of Insect Aroma are doubled
 :::MOVE MODIFIERS:::
 *	Multi-target moves decrease in power x0.8 (except Special Bug moves which gain this attribute)
 *   	Strength Sap heals 30% more HP
@@ -1845,6 +1849,7 @@ Field Effect Listing
 *	Alarm instead boosts the power of affected moves x2.5
 *	Transistor instead boosts the power of affected moves x2
 *	Iron Titan instead boosts the power of affected moves x1.5 and boosts the Pokemon's Defense & Sp. Def stats x1.3
+*	Charging Sacs instead boosts both Attack and Sp. Atk upon activation
 :::MOVE MODIFIERS:::
 *	The following moves increase in power x1.5:
 		Steamroller		Techno Blast		Gear Grind		Gyro Ball		Rolling Kick
@@ -1908,7 +1913,7 @@ Field Effect Listing
 *	Steelworker additionally makes affected moves gain additional Electric-type
 *	Shadow Tag additionally damages the target for an extra attack with 0.25x power upon a successful hit
 *	The following abilities have their stat-increasing effect doubled:
-		Lightning Rod		Motor Drive		Frantic			Bearded Magnetism
+		Lightning Rod		Motor Drive		Frantic			Bearded Magnetism	Charging Sacs
 *	Pokemon with Illuminate additionally are hit by all attacks but are given perfect accuracy
 *	Pokemon with Water Veil take type-scaling Electric damage at the end of each turn
 *	Magnet Pull additionally works on Electric Pokemon
@@ -2308,7 +2313,7 @@ Field Effect Listing
 		Luminous Scales		Jungle Totem		Libero			Neutralizing Gas	Cotton Down
 		Immolate		Pollinate		Combustion		Soothing Aroma		Shimmering Haze
 		Unextinguishable	Flaming Feet		Dissolution		Spacial Connection	Behemoth's Slumber
-		Flytrap			Maraca Movement		Parfum Charmant		Seductive Cry
+		Flytrap			Maraca Movement		Parfum Charmant		Seductive Cry		Insect Aroma
 *	Marvel Scale boosts Defense x2 when activated
 *	Activates Water Compaction at the end of each round
 *	Forecast transforms Castform into Rainy form in the absence of weather
@@ -2553,7 +2558,8 @@ Field Effect Listing
 *	Pastel Veil additionally boosts Evasion upon entry
 *	Mirror Armor additionally gives the Pokemon increased Evasion x1.5
 *	Spacial Connection is disabled
-*	Mystical Gem is additionally activated by moves of the type corresponding to the field's background
+*	The following abilities are additionally activated by moves of the type corresponding to the field's background:
+		Mystical Gem		Light Geometry
 *	Rock Peak Titan's Defense boost is increased to x1.5
 :::MOVE MODIFIERS:::
 *	Light moves increase in power x1.3
@@ -2890,7 +2896,7 @@ Field Effect Listing
 *	Triage additionally boosts the power of affected moves x1.5
 *	Strong Will is additionally activated when the Pokemon is damaged by a Dark or Ghost move
 *	The following abilities additionally boost Sp. Atk upon entry:
-		Luminous Scales		Attentive
+		Luminous Scales		Attentive		Light Geometry
 *	Hypnotic Aura's activation chance is doubled
 *	Reform additionally raises Sp. Atk upon activation
 *	Life Force instead heals for 1/8 max HP upon activation
@@ -2982,7 +2988,7 @@ Field Effect Listing
 		Sand Veil		Snow Cloak		Illusion		Magnet Pull		Magic Bounce
 		Color Change		Battle Armor		Clear Body		Wonder Skin		Disguise
 		Full Metal Body		Prism Armor		Invisible Wall		Luminous Scales		Ice Scales
-		Eternal Light		Shimmering Haze		Tap Dancing
+		Eternal Light		Shimmering Haze		Tap Dancing		Light Geometry
 *	Illuminate lowers opponents' Accuracy on switch-in
 *	The following abilities additionally raise Accuracy upon entry:
 		Compound Eyes		Infiltrator		Attentive		Truth Seeker
@@ -3503,7 +3509,7 @@ Field Effect Listing
 *	The following abilities instead boost the power of affected moves x1.5:
 		Fairy Aura		Eternal Light		Power Spot
 *	The stat-changing effects of the following abilities are doubled:
-		Black Light Propulsion	Mystical Gem
+		Black Light Propulsion	Mystical Gem		Light Geometry
 *	The healing effects of Black Light Absorption are doubled
 *	Supernova no longer cuts the Pokemon's HP upon activation
 *	Sun Devourer additionally boosts Attack upon entry
@@ -3749,7 +3755,7 @@ Field Effect Listing
 		Deep Sleep		Life Force		Jungle Totem		Confidence		Earthen Aura
 		Ripen			Sun Shade		Divine			Alphabetization		Power Spot
 		Gulp Missile		Earthinize		Cultivate		Eternal Light		Storm Prediction
-		Sun Devourer		Moon Caller		Seasonal Heart		Empyrean
+		Sun Devourer		Moon Caller		Seasonal Heart		Empyrean		Light Geometry
 *	Air Lock removes weather instead of nullifying it
 *	Bad Dreams is activated
 *	The following abilities instead boost the power of affected moves x1.5:
@@ -4600,6 +4606,7 @@ Field Effect Listing
 *	Seed Revitalization additionally applies to the Pokemon with the ability
 *	Unseen Archer is instead activated at above 1/2 max HP
 *	Flytrap additionally provides immunity to moves from Bug Pokemon that don't make contact
+*	Insect Aroma is additionally activated by Grass moves, and its healing effects are doubled
 :::MOVE MODIFIERS:::
 *	Wind moves decrease in power x0.7
 *	Nature Power turns into Jungle Healing
