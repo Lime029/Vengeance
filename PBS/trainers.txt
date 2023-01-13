@@ -82,7 +82,7 @@ Pokemon = SKITTY,18
 [LASS,Crissy]
 LoseText = "You didn't have to win so convincingly!"
 Pokemon = ORANGURU,100
-    Moves = AFTERYOU,TAUNT,CONFUSION,YAWN
+    Moves = STEELBEAM
     AbilityIndex = 3
 Pokemon = PANSEAR,100
     Moves = SCRATCH,PLAYNICE,LEER,FIRESPIN

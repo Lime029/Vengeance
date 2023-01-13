@@ -394,7 +394,7 @@
 395,INSECTAROMA,Insect Aroma,"Heals Pokémon using Bug moves."
 396,CHARGINGSACS,Charging Sacs,"Boosts Attack or Sp. Atk at the end of the round."
 397,FRAGRANTSHOCK,Fragrant Shock,"Infatuates or paralyzes Pokémon making contact."
-398,BALANCEDCHARGES,Balanced Charges,"Shares stat changes and boosts stats with combos."
+398,POSITIVITY,Positivity,"Shares stat buffs and boosts stats with Negativity."
 399,BERRYGALORE,Berry Galore,"Berries can replenish and boost defenses."
 400,ELECTRICLOVE,Electric Love,"Infatuates and slows when using Electric moves."
 401,LIVEWIRE,Live Wire,"Nullifies spread damage and powers Electric damage."
@@ -443,3 +443,4 @@
 444,ASHENMANE,Ashen Mane,"Sun and sand power up Rock and Fire moves."
 445,ROCKHARD,Rock Hard,"Prevents indirect damage and one-hit knockout."
 446,BARRICADE,Barricade,"Adds allied defenses to those of this Pokémon."
+447,NEGATIVITY,Negativity,"Shares stat debuffs and boosts stats with Positivity."

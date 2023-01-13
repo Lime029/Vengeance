@@ -104,6 +104,9 @@ against Rock and Fairy Pokemon
 - Mirror Armor no longer reflects stat changes from Sticky Web
 - Choice items no longer prevent the use of moves in forced situations (like with
 Dancer, Metronome, etc.)
+- The following moves additionally damage the user when missing due to there being
+no targets:
+	Steel Beam		Mind Blown
 
 #==============================================================================#
 Field Effects:
