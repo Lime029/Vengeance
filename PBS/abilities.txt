@@ -402,7 +402,7 @@
 403,HOMINGCANNON,Homing Cannon,"Beam moves always hit and activate effects."
 404,BRUTALITY,Brutality,"Weakens attacks from Pokémon with status conditions."
 405,SHIFU,Shifu,"Kicking moves never miss and strengthen in succession."
-406,PACKMENTALITY,Pack Mentality,"Strengthens allies that share a type with this Pokémon."
+406,PACKTACTICS,Pack Tactics,"Strengthens allies that share a type with this Pokémon."
 407,STARLIGHTARMOR,Starlight Armor,"Uses Sp. Def instead of Attack and Sp. Atk."
 408,TWILIGHTSILK,Twilight Silk,"Adds Dark-type to the Pokémon and sets Sticky Web."
 409,BONEARMOR,Bone Armor,"Ignores entry hazards and reduces physical damage."

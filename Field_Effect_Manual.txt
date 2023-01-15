@@ -1619,7 +1619,7 @@ Field Effect Listing
 *	Special Bug moves increase in base power x1.5 and deal damage to both opposing Pokemon if they usually hit one target
 *	Slicing moves gain additional Grass-type and increase power x1.5
 :::ABILITY MODIFIERS:::
-*	Effect Spore's activation chance is doubled to 60%
+*	Effect Spore's activation chance is doubled
 *	The following abilities are activated:
 		Overgrow		Grass Pelt		Leaf Guard		Swarm			Power Construct
 *	Pokemon with the following abilities suffer a x0.9 Accuracy loss:
@@ -1690,7 +1690,8 @@ Field Effect Listing
 *	Spider Web additionally sets up a Sticky Web on the target's side
 *	Guardian of Alola additionally boosts Defense and Sp. Def
 *	Terrain Pulse increases in power x2 and becomes Grass-type
-*	The stat-changing effects of Chloroblast are nullified
+*	The stat-changing effects of the following moves are nullified:
+		Chlorblast		Leaf Storm
 :::ITEM MODIFIERS:::
 *	Telluric Seed boosts Evasion and applies Ingrain to the holder
 *	The stat-changing effects of the following items are amplified by 1 stage:
@@ -4027,7 +4028,6 @@ Field Effect Listing
 *	Poison moves increase in power x1.5
 *	Rock moves increase in power x1.3 and gain additional Poison-type
 *	Grass moves increase in power x1.2 and gain additional Poison-type
-*	Wind moves decrease in power x0.5
 *	Ground moves deal neutral damage against airborne Pokemon
 :::ABILITY MODIFIERS:::
 *	Pokemon with the following abilities instead take 1/4 max HP type-scaling Poison damage at the end of each round:
@@ -4044,19 +4044,19 @@ Field Effect Listing
 *	Solid Rock decreases damage from super-effective attacks x0.5 instead of x0.75
 *	The following abilities are activated an additional time for grounded Pokemon:
 		Poison Heal		Toxic Boost
-*	Quick Feet is activated an additional time for grounded non-Poison Pokemon
 *	Battery is disabled for grounded Pokemon
 *	Merciless is activated when using moves against grounded Pokemon
 *	The following abilities instead boost the power of affected moves x1.5:
 		Contaminate
 *	Neutralizing Gas additionally Paralyzes all other Pokemon on the field upon entry
-*	The following abilities are activated an additional time for grounded non-Poison Pokemon:
+*	The following abilities are activated an additional time for Pokemon that take end-of-round damage from the field:
 		Guts			Quick Feet
 *	Rock Peak Titan's Defense boost is increased to x1.5
 *	Pokemon with the following abilities ignore the end-of-round field damage:
 		Wonder Guard		Immunity		Liquid Ooze		Tough Bark
 *	Pokemon with Disguise ignore the end-of-round field damage if their disguise is intact
 :::MOVE MODIFIERS:::
+*	Wind moves decrease in power x0.5
 *	The following moves gain additional Rock-type:
 		Gunk Shot		Sludge Wave
 *	Ingrain damages the user instead of healing, unless the user is Poison- or Steel-type
