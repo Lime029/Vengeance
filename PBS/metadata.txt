@@ -14,6 +14,7 @@ PlayerC = PLAYER_M3,trainer_PLAYER_M3,boy3_bike,boy3_surf,boy3_run,boy3_surf,boy
 PlayerD = PLAYER_F1,trainer_PLAYER_F1,girl1_bike,girl1_surf,girl1_run,girl1_surf,girl1_fish_offset,
 PlayerE = PLAYER_F2,trainer_PLAYER_F2,girl2_bike,girl2_surf,girl2_run,girl2_surf,girl2_fish_offset,
 PlayerF = PLAYER_F3,trainer_PLAYER_F3,girl3_bike,girl3_surf,girl3_run,girl3_surf,girl3_fish_offset,
+PlayerG = HORDE,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,
 #-------------------------------
 [001]
 # Intro
@@ -184,7 +185,7 @@ MapPosition = 0,2,6
 BattleBack = Factory
 #-------------------------------
 [033]
-# Aria's House
+# Demeter's House
 MapPosition = 0,2,6
 BattleBack = Indoor1
 #-------------------------------
@@ -239,12 +240,12 @@ MapPosition = 0,11,7
 MapSize = 1,111
 #-------------------------------
 [042]
-# Aria's House
+# Demeter's House
 MapPosition = 0,2,6
 BattleBack = Indoor1
 #-------------------------------
 [043]
-# Aria's House
+# Demeter's House
 MapPosition = 0,2,6
 BattleBack = Indoor1
 #-------------------------------
@@ -279,7 +280,7 @@ MapSize = 2,11
 Environment = Rock
 #-------------------------------
 [048]
-# Aria's House
+# Demeter's House
 MapPosition = 0,2,6
 BattleBack = Indoor1
 #-------------------------------
@@ -488,18 +489,18 @@ BattleBack = BewitchedWoods
 #-------------------------------
 [087]
 # Pokémon Center
-MapPosition = 0,17,10
+MapPosition = 0,5,8
 BattleBack = EliteC
 #-------------------------------
 [088]
 # Poké Mart
-MapPosition = 0,17,10
+MapPosition = 0,5,8
 #-------------------------------
 [089]
 # Gertrude's Hut
 Outdoor = true
 ShowArea = true
-MapPosition = 0,12,12
+MapPosition = 0,5,8
 #-------------------------------
 [090]
 # Darkleaf Town
@@ -535,3 +536,15 @@ Bicycle = true
 Weather = Rain,25
 MapPosition = 0,5,7
 BattleBack = BewitchedWoods
+#-------------------------------
+[096]
+# Darkleaf Gym
+Outdoor = false
+MapPosition = 0,5,8
+BattleBack = Indoor1
+#-------------------------------
+[098]
+# Darkleaf Gym
+Outdoor = false
+MapPosition = 0,5,8
+BattleBack = Jungle

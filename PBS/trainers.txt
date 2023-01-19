@@ -2154,11 +2154,17 @@ Pokemon = ARIADOS,23
 #-------------------------------
 # Darkleaf Gym
 #-------------------------------
-[LEADER_Anthony,Anthony,2]
-Pokemon = HERACROSS,20
-    Moves = NIGHTSLASH,ARMTHRUST,AERIALACE,BULLETSEED
-    Shiny = yes
+[SCHOOLKID5_M,Bernard]
+Pokemon = KRICKETUNE,18
+    Item = TELLURICSEED
+    Moves = STRUGGLEBUG,ABSORB,SING,FURYCUTTER
     AbilityIndex = 2
-Pokemon = SURSKIT,20
-    Moves = BUBBLEBEAM,FELLSTINGER,QUICKATTACK,SWEETSCENT
+Pokemon = SERVINE,20
+    Moves = LEAFTORNADO,WRAP,VINEWHIP,LEECHSEED
+    AbilityIndex = 2
+Pokemon = MAGNEMITE,17
+    Moves = GYROBALL,THUNDERSHOCK,SUPERSONIC,TACKLE
+    AbilityIndex = 2
+Pokemon = DELCATTY,20
+    Moves = PAYBACK,FAKEOUT,HEALBELL,BABYDOLLEYES
     AbilityIndex = 1
