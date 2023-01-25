@@ -860,7 +860,7 @@
 840,MYSTICALPOWER,Mystical Power,020,70,PSYCHIC,Special,90,10,100,NearOther,0,bef,"The user attacks by emitting a mysterious power. This also boosts the user’s Sp. Atk stat."
 841,POWERSHIFT,Power Shift,057,0,NORMAL,Status,0,10,0,User,0,e,"The user swaps its Attack and Defense stats."
 842,PSYSHIELDBASH,Psyshield Bash,01D,70,PSYCHIC,Physical,90,10,10,NearOther,0,abef,"Cloaking itself in psychic energy, the user slams into the target. This also raises the user's Defense."
-843,RAGINGFURY,Raging Fury,02A,120,FIRE,Physical,100,10,0,NearOther,0,abef,"The user rampages around spewing flames for two to three turns. The user then becomes confused."
+843,RAGINGFURY,Raging Fury,0D2,120,FIRE,Physical,100,10,0,NearOther,0,abef,"The user rampages around spewing flames for two to three turns. The user then becomes confused."
 844,SANDSEARSTORM,Sandsear Storm,00A,100,GROUND,Special,80,10,20,AllNearFoes,0,befs,"The user attacks by wrapping opposing Pokémon in fierce winds and searingly hot sand. This may also leave them with a burn."
 845,SHELTER,Shelter,02F,0,STEEL,Status,0,10,0,User,0,d,"The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
 846,SPRINGTIDESTORM,Springtide Storm,042,100,FAIRY,Special,80,5,30,AllNearFoes,0,befs,"The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats."
