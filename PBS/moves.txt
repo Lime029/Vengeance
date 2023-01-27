@@ -93,7 +93,7 @@
 89,DRAGONDARTS,Dragon Darts,17C,50,DRAGON,Physical,100,10,0,AllNearFoes,0,beft,"The user attacks twice using Dreepy. If there are two targets, it hits each target once."
 90,DYNAMAXCANNON,Dynamax Cannon,000,100,DRAGON,Special,100,5,0,NearOther,0,bef,"The user unleashes a strong beam from its core."
 91,ETERNABEAM,Eternabeam,0C2,160,DRAGON,Special,90,5,0,NearOther,0,befr,"Eternatus's most powerful attack in its original form. The user can't move on the next turn."
-92,CLANGOROUSSOUL,Clangorous Soul,179,0,DRAGON,Status,100,5,0,User,0,dk,"The user raises all its stats by using some of its HP."
+92,CLANGOROUSSOUL,Clangorous Soul,179,0,DRAGON,Status,100,5,0,User,0,dko,"The user raises all its stats by using some of its HP."
 93,SCALESHOT,Scale Shot,193,25,DRAGON,Physical,90,20,100,NearOther,0,abef,"The user attacks by shooting scales two to five times. Boosts the user's Speed but lowers its Defense."
 94,DRAGONENERGY,Dragon Energy,08B,150,DRAGON,Special,100,5,0,AllNearFoes,0,befr,"Attacks all opponents by converting its life-force into power. It's power decreases with the user's HP"
 #-------------------------------
@@ -783,7 +783,7 @@
 763,TSUNAMI,Tsunami,1A1,1,WATER,Special,100,30,0,AllNearOthers,0,bef,"The user summons a tsunami of variable size. Its power varies."
 764,BLADEMAELSTROM,Blade Maelstrom,0C0,25,STEEL,Physical,100,30,0,NearOther,0,abefp,"The user takes out a series of blades with which it hits the target multiple times."
 765,CHAINLIGHTNING,Chain Lightning,1A2,1,ELECTRIC,Special,100,10,0,NearOther,0,bef,"The user performs a chain attack with healthy party members, dealing damage from each one."
-766,RESOLUTECLAWS,Resolute Claws,0BD,40,FIGHTING,Physical,0,10,0,NearOther,0,abef,"The user strikes accurately with its claws, hitting once for each hand."
+766,CHIBLAST,Chi Blast,086,55,FIGHTING,Special,100,15,0,NearOther,0,bef,"The user strikes accurately with its claws, hitting once for each hand."
 767,SOULTHIEF,Soul Thief,0DD,80,GHOST,Physical,100,10,0,NearOther,0,bef,"The user reaches into the targets soul, absorbing life from it."
 768,FEROCIOUSBELLOW,Ferocious Bellow,1A3,90,NORMAL,Special,90,5,100,NearOther,0,bek,"The user bellows at the target very loudly, possibly causing it to flinch and have decreased Sp. Def."
 769,CRISISVINE,Crisis Vine,1A4,70,GRASS,Physical,90,10,20,NearOther,0,abe,"The user strikes with its heavy, toxic vines having a chance to inflict different effects."

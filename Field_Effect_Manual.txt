@@ -378,7 +378,7 @@ Field Effect Listing
 *	These moves suffer a x0.5 decrease in power:
 		Dark Pulse		Night Daze		Shadow Ball		Sand Tomb		Night Slash
 		Ominous Wind		Snarl			Dragon Ascent		Scorching Sands		Fiery Wrath
-		Despair Ray		Bitter Malice		Infernal Parade
+		Despair Ray		Bitter Malice		Infernal Parade		Sandsear Storm
 *	The base accuracy of these moves becomes 100:
 		Sweet Kiss
 *	The stat-changing effects of these moves are doubled:
@@ -653,13 +653,14 @@ Field Effect Listing
 *	Detect additionally boosts Accuracy upon use
 *	The base Accuracy of the following moves is decreased to 80:
 		Outrage			Frustration		Dragon Rage		Rage			Lash Out
+		Raging Fury
 *	Psych Up only copies the target's stat changes that are higher than the user's
 *	The following moves instead target both opposing Pokemon:
 		Torment			Taunt
 *	The following moves additionally shift the background color upon use:
 		Reversal		Trick			Switcheroo		Skill Swap		Power Trick
 		Guard Swap		Heart Swap		Trick Room		Ally Switch		Speed Swap
-		Court Change		Flip Turn
+		Court Change		Flip Turn		Power Shift
 *	Use of the following moves make the next successful move a sure hit against the target:
 		Rock Tomb		Sand Tomb		Embargo			Attack Order		V-Create
 		Thunder Cage
@@ -766,12 +767,12 @@ Field Effect Listing
 		Aurora Beam		Swift			First Impression	Flamethrower		Vital Throw
 		Seed Flare		Flame Burst		Heart Stamp		Blue Flare		Mystical Fire
 		Sparkling Aria		Oceanic Operetta	Snipe Shot		Crimson Dive		Triple Axel
-		Infernal Parade
+		Infernal Parade		Triple Arrows
 *	Encore lasts 7 turns
 *	The stat-changing effect of these moves is amplified by 1 stage:
 		Dragon Dance		Quiver Dance		Swords Dance		Feather Dance		Growl
 		Agility			Kinesis			Charm			Fake Tears		Howl
-		Bulk Up			Noble Roar		Coaching
+		Bulk Up			Noble Roar		Coaching		Victory Dance
 *	The base accuracy of these moves becomes 100:
 		Sing			Hypnosis
 *	Rain lasts for 8 turns when activated by Rain Dance
@@ -883,7 +884,8 @@ Field Effect Listing
 *	These moves increase in base power x1.3:
 		Eruption		Lava Plume
 *	Smog increases in base power x2 and gains additional Fire-type
-*	Scorching Sands increases in base power x1.5
+*	The following moves increase in power x1.5:
+		Scorching Sands		Sandsear Storm
 *	Nature Power becomes Magma Storm
 *	Camouflage changes the user's type to Fire
 *	Secret Power may Burn the target
@@ -1133,7 +1135,7 @@ Field Effect Listing
 		Darkest Lariat		Shadow Bone		Despair Ray
 *	The following moves' stat-boosting effect is amplified by 1 stage:
 		Cosmic Power		Flash			Charm			Calm Mind		Aromatic Mist
-		Mist Guard
+		Mist Guard		Take Heart
 *	The following moves' stat-boosting effect is amplified by 2 stages:
 		Meditate		Extreme Evoboost
 *	The following moves instead restore 3/4 max HP:
@@ -1400,7 +1402,7 @@ Field Effect Listing
 *	Wind moves gain additional Ground-type
 *	These moves increase in power x1.5:
 		Heat Wave  		Dig 			Sand Tomb		Overheat		Scorching Sands
-		Dust Storm
+		Dust Storm		Sandsear Storm
 *	These moves increase in power x1.3:
 		Needle Arm		Pin Missile		Poison Sting		Twineedle		Spike Cannon
 		Sudden Sting		Barb Barrage
@@ -1764,7 +1766,7 @@ Field Effect Listing
 *	The following moves increase in power x1.5:
 		Eruption		Magma Storm		Lava Plume		Rolling Kick		Ice Ball
 		Rollout			Rock Climb		Steamroller		Fiery Wrath		Scorching Sands
-		Crimson Dive		Infernal Parade		Mountain Gale
+		Crimson Dive		Infernal Parade		Mountain Gale		Sandsear Storm
 *	Wind moves as well as the following moves increase in power x1.2 and lower all active Pokemon's Accuracy after use:
 		Clear Smog
 *	The following moves increase in power x1.5 and gain additional Fire-type:
@@ -1776,7 +1778,7 @@ Field Effect Listing
 		Lava Plume		Fissure			Blast Burn		Tectonic Rage
 *	At the end of a turn with an eruption, each Pokemon takes 1/4 max HP type-scaling Fire damage
 *	Pokemon under the effects of Aqua Ring or Wide Guard take no damage from the eruption
-* 	Outrage, Thrash, and Petal Dance cause Confusion from fatigue after a single turn
+* 	Moves that cause Confusion from fatigue instead do so after a single turn
 *	The stat-changing effect of Smokescreen is amplified by 1 stage
 *	Poison Gas instead Badly Poisons the target
 *	Nature Power becomes Eruption
@@ -2131,11 +2133,13 @@ Field Effect Listing
 *	Strength instead deals dual Fighting/Psychic damage
 *	The following moves increase in power x1.5:
 		Land's Wrath		Surf			Muddy Water		Thousand Waves		Tsunami
-		Sand Tomb		Stoked Sparksurfer	Scorching Sands		Dust Storm
+		Sand Tomb		Stoked Sparksurfer	Scorching Sands		Dust Storm		Sandsear Storm
+		Wave Crash
 *	The following moves become Focus Moves:
 		Hidden Power		Strength		Aura Sphere		Psychic			Stored Power
 		Zen Headbutt		Focus Blast		Focus Punch		Karate Chop		Reversal
 		Future Sight		Energy Ball		Clangorous Soulblaze	Oceanic Operetta	Infinite Force
+		Chi Blast
 *	Focus Moves increase in power x1.7 if the user has full HP, x1.4 if the user has more than 1/2 max HP, or x1.2 if the user has less than 1/2 max HP
 *	Focus Moves never miss
 *	Nature Power becomes Dust Storm
@@ -2150,6 +2154,7 @@ Field Effect Listing
 		Psycho Cut		Foul Play		Retaliate		Tectonic Rage		Throat Chop
 		Power Trip		Brutal Swing		Malicious Moonsault	Sinister Arrow Raid	Thief
 		False Surrender		Lash Out		Wicked Blow		Fiery Wrath		Hyperspace Fury
+		Raging Fury
 *	The damage of the following moves increases x1.25:
 		Counter			Bide
 *	Dragon Rage's damage is decreased x0.5
@@ -2166,6 +2171,7 @@ Field Effect Listing
 *	Dust Storm never misses
 *	Spikes deals half damage to affected Pokemon
 *	Terrain Pulse increases in power x2 and becomes Ground-type
+*	Chi Blast deals damage as though the user is not holding an item
 :::ITEM MODIFIERS:::
 *   	Telluric Seed applies Laser Focus and Focus Energy to the holder
 *	The following items instead boost the power of affected moves x1.5:
@@ -2239,7 +2245,7 @@ Field Effect Listing
 *	Whirlpool instead deals 1/6 max HP damage each round, and additionally Confuses the target
 *	The following moves increase in power x1.5:
 		Whirlpool		Dive			Surf			Muddy Water		Sludge Wave
-		Hydro Vortex		Thousand Waves		Stoked Sparksurfer	Tsunami
+		Hydro Vortex		Thousand Waves		Stoked Sparksurfer	Tsunami			Wave Crash
 *	Nature Power becomes Splash
 *	Camouflage changes user's type to Water
 *	Secret Power may boost the user's Speed
@@ -2270,6 +2276,7 @@ Field Effect Listing
 *	Freeze-Dry increases in power x2 against grounded Pokemon
 *	Life Dew instead heals 1/2 max HP
 *	Terrain Pulse increases in power x2 and becomes Water-type
+*	Sandsear Storm decreases in power x0.5
 :::ITEM MODIFIERS:::
 *	Elemental Seed boosts Sp. Def and applies Aqua Ring to the holder
 *	Absorb Bulb is activated upon entry for grounded Pokemon
@@ -2924,13 +2931,14 @@ Field Effect Listing
 *	The following moves increase in power x1.5:
 		Mystical Fire		Magical Leaf		Judgment		Sacred Fire		Ancient Power
 		Aura Sphere		Round			Echoed Voice		Fire Pledge		Water Pledge
-		Grass Pledge		Sacred Sword		Relic Song		Aura Wheel
+		Grass Pledge		Sacred Sword		Relic Song		Aura Wheel		Mystical Power
+		Chi Blast
 *	The following moves instead restore 3/4 max HP:
 		Wish			Heal Pulse
 *	Miracle Eye additionally sharply boosts the user's Sp. Atk
 *	The stat-changing effects of the following moves are amplified by 1 stage:
 		Cosmic Power		Noble Roar		Extreme Evoboost	Decorate		Flash
-		Calm Mind
+		Calm Mind		Take Heart
 * 	Nature Power becomes Judgment
 *	Camouflage changes the user's type to Normal
 *	Secret Power may lower the target's Sp. Atk
@@ -2944,7 +2952,7 @@ Field Effect Listing
 		Psycho Cut		Foul Play		Retaliate		Tectonic Rage		Throat Chop
 		Power Trip		Brutal Swing		Malicious Moonsault	Sinister Arrow Raid	Thief
 		False Surrender		Lash Out		Oblivion Wing		Hyperspace Fury		Spirit Break
-		Burning Jealousy	Bitter Malice
+		Burning Jealousy	Bitter Malice		Raging Fury
 *	The damage of Dragon Rage is decreased x0.5
 *	Lucky Chant instead lasts for 8 turns
 *	The following moves fail upon use:
@@ -3144,15 +3152,15 @@ Field Effect Listing
 		Mystical Fire		Ancient Power		Relic Song		Magical Leaf		Sparkling Aria
 		Moongeist Beam		Fleur Cannon		Sacred Fire		Eternal Flame		Menacing Moonraze Maelstrom
 		Doom Desire		Brave Bird		Ominous Wind		Sacred Sword		Infinite Force
-		Origin Pulse		Never-Ending Nightmare	Despair Ray		Eternabeam
+		Origin Pulse		Never-Ending Nightmare	Despair Ray		Eternabeam		Mystical Power
 *	The following moves increase in power x2:
-		Draining Kiss		Heart Stamp
+		Draining Kiss		Heart Stamp		Springtide Storm
 *	Crafty Shield additionally boosts the user and its allies' Defense and Sp. Def
 * 	King's Shield protects the user from all moves, damaging or otherwise
 *	King's Shield instead harshly lowers an attacker's Attack and Sp. Atk upon contact
 *	The stat-changing effects of the following moves are amplified by 1 stage:
 		Acid Armor		Swords Dance		Noble Roar		Flower Shield		Dragon Dance
-		Nasty Plot		No Retreat
+		Nasty Plot		No Retreat		Take Heart		Victory Dance
 *	The following moves additionally wake up the target
 		Draining Kiss		Sweet Kiss
 *	Wish instead restores 3/4 max HP
@@ -3319,12 +3327,12 @@ Field Effect Listing
 *	Vise Grip becomes Crush Grip
 *	Energy Ball becomes Seed Flare
 *	Phantom Force becomes Shadow Force
-*	Karate Chop becomes Sacred Sword
+*	Brick Break becomes Sacred Sword
 *	Psyshock becomes Psystrike
 *	Incinerate becomes Searing Shot
 *	Hyper Beam becomes Techno Blast
 *	Round becomes Relic Song
-*	Aura Sphere becomes Secret Sword
+*	Karate Chop becomes Secret Sword
 *	Icy Wind becomes Glaciate
 *	Wild Charge becomes Bolt Strike
 *	Flamethrower becomes Blue Flare
@@ -3341,13 +3349,13 @@ Field Effect Listing
 *	Magnitude becomes Land's Wrath
 *	Dazzling Gleam becomes Light of Ruin
 *	Water Pulse becomes Origin Pulse
-*	Bulldoze becomes Precipice Blades
+*	Royal Blades becomes Precipice Blades
 *	Bounce becomes Dragon Ascent
 *	Draco Meteor becomes Core Enforcer
-*	Fairy Wind becomes Fleur Cannon
+*	Moonblast becomes Fleur Cannon
 *	Psybeam becomes Prismatic Laser
 *	Astonish becomes Spectral Thief
-*	Meteor Mash becomes Sunsteel Strike
+*	Mirror Launch becomes Sunsteel Strike
 *	Shadow Ball becomes Moongeist Beam
 *	Lava Plume becomes Mind Blown
 *	Stored Power becomes Photon Geyser
@@ -3364,9 +3372,13 @@ Field Effect Listing
 *	Snarl becomes Fiery Wrath
 *	Jump Kick becomes Thunderous Kick
 *	Icicle Spear becomes Glacial Lance
-*	Ominous Wind becomes Astral Barrage
+*	Despair Ray becomes Astral Barrage
 *	Drill Run becomes Thousand Arrows
 *	Earthquake becomes Thousand Waves
+*	Air Cutter becomes Bleakwind Storm
+*	Psywave becomes Mystical Power
+*	Fairy Wind becomes Springtide Storm
+*	Discharge becomes Wildbolt Storm
 :::ITEM MODIFIERS:::
 *	Elemental Seed increases Sp. Atk 1 stage and applies Flash Fire's Fire boost to the holder
 *	Dragon Fang instead boosts the power of affected moves x1.5
@@ -3615,7 +3627,7 @@ Field Effect Listing
 		Genesis Supernova	Searing Sunraze Smash	Draco Meteor		Ancient Power		Menacing Moonraze Maelstrom
 		Meteor Mash		Comet Punch		Land's Wrath		Diamond Storm		Soul-Stealing 7-Star Strike
 		Swift			Energy Ball		Photon Geyser		Splintered Stormshards	Light That Burns the Sky
-		Meteor Beam		Meteor Tempest		Infinite Force
+		Meteor Beam		Meteor Tempest		Infinite Force		Mystical Power
 *	The following moves increase in power x2:
 		Vacuum Wave		Spacial Rend		Hyperspace Hole		Hyperspace Fury		Shattered Psyche
 *	Heart Swap additionally gains Pain Split's effect
@@ -3703,7 +3715,7 @@ Field Effect Listing
 :::MOVE MODIFIERS:::
 *	The following moves increase in power x1.5:
 		Hex			Magical Leaf		Mystical Fire		Aura Sphere		Secret Sword
-		Aura Wheel		Strange Steam
+		Aura Wheel		Strange Steam		Chi Blast
 *	The stat-changing effects of the following moves are amplified by 1 stage:
 		Nasty Plot		Comsic Power		Meditate		Kinesis
 *	The following moves gain additional Psychic-type, become special moves, and increase in power x1.5:
@@ -3866,7 +3878,7 @@ Field Effect Listing
 		Tectonic Rage		Thrash			Rage			Outrage			Payback
 		Frustration		Revenge			Frenzy Plant		Psycho Boost		Psycho Cut
 		Play Rough		Fury Attack		Hyperspace Fury		All-Out Pummeling	Stomping Tantrum
-		Burning Jealousy	Lash Out
+		Burning Jealousy	Lash Out		Raging Fury
 *	The following moves increase in power x1.3:
 		Sinister Arrow Raid	Doom Desire		Assurance		Punishment		Foul Play
 		Oblivion Wing		Light of Ruin		Savage Spin-Out		Devastating Drake	Menacing Moonraze Maelstrom
@@ -3896,7 +3908,7 @@ Field Effect Listing
 *	The following moves fail upon use:
 		Magic Room		Gravity			Trick Room		Wonder Room		Meditate
 		Calm Mind		Focus Energy		Helping Hand		Hold Hands		Play Nice
-		Geomancy
+		Geomancy		Take Heart
 *	Spite instead reduces the PP of the affected move by 6 upon use
 *	Perish Song instead only applies to opposing Pokemon
 *	The following moves additionally prevent the target from switching out:
@@ -4177,6 +4189,7 @@ Field Effect Listing
 *	The following moves increase in power x1.5 and apply Mark of the Devil to the user:
 		Magical Leaf		Mystical Fire		Eerie Spell		Signal Beam		Extrasensory
 		Doom Desire		Aura Sphere		Power Gem		Freezing Glare		Infernal Parade
+		Chi Blast
 *	The following moves increase in power x1.2:
 		Dark Pulse		Night Daze		Moonblast
 *	The base Accuracy of the following moves is increased to 95:
@@ -4374,11 +4387,12 @@ Field Effect Listing
 *	Terrain Pulse increases in power x2
 *	Astonish increases in power x1.2
 *	Recoil moves as well as the following moves have x2/3 base Accuracy:
-		Thrash			Outrage
+		Thrash			Outrage			Raging Fury
 *	High Jump Kick becomes Jump Kick
 *	The following moves instead heal 1/4 max HP:
 		Morning Sun		Synthesis		Moonlight
 *	Enables the use of Steel Roller
+*	The stat-changing effects of Shelter are amplified by 1 stage
 :::ITEM MODIFIERS:::
 *	Synthetic Seed lowers Speed and applies Protect
 *	Room Service additionally heals 1/3 max HP upon activation
@@ -4465,7 +4479,7 @@ Field Effect Listing
 		Shadow Bone		Liquidation		Malicious Moonsault	Thrash			Skull Bash
 		Outrage			Breakneck Blitz		Rollout			Fury Cutter		Rage
 		Fury Attack		Frustration		All-Out Pummeling	Savage Spin-Out		Corkscrew Crash
-		Twinkle Tackle		Lash Out		Wicked Blow
+		Twinkle Tackle		Lash Out		Wicked Blow		Raging Fury
 *	The following moves increase in power x1.5 and have their base Accuracy increased to 100:
 		Fly			Jump Kick		Sky Attack		High Jump Kick		Sky Uppercut
 		Aerial Ace		Bounce			Dragon Rush		Brave Bird		Sky Drop
@@ -4476,7 +4490,7 @@ Field Effect Listing
 *	Rage instead sharply raises the user's Attack upon activation
 *	The following moves have their stat-changing effects amplified by 1 stage:
 		Leer			Growl			Double Team		Withdraw		Defense Curl
-		Bulk Up			Power-Up Punch		Coaching
+		Bulk Up			Power-Up Punch		Coaching		Victory Dance
 *	Agility additionally increases user's Attack upon use
 *	Mirror Move additionally raises the user's Speed upon use
 *	Encore lasts 7 turns
@@ -4722,19 +4736,20 @@ Field Effect Listing
 		Razor Shell		Clamp			Shell Side Arm
 *	The following moves become surfing moves, gaining a random damage multiplier between x0.5 and x3:
 		Surf			Sludge Wave		Muddy Water		Thousand Waves		Stoked Sparksurfer
-		Shock Wave
+		Shock Wave		Wave Crash
 *	The higher the user's Accuracy stat changes, the higher the roll for surfing moves
 *	The following moves increase in power x1.5:
 		Land's Wrath		Crabhammer		Sand Tomb
 *	These moves increase in base power x1.3:
 		Zen Headbutt		Stored Power		Aura Sphere		Focus Blast		Heat Wave
 		Mud-Slap		Mud Shot		Mud Bomb		Hidden Power		Sparkling Aria
-		Oceanic Operetta
+		Oceanic Operetta	Chi Blast
 *	These moves as well as wind moves increase in base power x1.2:
 		Psychic
-*	These moves decrease in base power x0.5x:
+*	These moves decrease in base power x0.5:
 		Rage			Outrage			Rollout			Frustration		Foul Play
 		Retaliate		Stomping Tantrum	Revenge			Ice Ball		Tectonic Rage
+		Raging Fury
 *	The following moves gain additional Water-type:
 		Mud-Slap		Mud Shot		Mud Bomb
 *	Muddy Water gains additional Ground-type
@@ -4758,6 +4773,7 @@ Field Effect Listing
 *	Terrain Pulse increases in power x2 and becomes Ground-type
 *	Yawn additionally restores 1/4 max HP and applies the Yawn effect to the user upon use
 *	Coaching additionally makes the target's next move have the maximum multiplier if its next move is a surfing move
+*	Chi Blast deals damage as though the user is not holding an item
 :::ITEM MODIFIERS:::
 *	Telluric Seed sharply boosts Sp. Atk and Sp. Def, and applies Yawn to the holder
 *	The healing from Shell Bell is doubled
@@ -4819,7 +4835,7 @@ Field Effect Listing
 		Heat Wave		Needle Arm		Overheat		Giga Drain		Grass Knot
 		Flame Charge		Fiery Dance		Land's Wrath		Solar Beam		Solar Blade
 		Sudden Sting		Spike Cannon		Sand Tomb		Dig			Scorching Sands
-		Land's Wrath		Searing Sunraze Smash	Barb Barrage
+		Land's Wrath		Searing Sunraze Smash	Barb Barrage		Sandsear Storm
 *	The following moves increase in power x1.2:
 		Bone Club		Bonemerang		Bone Rush		Brave Bird		Shell Trap
 		Diamond Storm		Power Gem		Brave Bird		Fly			Dragon Ascent
