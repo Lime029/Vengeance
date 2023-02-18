@@ -2191,7 +2191,7 @@ Field Effect Listing
 *	Pokemon trapped in Sand Tomb suffer an Accuracy drop at the end of each round
 
 #--------------------------- 21. Water Surface [WTS] --------------------------------#
-"The water is a deep, deep blue."
+"The water is a deep blue."
 :::TYPE MODIFIERS:::
 *	Water moves used by grounded Pokemon increase in power x1.5
 *	Electric moves against grounded Pokemon increase in power x1.5
