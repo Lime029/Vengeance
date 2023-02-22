@@ -183,7 +183,7 @@ Field Effect Listing
 *	Ground moves decrease in power x0.8
 :::ABILITY MODIFIERS:::
 *	The following abilities have their stat-changing effects doubled:
-		Lightning Rod		Frantic			Bearded Magnetism
+		Lightning Rod		Frantic			Bearded Magnetism	Electric Love
 *	Static's activation chance is doubled
 *	The following abilities boost Speed an extra stage at the end of each round if the Pokemon is grounded and not holding Heavy-Duty Boots:
 		Static			Hustle			Vital Spirit		Motor Drive		Rattled
@@ -208,6 +208,9 @@ Field Effect Listing
 *	Transistor instead boosts the power of affected moves x2
 *	Electron Titan instead boosts the Pokemon's Speed x1.3 and the power of affected moves x1.5
 *	Charging Sacs can no longer cause confusion
+*	Fragrant Shock instead always paralyzes the attacker upon activation
+*	The following abilities have their stat-increasing effects boosted to x1.5:
+		Positivity		Negativity
 :::MOVE MODIFIERS:::
 *	Moves have double the chance to Paralyze
 *	The following moves gain additional Electric type and increase in power x1.5:
@@ -248,6 +251,7 @@ Field Effect Listing
 :::OTHER EFFECTS:::
 *	Grounded Pokemon cannot fall asleep
 *	Grounded Pokemon boost their Speed at the end of each round unless they are Frozen or holding Heavy-Duty Boots
+*	The chance of being immobile due to paralysis is doubled for grounded Pokemon
 
 #-------------------------------- 2. Grassy Terrain [GRT] --------------------------------#
 "Grass grows over the battlefield!"
@@ -359,7 +363,7 @@ Field Effect Listing
 		Cotton Down		Brutalize		Combustion		Dissolution
 *	Healer's activation chance is increased to 100%
 *	The following abilities additionally boost Sp. Atk and Sp. Def upon entry:
-		Aroma Veil		Sweet Veil		Insect Aroma
+		Aroma Veil		Sweet Veil		Insect Aroma		Fragrant Shock
 *	Dazzling infatuates opposing Pokemon upon entry if possible
 *	Triage additionally boosts the power of affected moves x1.3
 *	The following abilities additionally boost Sp. Def upon entry:
@@ -966,7 +970,7 @@ Field Effect Listing
 		Pastel Veil		Cotton Down		Propeller Tail		Screen Cleaner		Steam Engine
 		Frantic			Reconstruct		Transistor		Invisible Wall		Immolate
 		Sand Shield		Combustion		Flame Spiral		Juggling		Flaming Feet
-		Selective Palate	Relaxing Rhythm
+		Selective Palate	Relaxing Rhythm		Fragrant Shock
 *	Sand Veil is disabled except for Water-types and airborne Pokemon
 *	Pokemon with Dry Skin additionally recover 1/8 max HP at the end of each round
 *   	Activates the following abilities each turn for grounded Pokemon:
@@ -1285,7 +1289,7 @@ Field Effect Listing
 		Sniper			Flower Gift		Harvest			Sap Sipper		Aroma Veil
 		Fairy Aura		Flower Veil		Sweet Veil		Symbiosis		Triage
 		Ripen			Mirror Armor		Cultivate		Pollinate		Medic
-		Bloom			Soothing Aroma		Seed Revitalization
+		Bloom			Soothing Aroma		Seed Revitalization	Fragrant Shock
 *	Contaminate instead boosts the damage of affected moves x1.5
 *	Neutralizing Gas additionally lowers the Accuracy of all other Pokemon on the field at the end of each round
 *	Sponge heals 1/8 max HP for Poison Pokemon and damages for 1/8 max HP for other Pokemon at the end of each round
@@ -1920,8 +1924,9 @@ Field Effect Listing
 *   	Galvanize instead boosts the power of affected moves x2
 *	Steelworker additionally makes affected moves gain additional Electric-type
 *	Shadow Tag additionally damages the target for an extra attack with 0.25x power upon a successful hit
-*	The following abilities have their stat-increasing effect doubled:
+*	The following abilities have their stat-increasing effects doubled:
 		Lightning Rod		Motor Drive		Frantic			Bearded Magnetism	Charging Sacs
+		Electric Love
 *	Pokemon with Illuminate additionally are hit by all attacks but are given perfect accuracy
 *	Pokemon with Water Veil take type-scaling Electric damage at the end of each turn
 *	Magnet Pull additionally works on Electric Pokemon
@@ -2327,6 +2332,7 @@ Field Effect Listing
 		Immolate		Pollinate		Combustion		Soothing Aroma		Shimmering Haze
 		Unextinguishable	Flaming Feet		Dissolution		Spacial Connection	Behemoth's Slumber
 		Flytrap			Maraca Movement		Parfum Charmant		Seductive Cry		Insect Aroma
+		Fragrant Shock
 *	Marvel Scale boosts Defense x2 when activated
 *	Activates Water Compaction at the end of each round
 *	Forecast transforms Castform into Rainy form in the absence of weather
@@ -2656,6 +2662,7 @@ Field Effect Listing
 *	Disables the following abilities:
 		Sturdy			Aroma Veil		Sweet Veil		Jungle Totem		Earthen Aura
 		Cultivate		Soothing Aroma		Behemoth's Slumber	Parfum Charmant		Tap Dancing
+		Fragrant Shock
 *	Grounded Poison-type Pokemon with the following abilities recover 1/16 max HP at the end of each turn:
 		Dry Skin		Water Absorb
 *	The following abilities are activated for grounded Pokemon:
@@ -3129,7 +3136,7 @@ Field Effect Listing
 *	Parental Bond instead makes the second attack deal x0.5 damage
 *	Symbiosis additionally restores 1/3 max HP to both Pokemon upon activation
 *	The stat-changing effects of the following abilities are doubled:
-		Beast Boost		Merciful Heart		Leviathan's Slumber	Behemoth's Slumber
+		Beast Boost		Merciful Heart		Leviathan's Slumber	Behemoth's Slumber	Electric Love
 *	Dazzling infatuates opposing Pokemon upon entry if possible
 *	Battle Bond instead activates whenever using a damaging move
 *	Deep Sleep additionally prevents damage done to the Pokemon while it's asleep
@@ -3430,6 +3437,7 @@ Field Effect Listing
 *	(Stage 4) Parfum Charmant additionally infatuates all adjacent opponents at the end of each round
 *	Scarecrow additionally increases the base power of moves used against Flying Pokemon x1.5
 *	(Stage 3+) Selective Palate instead activates on all berries
+*	(Stage 3+) Fragrant Shock additionally boosts Sp. Atk upon entry
 :::MOVE MODIFIERS:::
 *	(Stage 4) Powder moves instead target both opposing Pokemon
 *	(Stage 1+) Slicing moves increase in power x1.3
@@ -3674,6 +3682,8 @@ Field Effect Listing
 *	Defiant additionally increases Attack upon entry
 *	Vanguard instead applies to the Pokemon to last use a move
 *	Stat changes to Attack, Defense, Sp. Atk, and Sp. Def are treated as the negative of their actual value if the user or target of a move has Palindrome
+*	Positivity instead has the effect of Negativity
+*	Negativity instead has the effect of Positivity
 :::MOVE MODIFIERS:::
 * 	Nature Power becomes Trick Room
 *	Camouflage changes the user's type to Normal
@@ -3926,6 +3936,7 @@ Field Effect Listing
 :::OTHER EFFECTS:::
 *	Hail lasts 8 turns (12 if holding Icy Rock)
 *	The chance to naturally thaw from Freeze each round is halved
+*	No Pokemon can be infatuated
 
 #--------------------------- 40. Haunted Field [HAF] --------------------------------#
 "Evil spirits lurk in the background..."
