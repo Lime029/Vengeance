@@ -2155,6 +2155,34 @@ Pokemon = ARIADOS,23
 # Darkleaf Gym
 #-------------------------------
 [SCHOOLKID5_M,Bernard]
+Pokemon = FARFETCHD,17
+    Item = SILKSCARF
+    Moves = CUT,FURYCUTTER,PECK,FEATHERDANCE
+    AbilityIndex = 2
+Pokemon = QUILLADIN,16
+    Moves = NEEDLEARM,SYNTHESIS,BITE,CUT
+    AbilityIndex = 0
+Pokemon = FURRET,19
+    Moves = COIL,CUT,QUICKATTACK,FORESIGHT
+    AbilityIndex = 2
+#-------------------------------
+[SCHOOLKID2_M,Mick]
+Pokemon = QWILFISH,18
+    Moves = SPIKES,BARBBARRAGE,PINMISSILE,ICEBALL
+    AbilityIndex = 0
+    Form = 1
+Pokemon = MARILL,17
+    Moves = BELLYDRUM,AQUAJET,BOUNCE,DRAININGKISS
+    AbilityIndex = 2
+Pokemon = SKWOVET,20
+    Moves = STUFFCHEEKS,TACKLE,BITE,LASTRESORT
+    AbilityIndex = 2
+    Item = LIECHIBERRY
+Pokemon = CHATOT,20
+    Moves = SING,CHATTER,GROWL,MIRRORMOVE
+    AbilityIndex = 1
+#-------------------------------
+[SCHOOLKID4_F,Francisca]
 Pokemon = KRICKETUNE,18
     Item = TELLURICSEED
     Moves = STRUGGLEBUG,ABSORB,SING,FURYCUTTER

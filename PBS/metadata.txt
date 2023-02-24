@@ -8,13 +8,14 @@ WildVictoryME = Victory Wild.mp3
 TrainerVictoryME = Victory Trainer.mp3
 SurfBGM = Surfing.mp3
 BicycleBGM = Bicycle.mp3
-PlayerA = PLAYER_M1,trainer_PLAYER_M1,boy1_bike,boy1_surf,boy1_run,boy1_surf,boy1_fish_offset,
-PlayerB = PLAYER_M2,trainer_PLAYER_M2,boy2_bike,boy2_surf,boy2_run,boy2_surf,boy2_fish_offset,
-PlayerC = PLAYER_M3,trainer_PLAYER_M3,boy3_bike,boy3_surf,boy3_run,boy3_surf,boy3_fish_offset,
-PlayerD = PLAYER_F1,trainer_PLAYER_F1,girl1_bike,girl1_surf,girl1_run,girl1_surf,girl1_fish_offset,
-PlayerE = PLAYER_F2,trainer_PLAYER_F2,girl2_bike,girl2_surf,girl2_run,girl2_surf,girl2_fish_offset,
-PlayerF = PLAYER_F3,trainer_PLAYER_F3,girl3_bike,girl3_surf,girl3_run,girl3_surf,girl3_fish_offset,
+PlayerA = PLAYER_M1,trainer_PLAYER_M1,boy1_bike,trainer_PLAYER_M1,boy1_run,trainer_PLAYER_M1,boy1_fish_offset,
+PlayerB = PLAYER_M2,trainer_PLAYER_M2,boy2_bike,trainer_PLAYER_M2,boy2_run,trainer_PLAYER_M2,boy2_fish_offset,
+PlayerC = PLAYER_M3,trainer_PLAYER_M3,boy3_bike,trainer_PLAYER_M3,boy3_run,trainer_PLAYER_M3,boy3_fish_offset,
+PlayerD = PLAYER_F1,trainer_PLAYER_F1,girl1_bike,trainer_PLAYER_F1,girl1_run,trainer_PLAYER_F1,girl1_fish_offset,
+PlayerE = PLAYER_F2,trainer_PLAYER_F2,girl2_bike,trainer_PLAYER_F2,girl2_run,trainer_PLAYER_F2,girl2_fish_offset,
+PlayerF = PLAYER_F3,trainer_PLAYER_F3,girl3_bike,trainer_PLAYER_F3,girl3_run,trainer_PLAYER_F3,girl3_fish_offset,
 PlayerG = HORDE,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,
+PlayerH = HORDE,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,
 #-------------------------------
 [001]
 # Intro
