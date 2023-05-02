@@ -15,8 +15,6 @@ PlayerD = PLAYER_F1,trainer_PLAYER_F1,girl1_bike,trainer_PLAYER_F1,girl1_run,tra
 PlayerE = PLAYER_F2,trainer_PLAYER_F2,girl2_bike,trainer_PLAYER_F2,girl2_run,trainer_PLAYER_F2,girl2_fish_offset,
 PlayerF = PLAYER_F3,trainer_PLAYER_F3,girl3_bike,trainer_PLAYER_F3,girl3_run,trainer_PLAYER_F3,girl3_fish_offset,
 PlayerG = HORDE,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,pokemonDurant,
-PlayerH = HORDE,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,pokemonPoliwag,
-PlayerI = HORDE,pokemonSeedot,pokemonSeedot,pokemonSeedot,pokemonSeedot,pokemonSeedot,pokemonSeedot,
 #-------------------------------
 [001]
 # Intro
