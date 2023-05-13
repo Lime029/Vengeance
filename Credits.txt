@@ -241,6 +241,7 @@ Other Art:
 - sylv
 - Deorro
 - Saving Raven
+- Amethyst
 
 Scripting:
 - Pokemon Essentials Team

@@ -2196,3 +2196,24 @@ Pokemon = MAGNEMITE,17
 Pokemon = DELCATTY,20
     Moves = PAYBACK,FAKEOUT,HEALBELL,BABYDOLLEYES
     AbilityIndex = 1
+#-------------------------------
+[LEADER_Anthony,Anthony,2]
+Pokemon = VOLBEAT,20
+    Item = ORANBERRY
+    Moves = PHEROMONESIGNAL,NATURALGIFT,STRUGGLEBUG,MOONLIGHT
+    AbilityIndex = 2
+Pokemon = JOLTIK,20
+    Moves = INFESTATION,ELECTROWEB,ABSORB,SPIDERWEB
+    AbilityIndex = 0
+Pokemon = ANORITH,20
+    Moves = SMACKDOWN,AQUAJET,BUGBITE,METALCLAW
+    AbilityIndex = 2
+Pokemon = LEDIAN,20
+    Moves = ENCORE,REFLECT,BUGBUZZ,PHEROMONESIGNAL
+    AbilityIndex = 1
+Pokemon = BEEDRILL,20
+    Moves = SUDDENSTING,POISONSTING,FOCUSENERGY,DRILLRUN
+    AbilityIndex = 0
+Pokemon = HERACROSS,20
+    Moves = AERIALACE,BULLETSEED,ROCKSMASH,BUGBITE
+    AbilityIndex = 2

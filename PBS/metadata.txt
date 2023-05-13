@@ -548,3 +548,9 @@ BattleBack = Indoor1
 Outdoor = false
 MapPosition = 0,5,8
 BattleBack = Jungle
+#-------------------------------
+[099]
+# Darkleaf Gym
+Outdoor = false
+MapPosition = 0,5,8
+BattleBack = Jungle
