@@ -199,6 +199,7 @@ Tilesets:
 - Clara-WaH
 - ChaoticCherryCake
 - silverlime
+- Flurmimon
 
 Animations:
 - Pokemon Essentials Team
