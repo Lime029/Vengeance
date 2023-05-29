@@ -148,7 +148,7 @@ Trainer Overworld Sprites:
 
 Music:
 - GlitchxCity
-- Lugigigas
+- Luigigigas
 - Zame
 - Zumi
 - 2DTV

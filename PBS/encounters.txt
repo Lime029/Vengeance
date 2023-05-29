@@ -464,3 +464,17 @@ LandNight,21
     5,KECLEON,12,15
     4,ESPURR,11,14
     1,VIVILLON,12,16
+#-------------------------------
+[097] # Darkleaf Cave - 1F
+Cave,5
+    20,DIGLETT_1,10,14
+    20,GEODUDE,10,14
+    10,WOOBAT,11,15
+    10,SHUPPET,11,15
+    10,JOLTIK,13,14
+    10,NOIBAT,11,15
+    5,SPINARAK,12,16
+    5,CHINGLING,10,14
+    5,NOSEPASS,13,15
+    4,DUNSPARCE,13,15
+    1,SPINDA,12,15
