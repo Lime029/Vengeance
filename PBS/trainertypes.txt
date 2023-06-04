@@ -313,7 +313,7 @@
 310,LEADER_Kabu,Man of Fire,150,Battle Gym Galar,,,Male,,
 311,RIVAL_Bede,Pokémon Trainer,100,Battle Rival Bede,,,Male,,
 312,ELITE_Wikstrom,Elite Four,200,Battle Wikstrom,,,Male,,
-313,TRAINER_Eusine,Pokémon Trainer,100,Battle Trainer Johto,,,Male,,
+313,TRAINER_Eusine,Pokémon Trainer,100,Battle Eusine,,,Male,,
 314,AQUA_Archie,Team Aqua Boss,200,Battle Archie,,,Male,,
 315,MAGMA_Maxie,Team Magma Boss,200,Battle Maxie,,,Male,,
 316,LEADER_Adrienn,Visionary,150,Battle Gym Reborn,,,,,

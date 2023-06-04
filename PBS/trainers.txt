@@ -1915,6 +1915,14 @@ Pokemon = POPPLIO,5
     Shiny = yes
     AbilityIndex = 3
 #-------------------------------
+[POKEMONBREEDER_4,Ashlyn]
+Pokemon = BULBASAUR,5
+Pokemon = CHARMANDER,5
+Pokemon = SQUIRTLE,5
+Pokemon = PANSAGE,5
+Pokemon = PANSEAR,5
+Pokemon = PANPOUR,5
+#-------------------------------
 [RICHBOY,Winston]
 Pokemon = PATRAT,2
 Pokemon = DUCKLETT,2
