@@ -1977,10 +1977,12 @@ Pokemon = KLINK,13
 [POKEFAN_F,Agnes]
 Pokemon = UMBREON,4
 #-------------------------------
-# Route 1 - North
+# Route 1 Gate
 #-------------------------------
 [HARLEQUIN,Dieuwert]
 Pokemon = MIMEJR,6
+#-------------------------------
+# Route 1 - North
 #-------------------------------
 [HORDE,Honey Horde]
 Pokemon = VOLBEAT,4
@@ -2012,6 +2014,26 @@ Pokemon = DELIBIRD,5
 Pokemon = CASCOON,11
 Pokemon = SALANDIT,11
 Pokemon = ROGGENROLA,12
+#-------------------------------
+[VETERAN_M,Ayodele]
+Pokemon = BONSLY,8
+    Moves = LOWKICK,DEFENSECURL,ROLLOUT,COPYCAT
+    AbilityIndex = 0
+Pokemon = SPINDA,9
+    Moves = LOWKICK,COPYCAT,TACKLE,ENCORE
+    AbilityIndex = 0
+Pokemon = BUNEARY,10
+    Moves = LOWKICK,FAKEOUT,BABYDOLLEYES,POUND
+    AbilityIndex = 0
+Pokemon = TREECKO,9
+    Moves = LOWKICK,MEGADRAIN,QUICKATTACK,LEER
+    AbilityIndex = 0
+Pokemon = ELEKID,8
+    Moves = LOWKICK,CHARGE,THUNDERSHOCK,QUICKATTACK
+    AbilityIndex = 0
+Pokemon = THROH,10
+    Moves = LOWKICK,FOCUSENERGY,CIRCLETHROW,LEER
+    AbilityIndex = 1
 #-------------------------------
 # Route 1 - South
 #-------------------------------
@@ -2084,6 +2106,23 @@ Pokemon = DEWOTT,17
 [SUPERNERD,Sheldon]
 Pokemon = STANTLER,15
 #-------------------------------
+[VETERAN_F,Helka]
+Pokemon = CUBONE,14
+    Moves = RETALIATE,PERISHSONG,MUDSLAP,HEADBUTT
+    AbilityIndex = 1
+Pokemon = BIDOOF,13
+    Moves = RETALIATE,DEFENSECURL,ROLLOUT,ENDURE
+    AbilityIndex = 0
+Pokemon = SNUBBULL,12
+    Moves = RETALIATE,THUNDERFANG,BITE,CHARM
+    AbilityIndex = 0
+Pokemon = PANCHAM,13
+    Moves = RETALIATE,ARMTHRUST,CIRCLETHROW,TAUNT
+    AbilityIndex = 1
+Pokemon = LUCARIO,14
+    Moves = RETALIATE,AURASPHERE,METALCLAW,FINALGAMBIT
+    AbilityIndex = 0
+#-------------------------------
 # Darkleaf Town
 #-------------------------------
 [BIRDKEEPER,Roy]
@@ -2097,6 +2136,15 @@ Pokemon = BEEDRILL,14
 Pokemon = SWIRLIX,11
 Pokemon = PURRLOIN,11
 Pokemon = AMAURA,13
+#-------------------------------
+[POKEMONBREEDER5_M,Helmut]
+Pokemon = STUNKY,13
+Pokemon = SMEARGLE,13
+Pokemon = TYROGUE,13
+Pokemon = TIMBURR,13
+Pokemon = CLAMPERL,13
+Pokemon = ORICORIO,13
+    Form = 1
 #-------------------------------
 # Darkleaf Woods
 #-------------------------------
@@ -2147,6 +2195,21 @@ Pokemon = MAGBY,14
 Pokemon = YANMA,14
 Pokemon = LUVDISC,16
 #-------------------------------
+[SCIENTIST,Nuno]
+Pokemon = PINECO,15
+Pokemon = OMANYTE,16
+Pokemon = GEODUDE,14
+    Form = 1
+Pokemon = SINISTEA,14
+Pokemon = KECLEON,17
+#-------------------------------
+[FISHERMAN_2,Ma'tano]
+Pokemon = GYARADOS,20
+#-------------------------------
+[OFFICER_2,Godric]
+Pokemon = PERSIAN,20
+    Form = 1
+#-------------------------------
 [HORDE,Angry Horde]
 Pokemon = WORMADAM,20
     Form = 0
@@ -2159,6 +2222,23 @@ Pokemon = MOTHIM,20
 Pokemon = RATICATE,20
 Pokemon = TREVENANT,23
 Pokemon = ARIADOS,23
+#-------------------------------
+# Sensu Meadow
+#-------------------------------
+[FURISODEGIRL_3,Brunnera]
+Pokemon = DREEPY,15
+Pokemon = SEEL,16
+Pokemon = FLOETTE,19
+    Form = 1
+Pokemon = ORICORIO,19
+    Form = 3
+#-------------------------------
+[NINJABOY,Faolan]
+Pokemon = DEERLING,16
+Pokemon = SIZZLIPEDE,16
+Pokemon = SHELLDER,16
+Pokemon = NINCADA,16
+Pokemon = KRICKETUNE,18
 #-------------------------------
 # Darkleaf Gym
 #-------------------------------
