@@ -92,7 +92,7 @@
 92,BLACKSLUDGE,Black Sludge,Black Sludges,1,200,"A held item that gradually restores the HP of Poison-type Pokémon. It inflicts damage on all other types.",0,0,0,
 93,LEFTOVERS,Leftovers,Leftovers,1,200,"An item to be held by a Pokémon. The holder's HP is gradually restored during battle.",0,0,0,
 94,SHELLBELL,Shell Bell,Shell Bells,1,200,"An item to be held by a Pokémon. The holder's HP is restored a little every time it inflicts damage.",0,0,0,
-95,MENTALHERB,Mental Herb,Mental Herbs,1,100,"An item to be held by a Pokémon. It snaps the holder out of infatuation. It can be used only once.",0,0,0,
+95,MENTALHERB,Mental Herb,Mental Herbs,1,100,"An item to be held by a Pokémon. The holder shakes off move-binding effects to move freely. It can be used only once.",0,0,0,
 96,WHITEHERB,White Herb,White Herbs,1,100,"An item to be held by a Pokémon. It restores any lowered stat in battle. It can be used only once.",0,0,0,
 97,POWERHERB,Power Herb,Power Herbs,1,100,"A single-use item to be held by a Pokémon. It allows the immediate use of a move that charges on the first turn.",0,0,0,
 98,ABSORBBULB,Absorb Bulb,Absorb Bulbs,1,200,"A consumable bulb. If the holder is hit by a Water-type move, its Sp. Atk will rise.",0,0,0,
@@ -696,9 +696,9 @@
 696,SNORLIUMZ,Snorlium Z,,8,0,"It converts Z-Power into crystals that upgrade Snorlax's Giga Impact to an exclusive Z-Move.",5,0,14,
 697,BRITTLEBONES1,Brittle Bones,Brittle Bones,2,5,"A pack of crunchy bones that provides minimal nutritional value and restores 10 HP. It can't be used in battle.",1,0,0
 698,MEWNIUMZ,Mewnium Z,,8,0,"It converts Z-Power into crystals that upgrade Mew's Psychic to an exclusive Z-Move.",5,0,14,
-699,BOILEDEGG,Boiled Egg,Boiled Eggs,2,270,"A hard-boiled egg that heals 40 HP.",1,1,0
+699,BOILEDEGG,Boiled Egg,Boiled Eggs,2,470,"A hard-boiled egg that heals 50 HP and cures confusion.",1,1,0
 700,TAPUNIUMZ,Tapunium Z,,8,0,"It converts Z-Power into crystals that upgrade the tapus' Nature's Madness to an exclusive Z-Move.",5,0,14,
-701,BOILEDEGG1,Boiled Egg,Boiled Eggs,2,27,"A hard-boiled egg that heals 40 HP.",1,0,0
+701,BOILEDEGG1,Boiled Egg,Boiled Eggs,2,47,"A hard-boiled egg that heals 50 HP and cures confusion.",1,0,0
 702,MARSHADIUMZ,Marshadium Z,,8,0,"It converts Z-Power into crystals that upgrade Marshadow's Spectral Thief to an exclusive Z-Move.",5,0,14,
 703,BREAD,Loaf of Bread,Loaves of Breads,2,480,"A fresh loaf of bread that heals 60 HP.",1,1,0
 704,PIKASHUNIUMZ,Pikashunium Z,,8,0,"It converts Z-Power into crystals that upgrades a capped Pikachu's Thunderbolt to an exclusive Z-Move.",5,0,14,
@@ -715,7 +715,7 @@
 715,KRABBYCAKE,Krabbycake,Krabbycakes,2,1400,"A delectable dish made with fresh Krabby meat that heals 110 HP.",1,1,0
 716,KOMMONIUMZ,Kommonium Z,,8,0,"It converts Z-Power into crystals that upgrades Kommo-o's Clanging Scales to an exclusive Z-Move.",5,0,14,
 717,KRABBYCAKE1,Krabbycake,Krabbycakes,2,140,"A delectable dish made with fresh Krabby meat that heals 110 HP. It can't be used in battle.",1,0,0
-718,COFFEE,Coffee,Coffees,2,520,"A refreshing cup of coffee that restores 50 HP and cures Sleep.",1,1,0
+718,KOMALACOFFEE,Komala Coffee,Komala Coffees,2,520,"A refreshing cup of coffee that restores 50 HP and cures Sleep.",1,1,0
 719,UTILITYUMBRELLA,Utility Umbrella,Utility Umbrellas,1,4000,"An item to be held by a Pokémon. This sturdy umbrella protects the holder from the effects of weather.",0,0,0
 720,TIMIDMINT,Timid Mint,Timid Mints,1,30000,"When a Pokémon smells this mint, its Speed will grow more easily, but its Attack will grow more slowly.",1,0,0
 721,THROATSPRAY,Throat Spray,Throat Sprays,1,4000,"Raises Sp. Atk when the Pokémon uses a sound-based move.",0,0,0
@@ -886,7 +886,7 @@
 886,VANILLAICECREAM1,Vanilla Ice Cream,Vanilla Ice Creams,2,28,"A tasty ice cream that restores 30 HP and raises Friendship. It can't be used in battle.",1,0,0,
 887,CHOCOLATEICECREAM1,Chocolate Ice Cream,Chocolate Ice Creams,2,72,"A tasty ice cream that restores 70 HP and raises Friendship. It can't be used in battle.",1,0,0,
 888,STRAWBERRYICECREAM1,Strawberry Ice Cream,Strawberry Ice Creams,2,106,"A tasty ice cream that restores 90 HP and raises Friendship. It can't be used in battle.",1,0,0,
-889,COFFEE1,Coffee,Coffees,2,52,"A refreshing cup of coffee that restores 50 HP and cures Sleep. It can't be used in battle.",1,0,0
+889,KOMALACOFFEE1,Komala Coffee,Komala Coffees,2,52,"A refreshing cup of coffee that restores 50 HP and cures Sleep. It can't be used in battle.",1,0,0
 890,PERSIMBERRY1,Persim Berry,Persim Berries,5,20,"It may be used or held by a Pokémon to recover from confusion. It can't be used on a Pokémon in battle.",0,0,5,
 891,BLUEFLOWER,Blue Flower,Blue Flowers,1,0,"A pretty blue flower with a soothing scent.",0,0,0,
 892,SAFETYGOGGLES,Safety Goggles,Safety Goggles,1,4000,"An item to be held by a Pokémon. These goggles protect the holder from both weather-related damage and powder.",0,0,0,
@@ -927,3 +927,13 @@
 927,CHOICEDUMPLING,Choice Dumpling,Choice Dumplings,1,100,"A dumpling that will lock a Pokémon into a move, dealing and taking more damage as a result.",0,0,0,
 928,BLANKPLATE,Blank Plate,Blank Plates,1,1000,"An item to be held by a Pokémon. It is a stone tablet that boosts the power of Normal-type moves.",0,0,0,
 929,LEGENDPLATE,Legend Plate,Legend Plates,1,10000,"Whenever Arceus uses the move Judgment while holding this item, it will change its type and the type of the move to be super effective against the target.",0,0,0,
+930,PINAPJUICE,Pinap Juice,Pinap Juices,2,270,"A nutritious drink made from Pinap Berries that heals 40 HP.",1,1,0
+931,PINAPJUICE1,Pinap Juice,Pinap Juices,2,27,"A nutritious drink made from Pinap Berries that heals 40 HP. It can't be used in battle.",1,0,0
+932,FILETOFEEBAS,Filet-O-Feebas,Filet-O-Feebas,2,520,"A salty and oily sandwich made from fried Feebas filet that heals 50 HP and cures paralysis.",1,1,0
+933,FILETOFEEBAS1,Filet-O-Feebas,Filet-O-Feebas,2,52,"A salty and oily sandwich made from fried Feebas filet that heals 50 HP and cures paralysis. It can't be used in battle.",1,0,0
+934,GINGERTEA,Ginger Tea,Ginger Teas,2,520,"A strong tea made from ginger root that heals 50 HP and cures poison.",1,1,0
+935,GINGERTEA1,Ginger Tea,Ginger Teas,2,52,"A strong tea made from ginger root that heals 50 HP and cures poison. It can't be used in battle.",1,0,0
+936,ROSERADETEA,Roserade Tea,Roserade Teas,2,470,"A soothing tea made with the assistance of Roserade that heals 50 HP and cures various mental afflictions.",1,1,0
+937,ROSERADETEA1,Roserade Tea,Roserade Teas,2,47,"A soothing tea made with the assistance of Roserade that heals 50 HP and cures various mental afflictions. It can't be used in battle.",1,0,0
+938,TAPUCOCOA,Tapu Cocoa,Tapu Cocoas,2,500,"A delicious hot chocolate that heals some HP.",1,1,0
+939,TAPUCOCOA1,Tapu Cocoa,Tapu Cocoas,2,50,"A delicious hot chocolate that heals some HP. It can't be used in battle.",1,0,0

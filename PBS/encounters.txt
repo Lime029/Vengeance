@@ -465,7 +465,7 @@ LandNight,21
     4,ESPURR,11,14
     1,VIVILLON,12,16
 #-------------------------------
-[094] # Sensu Meadow
+[093] # Sensu Meadow
 Land,21
     20,SHROOMISH,11,14
     20,BURMY,12,15
