@@ -3921,7 +3921,7 @@ Field Effect Listing
 		Sinister Arrow Raid	Doom Desire		Assurance		Punishment		Foul Play
 		Oblivion Wing		Light of Ruin		Savage Spin-Out		Devastating Drake	Menacing Moonraze Maelstrom
 		Malicious Moonsault	Spectral Thief		Catastropika		Wicked Blow		Soul-Stealing 7-Star Strike
-		Fiery Wrath		Draconic Disaster	Soul Thief		Thief			Calamity Blast
+		Fiery Wrath		Draconic Disaster	Soul Siphon		Thief			Calamity Blast
 		Hyper Voice		Round			Echoed Voice		Chatter			Sparkling Aria
 		Oceanic Operetta	Ferocious Bellow
 *	Freezing Glare as well as rage moves increase in power x1.5
@@ -4258,7 +4258,7 @@ Field Effect Listing
 		Trick Room		Wonder Room		Magic Room		Dark Void		Shadow Force
 		Phantom Force		Guard Split		Power Split		Eerie Impulse		Strength Sap
 		Speed Swap		Spectral Thief		Spirit Break		Poltergeist		Soul-Stealing 7-Star Strike
-		Soul Thief
+		Soul Siphon
 *	Enables the use of the following moves:
 		Dream Eater		Nightmare
 *	Moonlight instead heals 2/3 max HP
