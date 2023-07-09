@@ -333,7 +333,7 @@
 333,TM46,TM46,TM46s,4,50000,"A wicked thunderbolt is dropped on the target to inflict damage. This may also leave the target with paralysis.",3,0,0,THUNDER
 334,TM47,TM47,TM47s,4,6000,"The user lays a trap of levitating stones around the opposing team. The trap hurts opposing Pokémon that switch into battle.",3,0,0,STEALTHROCK
 335,TM48,TM48,TM48s,4,5000,"The user sharpens its claws to boost its Attack stat and accuracy.",3,0,0,HONECLAWS
-336,TM49,TM49,TM49s,4,3000,"The user attacks its target by hitting it with brutal strikes. The target is hit twice in a row.",3,0,0,DUALCHOP
+336,TM49,TM49,TM49s,4,10000,"The target is knocked away, and a different Pokémon is dragged out. In the wild, this ends a battle against a single Pokémon.",3,0,0,DRAGONTAIL
 337,TM50,TM50,TM50s,4,2000,"The user endures attacks for two turns, then strikes back to cause double the damage taken.",3,0,0,BIDE
 338,TM51,TM51,TM51s,4,10000,"The user creates a protective field that prevents status conditions for five turns.",3,0,0,SAFEGUARD
 339,TM52,TM52,TM52s,4,10000,"The user attacks by shooting muddy water at opposing Pokémon. This may also lower their accuracy.",3,0,0,MUDDYWATER
@@ -937,3 +937,5 @@
 937,ROSERADETEA1,Roserade Tea,Roserade Teas,2,47,"A soothing tea made with the assistance of Roserade that heals 50 HP and cures various mental afflictions. It can't be used in battle.",1,0,0
 938,TAPUCOCOA,Tapu Cocoa,Tapu Cocoas,2,500,"A delicious hot chocolate that heals some HP.",1,1,0
 939,TAPUCOCOA1,Tapu Cocoa,Tapu Cocoas,2,50,"A delicious hot chocolate that heals some HP. It can't be used in battle.",1,0,0
+940,TM126,TM126,TM126s,4,1600,"The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat.",3,0,0,ACIDSPRAY
+941,TM127,TM127,TM127s,4,400,"Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",3,0,0,DISARMINGVOICE
