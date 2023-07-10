@@ -577,7 +577,7 @@
 563,COURTCHANGE,Court Change,17A,0,NORMAL,Status,100,10,0,BothSides,0,e,"With its mysterious power, the user swaps the effects on either side of the field."
 564,STUFFCHEEKS,Stuff Cheeks,183,0,NORMAL,Status,100,10,0,User,0,e,"The user eats its held Berry, then sharply raises its Defense stat."
 565,TEATIME,Teatime,184,0,NORMAL,Status,0,10,0,AllBattlers,0,,"The user has teatime with all the Pokémon in the battle. Each Pokémon eats its held Berry."
-566,TERRAINPULSE,Terrain Pulse,18A,50,NORMAL,Special,100,10,0,NearOther,0,befm,"Uses the power of the terrain to attack. Type and power changes depending on the terrain."
+566,TERRAINPULSE,Terrain Pulse,18A,50,NORMAL,Special,100,10,0,Other,0,befm,"Uses the power of the terrain to attack. Type and power changes depending on the terrain."
 #-------------------------------
 567,BELCH,Belch,158,120,POISON,Special,90,10,0,NearOther,0,bf,"The user lets out a damaging belch at the target. The user must eat a held Berry to use this move."
 568,GUNKSHOT,Gunk Shot,005,120,POISON,Physical,80,5,30,NearOther,0,bef,"The user shoots filthy garbage at the target to attack. It may also poison the target."
@@ -892,3 +892,6 @@
 872,OVERRULE,Overrule,15D,90,NORMAL,Special,100,10,0,NearOther,0,bef,"The user overrules the target's decisions, steals its stat boosts, and then attacks."
 873,PRESSUREPOINT,Pressure Point,1B3,90,FIGHTING,Physical,100,10,100,NearOther,0,abef,"The user targets a pressure point on the target that causes it to move slower for 2 more rounds."
 874,REFRACTIVEPRISM,Refractive Prism,1B4,80,ROCK,Special,100,15,0,AllNearFoes,0,befu,"The user refracts light through a crystal, shining a rainbow at the opposing team that combines the user and target's stats."
+875,TRAILBLAZE,Trailblaze,01F,50,GRASS,Physical,100,20,100,NearOther,0,abef,"The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
+876,CHILLINGWATER,Chilling Water,044,50,WATER,Special,100,20,100,NearOther,0,bef,"The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat."
+877,SNOWSCAPE,Snowscape,1B8,0,ICE,Status,0,10,0,BothSides,0,,"The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types."

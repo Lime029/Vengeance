@@ -939,3 +939,26 @@
 939,TAPUCOCOA1,Tapu Cocoa,Tapu Cocoas,2,50,"A delicious hot chocolate that heals some HP. It can't be used in battle.",1,0,0
 940,TM126,TM126,TM126s,4,1600,"The user attacks by spitting fluid that works to melt the target. This also harshly lowers the target's Sp. Def stat.",3,0,0,ACIDSPRAY
 941,TM127,TM127,TM127s,4,400,"Letting out a charming cry, the user does emotional damage to opposing Pokémon. This attack never misses.",3,0,0,DISARMINGVOICE
+942,TM128,TM128,TM128s,4,6000,"The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat.",3,0,0,CHILLINGWATER
+943,TM129,TM129,TM129s,4,10000,"This full-power attack grows more powerful the more the user likes its Trainer.",3,0,0,RETURN
+944,TM130,TM130,TM130s,4,10000,"This full-power attack grows more powerful the less the user likes its Trainer.",3,0,0,FRUSTRATION
+945,TM131,TM131,TM131s,4,10000,"The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.",3,0,0,HAIL
+946,TM132,TM132,TM132s,4,6000,"The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types.",3,0,0,SNOWSCAPE
+947,TM133,TM133,TM133s,4,10000,"The user intensifies the sun for five turns, powering up Fire-type attacks. The sunlight also lowers the power of Water-type attacks.",3,0,0,SUNNYDAY
+948,TM134,TM134,TM134s,4,10000,"A five-turn sandstorm is summoned to damage all Pokémon except Rock, Ground, and Steel types. The sandstorm also boosts the Sp. Def stats of Rock types.",3,0,0,SANDSTORM
+949,TM135,TM135,TM135s,4,10000,"The user summons a heavy rain that falls for five turns, powering up Water-type attacks. The rain also lowers the power of Fire-type attacks.",3,0,0,RAINDANCE
+950,TM136,TM136,TM136s,4,16000,"The user crashes into the target while rotating its body like a drill. This move has a heightened chance of landing a critical hit.",3,0,0,DRILLRUN
+951,TM137,TM137,TM137s,4,3000,"The user grabs the target and recklessly dives for the ground. This also damages the user a little.",3,0,0,SUBMISSION
+952,TM138,TM138,TM138s,4,1600,"The user relaxes and lightens its body to move faster. This sharply boosts its Speed stat.",3,0,0,AGILITY
+953,TM139,TM139,TM139s,4,2000,"The user endures any attack with at least 1 HP. This move's chance of failing rises if used in succession.",3,0,0,ENDURE
+954,TM140,TM140,TM140s,4,5000,"This attack hits the target with a shock wave of pure rage. This attack always inflicts 40 HP damage.",3,0,0,DRAGONRAGE
+955,TM141,TM141,TM141s,4,3000,"The user throws scorching sand at the target to attack. This may also leave the target with a burn.",3,0,0,SCORCHINGSANDS
+956,TM142,TM142,TM142s,4,800,"The user gazes at the target rather charmingly, making it less wary. This harshly lowers the target's Attack stat.",3,0,0,CHARM
+957,TM143,TM143,TM143s,4,800,"The user waggles a finger and stimulates its brain into randomly using nearly any move.",3,0,0,METRONOME
+958,TM144,TM144,TM144s,4,800,"A reckless full-body charge attack for slamming into the target. This also damages the user a little.",3,0,0,TAKEDOWN
+959,TM145,TM145,TM145s,4,30000,"This move's type and power change depending on the weather at the time the move is used.",3,0,0,WEATHERBALL
+960,TM146,TM146,TM146s,4,10000,"The user lands and rests its body. This move restores the user's HP by up to half its max HP.",3,0,0,ROOST
+961,TM147,TM147,TM147s,4,10000,"Striking opponents over and over makes the user's fists harder. Hitting a target raises the Attack stat.",3,0,0,POWERUPPUNCH
+962,TM148,TM148,TM148s,4,3000,"The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",3,0,0,ECHOEDVOICE
+963,TM149,TM149,TM149s,4,16000,"The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",3,0,0,DARKPULSE
+964,TM150,TM150,TM150s,4,800,"The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",3,0,0,NIGHTSHADE
