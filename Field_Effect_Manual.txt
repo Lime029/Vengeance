@@ -29,7 +29,7 @@ or not it is immune to the attack
 - Big Pecks additionally ignores opposing increases in Attack
 - The following moves additionally count as slicing moves:
 	Secret Sword		Mist Slash		Fury Cutter		Royal Blades		Spacial Rend
-	Blade Maelstrom		Luminous Blade		Gale Blade		Dire Claw		Razor Wind
+	Blade Maelstrom		Luminous Blade		Razor Wind
 - The following moves are considered as "kicking moves":
 	Stomp			Double Kick		Mega Kick		Jump Kick		Rolling Kick
 	Low Kick		High Jump Kick		Triple Kick		Blaze Kick		Low Sweep
@@ -471,7 +471,6 @@ Field Effect Listing
 		Dark Pulse		Night Daze		Night Slash		Shadow Ball		Shadow Claw
 		Shadow Force		Shadow Sneak		Shadow Punch		Shadow Bone		Black Hole Eclipse
 		Stone Edge		Ominous Wind		Diamond Storm		Darkest Lariat		Absorb Vitality
-		Gold Rush
 *	The stat-changing effects of the following moves are amplified by 1 stage:
 		Flash			Scary Face
 *	The base Accuracy of these moves becomes 80:
@@ -493,8 +492,8 @@ Field Effect Listing
 		Water Pulse		Energy Ball		Spacial Rend		Psyshock		Venoshock
 		Electro Ball		Hex			Water Pledge		Fire Pledge		Grass Pledge
 		Night Daze		Psystrike		Fusion Flare		Moonblast		Mystical Fire
-		Core Enforcer		Expanding Force		Dragon Energy		Reactive Poison		Absorb Vitality
-		Turbo Drive		Eternal Flame		Infinite Force		Chain Lightning
+		Core Enforcer		Expanding Force		Dragon Energy		Chain Lightning		Absorb Vitality
+		Turbo Drive		Eternal Flame		Infinite Force
 *	Night Shade's damage increases x1.5
 *	Taunt instead lasts 6 turns
 *	Magic Coat additionally increases Sp. Def upon use
@@ -788,7 +787,7 @@ Field Effect Listing
 		Smokescreen		Leaf Tornado
 *	Focus Energy additionally boosts Accuracy upon use
 *	The following moves increase in power x1.2:
-		High Jump Kick		Fly			Acrobatics		Sky Uppercut		Gale Blade
+		High Jump Kick		Fly			Acrobatics		Sky Uppercut		Gale Blitz
 		Dragon Ascent		Supersonic Skystrike	Aerial Ace		Brave Bird		Flying Press
 *	Taunt lasts 6 turns
 *	Trick doesn't display the name of the items swapped when used
@@ -1412,7 +1411,6 @@ Field Effect Listing
 *	These moves increase in power x1.2:
 		Bone Club		Bonemerang		Bone Rush		Brave Bird		Dragon Ascent
 		Fly			Ancient Power		Power Gem		Relic Song		Diamond Storm
-		Gold Rush
 *	The stat-changing effects of these moves are amplified by 1 stage:
 		Sand Attack		Double Team		Stockpile		Superpower		Strength Sap
 *	Sand Tomb instead deals 1/6 max HP damage each round
@@ -2053,7 +2051,7 @@ Field Effect Listing
 		Gunk Shot 		Sludge			Sludge Wave		Sludge Bomb		Octazooka
 		Absorb			Hidden Power		Astonish		Fling			Shadow Sneak
 		Grass Knot		Stored Power		Thousand Arrows		Thousand Waves		Poltergeist
-		Reactive Poison		Trashalanche
+		Trashalanche
 *	Damaging moves that can Poison the target instead can inflict a random Status Condition on it, as long as it can be Poisoned
 *	Enables the use of the following moves:
 		Venom Drench		Poltergeist
@@ -2604,7 +2602,7 @@ Field Effect Listing
 		Judgment		Prismatic Laser		Multi-Attack		Tri Attack		Aurora Beam
 		Hidden Power
 *	The following moves increase in power x1.5:
-		Power Gem		Diamond Storm		Rock Smash		Gold Rush
+		Power Gem		Diamond Storm		Rock Smash
 *	Rock Polish additionally boosts Attack and Sp. Atk
 *	Stealth Rock's damage type is additionally Fire, Water, Grass, Electric, Ghost, Fairy, or Psychic
 * 	Nature Power becomes Power Gem
@@ -2618,8 +2616,8 @@ Field Effect Listing
 		Water Pulse		Energy Ball		Spacial Rend		Psyshock		Venoshock
 		Electro Ball		Hex			Water Pledge		Fire Pledge		Grass Pledge
 		Night Daze		Psystrike		Fusion Flare		Moonblast		Mystical Fire
-		Core Enforcer		Expanding Force		Dragon Energy		Reactive Poison		Absorb Vitality
-		Turbo Drive		Eternal Flame		Infinite Force		Chain Lightning
+		Core Enforcer		Expanding Force		Dragon Energy		Chain Lightning		Absorb Vitality
+		Turbo Drive		Eternal Flame		Infinite Force
 *	Pay Day gives 20 times as much money as usual upon use
 *	The following moves' effects instead last 8 turns:
 		Wonder Room		Magic Room		Reflect			Light Screen		Trick Room
@@ -4882,7 +4880,7 @@ Field Effect Listing
 *	The following moves increase in power x1.2:
 		Bone Club		Bonemerang		Bone Rush		Brave Bird		Shell Trap
 		Diamond Storm		Power Gem		Brave Bird		Fly			Dragon Ascent
-		Ancient Power		Relic Song		Gold Rush
+		Ancient Power		Relic Song
 *	The stat-changing effects of the following moves are doubled:
 		Sand Attack		Growth			Double Team		Ingrain			Aqua Ring
 *	Leech Seed's healing effect is doubled
