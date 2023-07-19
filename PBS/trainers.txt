@@ -82,23 +82,11 @@ Pokemon = SKITTY,18
 [LASS,Crissy]
 LoseText = "You didn't have to win so convincingly!"
 Pokemon = ORANGURU,100
-    Moves = STEELBEAM
-    AbilityIndex = 3
 Pokemon = PANSEAR,100
-    Moves = SCRATCH,PLAYNICE,LEER,FIRESPIN
-    AbilityIndex = 1
 Pokemon = PANPOUR,100
-    Moves = SCRATCH,PLAYNICE,LEER,WATERPULSE
-    AbilityIndex = 2
 Pokemon = MANKEY,100
-    Moves = LOWKICK,BEATUP,FOCUSENERGY,LEER
-    AbilityIndex = 2
 Pokemon = AIPOM,100
-    Moves = SCRATCH,TAILWHIP,SANDATTACK,BEATUP
-    AbilityIndex = 3
 Pokemon = PASSIMIAN,100
-    Moves = TACKLE,LEER,ROCKSMASH,FEINT
-    AbilityIndex = 1
 #-------------------------------
 [COOLCOUPLE,Alice & Bob]
 LoseText = "Our teamwork failed!"

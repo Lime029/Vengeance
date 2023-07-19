@@ -107,6 +107,8 @@ Dancer, Metronome, etc.)
 - The following moves additionally damage the user when missing due to there being
 no targets:
 	Steel Beam		Mind Blown
+- Single-target moves that ignore redirection additionally can target non-adjacent
+Pokemon (like with Stalwart, Snipe Shot, etc.)
 
 #==============================================================================#
 Field Effects:
@@ -301,8 +303,8 @@ Field Effect Listing
 *	The following moves instead heal 2/3 max HP:
 		Milk Drink		Synthesis		Floral Healing
 *	Sweet Scent additionally reduces Defense and Sp. Def upon use
-*	The following moves instead target all adjacent Pokemon:
-		Yawn			Inferno
+*	Yawn instead targets all adjacent Pokemon
+*	Inferno instead targets all other Pokemon
 *	Refresh additionally heals the user 1/2 max HP upon use
 *	Aromatherapy additionally heals the user and its partner 1/4 max HP upon use
 *	The following moves increase in power x1.3:
@@ -624,6 +626,8 @@ Field Effect Listing
 *	Pokemon with Vanguard always move first when the field piece is Pawn
 *	Pokemon with Regality act as if they always have fewer HP than opponents
 *	Colossal Titan boosts Attack upon entry
+*	Shifu instead boosts damage x1.4 when using the same kicking move as during the previous turn
+*	Pack Tactics additionally affects allies that do not share a type with the Pokemon with the ability
 :::MOVE MODIFIERS:::
 *	These moves become Chess Attacks, gaining a x1.5 increase in power and gain additional Rock-type:
 		Psychic			Strength		Ancient Power		Pursuit			Last Resort
@@ -723,7 +727,7 @@ Field Effect Listing
 *	Simple additionally decreases Sp. Atk upon entry
 *	The following abilities additionally increase Accuracy upon entry:
 		Skill Link		Cautious		Libero			Ball Fetch		Dual Wield
-		Flame Spiral		Speed Slice
+		Flame Spiral		Speed Slice		Shifu
 *	The following abilities additionally copies Dancer's effect:
 		Quick Feet		Death Waltz		Performer
 *	The following abilities additionally decrease Accuracy upon entry:
@@ -908,7 +912,7 @@ Field Effect Listing
 		Rollout			Ice Ball
 *	Facade deals double damage if the user is subject to the field damage at the end of each turn
 *	Inferno's base Accuracy is increased to 80
-*	The following moves instead target all adjacent Pokemon:
+*	The following moves instead target all other Pokemon:
 		Eruption		Inferno
 *	Overheat no longer decreases the user's Sp. Atk
 *	Iron Defense's stat-changing effect is halved
@@ -967,7 +971,7 @@ Field Effect Listing
 		Pastel Veil		Cotton Down		Propeller Tail		Screen Cleaner		Steam Engine
 		Frantic			Reconstruct		Transistor		Invisible Wall		Immolate
 		Sand Shield		Combustion		Flame Spiral		Juggling		Flaming Feet
-		Selective Palate	Relaxing Rhythm		Fragrant Shock		Live Wire
+		Selective Palate	Relaxing Rhythm		Fragrant Shock		Live Wire		Shifu
 *	Sand Veil is disabled except for Water-types and airborne Pokemon
 *	Pokemon with Dry Skin additionally recover 1/8 max HP at the end of each round
 *   	Activates the following abilities each turn for grounded Pokemon:
@@ -2137,6 +2141,7 @@ Field Effect Listing
 *	Inspire instead boosts the power of affected moves x1.5
 *	Sand Shield is activated for grounded Pokemon
 *	Grounded Pokemon with Bearded Magnetism boost Defense upon entry
+*	Shifu instead boosts damage x1.4 when using the same kicking move as during the previous turn
 :::MOVE MODIFIERS:::
 *	These moves as well as wind moves stir up ash, lowering all active Pokemons' Accuracy 1 stage at the end of the attack, once per turn:
 		Fire Spin		Leaf Tornado		Whirlpool		Rapid Spin		Gyro Ball
@@ -2325,7 +2330,7 @@ Field Effect Listing
 *	Special Fire moves fail upon use
 *	Physical Fire moves become Normal-type
 *	Water moves deal neutral damage against Water Pokemon
-*	Electric moves never miss and instead deal damage to all adjacent Pokemon
+*	Electric moves never miss and instead deal damage to all other Pokemon
 *	Physical moves that are not Water-type decrease in power x0.7
 *	Water moves increase in power x1.5
 *	Electric moves increase in power x1.5
@@ -3307,6 +3312,7 @@ Field Effect Listing
 *	Behemoth's Slumber instead heals full HP and sharply boosts Defense upon activation
 *	Rock Peak Titan's Defense boost is increased to x1.5
 *	Dragon Orb Titan instead boosts the power of affected moves x1.5 and reduces damage done to the Pokemon x0.5
+*	The damage boost of moves affected by Shifu is instead x0.2 for each consecutive use
 :::MOVE MODIFIERS:::
 *	Sound-based moves gain additional Dragon-type and increase in power x1.5
 *	The following moves increase in power x2:
@@ -4415,7 +4421,7 @@ Field Effect Listing
 		Flare Blitz		Tectonic Rage		Continental Crush	Corkscrew Crash		Black Hole Eclipse
 		Catastropika		Pulverizing Pancake	Splintered Stormshards	Behemoth Bash		Steel Roller
 		Draconic Disaster
-*	The following moves have their base Accuracy increased to 100 and instead hit all other nearby Pokemon in battle
+*	The following moves have their base Accuracy increased to 100 and instead hit all other Pokemon in battle
 		Smog			Poison Gas		Smokescreen		Aromatic Mist
 *	The following moves no longer use a charging turn:
 		Fly			Bounce
@@ -4510,6 +4516,8 @@ Field Effect Listing
 *	Arm Cannon increases the priority of punching moves by 1
 *	Unyielding Fang additionally increases the base power of biting moves x1.5
 *	Brutality additionally boosts damage against Pokemon with status conditions x4/3
+*	The damage boost of moves affected by Shifu is instead x0.2 for each consecutive use
+*	Pack Tactics additionally affects allies that do not share a type with the Pokemon with the ability
 :::MOVE MODIFIERS:::
 *	Recoil moves deal x1.5 damage
 *	Contact moves have their power multiplied by the quotient of the user's height and target's height (minimum x0.75, maximum x1.5)

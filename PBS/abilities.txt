@@ -446,3 +446,4 @@
 447,NEGATIVITY,Negativity,"Shares stat debuffs and boosts stats with Positivity."
 448,SPECIALSNOWFLAKE,Special Snowflake,"Special attacks lower Sp. Def and raise Sp. Atk."
 449,FINISHINGSTING,Finishing Sting,"Boosts piercing moves against poisoned targets."
+450,JEWELTRANSMISSION,Jewel Transmission,"Confuses and increases range with Psychic moves."

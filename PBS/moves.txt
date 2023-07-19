@@ -202,7 +202,7 @@
 195,OCTOLOCK,Octolock,181,0,FIGHTING,Status,100,15,0,NearOther,0,be,"Locks the target in and prevents fleeing. Lowers target's Defense and Sp. Def every turn."
 196,METEORASSAULT,Meteor Assault,0C2,150,FIGHTING,Physical,100,5,0,NearOther,0,beft,"Attacks wildly with its thick leek. The user can't move on the next turn."
 197,NORETREAT,No Retreat,17F,0,FIGHTING,Status,0,5,0,User,3,d,"This move raises all the user's stats but prevents the user from switching out or fleeing."
-198,COACHING,Coaching,18E,0,FIGHTING,Status,0,10,0,User,0,,"The user properly coaches its ally Pokémon, boosting their Attack and Defense stats."
+198,COACHING,Coaching,18E,0,FIGHTING,Status,0,10,0,AllAllies,0,,"The user properly coaches its ally Pokémon, boosting their Attack and Defense stats."
 199,BODYPRESS,Body Press,177,80,FIGHTING,Physical,100,10,0,NearOther,0,abef,"Attacks by slamming its body into the target. Damage increases with the user's Defense stat."
 200,THUNDEROUSKICK,Thunderous Kick,043,90,FIGHTING,Physical,100,10,100,NearOther,0,abefq,"The user kicks the target with lightning-like movement. It lowers the target's Defense."
 #-------------------------------
@@ -753,7 +753,7 @@
 734,SOAK,Soak,061,0,WATER,Status,100,20,0,NearOther,0,bce,"The user shoots a torrent of water at the target and changes the target's type to Water."
 735,WATERSPORT,Water Sport,09E,0,WATER,Status,0,15,0,BothSides,0,,"The user soaks itself with water. The move weakens Fire-type moves while the user is in the battle."
 736,WITHDRAW,Withdraw,01D,0,WATER,Status,0,40,0,User,0,d,"The user withdraws its body into its hard shell, raising its Defense stat."
-737,SNIPESHOT,Snipe Shot,182,80,WATER,Special,100,15,0,NearOther,0,beft,"Ignores all attempts at redirection, allowing this move to hit the chosen target."
+737,SNIPESHOT,Snipe Shot,182,80,WATER,Special,100,15,0,Other,0,beft,"Ignores all attempts at redirection, allowing this move to hit the chosen target."
 738,FISHIOUSREND,Fishious Rend,178,85,WATER,Physical,100,10,0,NearOther,0,abef,"Rends the target with its hard gills. Power doubles if the user moves before the target."
 739,LIFEDEW,Life Dew,17E,0,WATER,Status,0,10,0,UserAndAllies,0,d,"The user scatters mysterious water around and restores the HP of itself."
 740,SURGINGSTRIKES,Surging Strikes,188,25,WATER,Physical,100,5,0,NearOther,0,abef,"Strikes the target thrice, with mastery of the Water style. Always results in a critical hit."
