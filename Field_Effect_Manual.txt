@@ -109,6 +109,15 @@ no targets:
 	Steel Beam		Mind Blown
 - Single-target moves that ignore redirection additionally can target non-adjacent
 Pokemon (like with Stalwart, Snipe Shot, etc.)
+- Moves that lock the user into them and cause confusion after 2-3 turns are additionally
+considered recoil moves
+- Moves that force the user to recharge afterwards are additionally considered recoil
+moves
+- Dawn Wings and Dusk Mane Necrozma have As One as their primary ability instead
+of Prism Armor
+- Moves that effectively have multiple types (such as Flying Press) receive the
+same-type attack bonus (STAB) even if only one of their secondary types shares a
+type with the user
 
 #==============================================================================#
 Field Effects:
@@ -579,7 +588,7 @@ Field Effect Listing
 *	The following abilities are disabled:
 		Super Luck
 *	The following abilities additionally decrease Accuracy upon entry:
-		Scrappy			Reckless		Confidence		Gorilla Tactics
+		Scrappy			Reckless		Confidence		Gorilla Tactics		Rampant Fury
 *	Contrary additionally switches the background color upon entry
 *	Defiant additionally increases Attack and shifts the background's color upon entry
 *	Weak Armor additionally decreases Defense upon entry
@@ -1103,7 +1112,7 @@ Field Effect Listing
 *	Serene Grace instead boosts additional effect chance x2.5
 *	Pokemon with Forecast deal double damage as long as they aren't in their normal form
 *	The following abilities additionally boost Sp. Def upon entry:
-		Magic Guard		Divine
+		Magic Guard		Divine			Starlight Armor
 *	Super Luck instead boosts crit rate 2 stages
 *	Pokemon with Multitype have their type changed to a random one at the end of each turn
 *	Healer's activation chance is increased to 100%
@@ -1404,6 +1413,7 @@ Field Effect Listing
 *	For grounded Pokemon, Sand Shield is activated and it boosts the Pokemon's Defense and Sp. Def upon entry
 *	The damaging effects of Prickly are doubled
 *	Grounded Pokemon with Bearded Magnetism boost Defense upon entry
+*	The damage reduction for Bone Armor is increased to x0.5
 :::MOVE MODIFIERS:::
 *	Wind moves gain additional Ground-type
 *	These moves increase in power x1.5:
@@ -2123,7 +2133,7 @@ Field Effect Listing
 *   	Water Compaction additionally boosts Sp. Def sharply upon activation
 *	The following abilities are disabled:
 		Pressure		Suction Cups		Anger Point		Rattled			Competitive
-		Berserk			Unruly
+		Berserk			Unruly			Rampant Fury
 *	Early Bird additionally boosts Sp. Atk and Sp. Def upon entry
 *	Guts instead boosts attack x2 when afflicted with status
 *	Pokemon with the following abilities additionally lower the Accuracy of all other active Pokemon at the end of each round:
@@ -2174,13 +2184,12 @@ Field Effect Listing
 *   	The following moves instead heal 2/3 max HP:
 		Shore Up		Morning Sun
 *	Physical recoil moves as well as the following moves decrease in power x0.5:
-		Outrage			Thrash			Bite			Rage			Fury Attack
+		Bite			Rage			Fury Attack		Fiery Wrath		Hyperspace Fury
 		Fury Cutter		Frustration		Crunch			Beat Up			Revenge
 		Doom Desire		Payback			Assurance		Punishment		Dark Pulse
 		Psycho Cut		Foul Play		Retaliate		Tectonic Rage		Throat Chop
 		Power Trip		Brutal Swing		Malicious Moonsault	Sinister Arrow Raid	Thief
-		False Surrender		Lash Out		Wicked Blow		Fiery Wrath		Hyperspace Fury
-		Raging Fury
+		False Surrender		Lash Out		Wicked Blow
 *	The damage of the following moves increases x1.25:
 		Counter			Bide
 *	Dragon Rage's damage is decreased x0.5
@@ -2925,7 +2934,7 @@ Field Effect Listing
 *	Pure Power additionally doubles the power of special Psychic, Fairy, and Normal moves
 *	Anger Point instead minimizes the Attack stat upon activation
 *	The following abilities additionally make the Pokemon immune to Dark and Ghost moves:
-		Magic Guard		Magic Bounce
+		Magic Guard		Magic Bounce		Starlight Armor
 *	The following abilities additionally boost Sp. Def upon entry:
 		Forewarn		Telepathy		Soul-Heart
 *	Unaware additionally applies a random status to the Pokemon upon entry
@@ -2974,13 +2983,12 @@ Field Effect Listing
 *	The base Accuracy of Sing is increased to 100
 *	The stat-changing effect of Meditate is amplified by 2 stages
 *	Physical recoil moves as well as the following moves decrease in power x0.5:
-		Outrage			Thrash			Bite			Rage			Fury Attack
+		Bite			Rage			Fury Attack		Burning Jealousy	Bitter Malice
 		Fury Cutter		Frustration		Crunch			Beat Up			Revenge
 		Payback			Assurance		Dark Pulse		Fiery Wrath		Wicked Blow
 		Psycho Cut		Foul Play		Retaliate		Tectonic Rage		Throat Chop
 		Power Trip		Brutal Swing		Malicious Moonsault	Sinister Arrow Raid	Thief
 		False Surrender		Lash Out		Oblivion Wing		Hyperspace Fury		Spirit Break
-		Burning Jealousy	Bitter Malice		Raging Fury
 *	The damage of Dragon Rage is decreased x0.5
 *	Lucky Chant instead lasts for 8 turns
 *	The following moves fail upon use:
@@ -3032,7 +3040,7 @@ Field Effect Listing
 		Sand Veil		Snow Cloak		Illusion		Magnet Pull		Magic Bounce
 		Color Change		Battle Armor		Clear Body		Wonder Skin		Disguise
 		Full Metal Body		Prism Armor		Invisible Wall		Luminous Scales		Ice Scales
-		Eternal Light		Shimmering Haze		Tap Dancing		Light Geometry
+		Eternal Light		Shimmering Haze		Tap Dancing		Light Geometry		Starlight Armor
 *	Illuminate lowers opponents' Accuracy on switch-in
 *	The following abilities additionally raise Accuracy upon entry:
 		Compound Eyes		Infiltrator		Attentive		Truth Seeker
@@ -3125,7 +3133,7 @@ Field Effect Listing
 *	Pokemon with the following abilities additionally have their Defense boosted upon entry:
 		Battle Armor		Shell Armor		Rock Peak Titan
 *	Pokemon with the following abilities additionally have their Sp. Def boosted upon entry:
-		Magic Guard		Magic Bounce		Sweet Veil		Iceberg Titan
+		Magic Guard		Magic Bounce		Sweet Veil		Iceberg Titan		Starlight Armor
 *	Pokemon with the following abilities additionally have their Sp. Atk boosted upon entry:
 		Magician		Divine			Magic Wand		Mystical Gem
 *	Activates Marvel Scale an additional time
@@ -3279,7 +3287,7 @@ Field Effect Listing
 *	Activates the following abilities an additional time:
 		Marvel Scale
 *	The following additionally abilities increase Defense upon entry:
-		Battle Armor		Shell Armor
+		Battle Armor		Shell Armor		Starlight Armor		Bone Armor
 *	Multiscale additionally annulls Pokemon's Dragon-type weaknesses at all times
 *	The effects of the following abilities are doubled:
 		Intimidate		Pressure		Beast Boost
@@ -3547,8 +3555,10 @@ Field Effect Listing
 *	Victory Star additionally boosts user and ally's Attack and Sp. Atk x1.5
 *	Activates Marvel Scale an additional time
 *	Shadow Shield additionally doubles the Pokemon's Defense and Sp. Def
-*	Pokemon with the following abilities have their Special Attack boosted sharply upon entry:
-		Illuminate		Luminous Scales		Mirror Armor
+*	Pokemon with the following abilities have their Sp. Atk boosted sharply upon entry:
+		Illuminate		Luminous Scales
+*	Pokemon with the following abilities have their Sp. Def boosted sharply upon entry:
+		Starlight Armor		Mirror Armor
 *	Adaptability copies Trace's effect
 *	Trace additionally copies the opponent's stat changes
 *	Cute Charm additionally can activate when the Pokemon uses a contact move on the target, and its activation chance is doubled
@@ -3569,6 +3579,7 @@ Field Effect Listing
 *	The following abilities additionally boost Sp. Atk upon entry:
 		Moon Caller		Empyrean
 *	Spacial Connection additionally boosts the Pokemon's attacking stat x1.2 if it is Fairy- or Psychic-type
+*	Twilight Silk additionally sets up Sticky Web upon entry
 :::MOVE MODIFIERS:::
 *	Enables the use of the following moves:
 		Aurora Veil		Dream Eater
@@ -3636,19 +3647,18 @@ Field Effect Listing
 *	Victory Star additionally boosts user and ally's Attack and Sp. Atk x1.5
 *	Shadow Shield additionally doubles the Pokemon's Defense and Sp. Def
 *	The following abilities are disabled:
-		Magnet Pull		Flame Body		Plus			Minus			Blaze
+		Magnet Pull		Plus			Minus			Seasonal Heart		Cultivate
 		Download		Forewarn		Solid Rock		Parental Bond		Symbiosis
-		Power Construct		Earthen Aura		Power Spot		Earthinize		Cultivate
-		Neutralizing Gas	Seasonal Heart
+		Power Construct		Earthen Aura		Power Spot		Earthinize
 *	Air Lock additionally raises Speed upon entry
 *	Mold Breaker additionally raises Sp. Atk upon entry
+*	Mold Breaker additionally raises Sp. Def upon entry
 *	The stat-changing effects of the following abilities are amplified by 1 stage:
 		Beast Boost		Supernova
 *	Shields Down additionally boosts Attack and Sp. Atk when HP falls below half
 *	Spacial Connection instead boosts the Pokemon's attacking stat x1.5 for each Psychic or Fairy Pokemon on the field
 *	Serpentine Intervention is activated an additional time
 :::MOVE MODIFIERS:::
-*	Wind moves and Sound moves fail upon use
 *	Light moves increase in power x1.2
 *	The following moves increase in power x1.5:
 		Psystrike		Aeroblast		Sacred Fire		Mist Ball		Origin Pulse
@@ -3678,7 +3688,8 @@ Field Effect Listing
 *	Secret Power may lower the target's Sp. Def
 *	Terrain Pulse increases in power x2 and becomes a random type
 *	The following moves fail upon use:
-		Earthquake		Fissure			Dig			Poison Gas		Smokescreen
+		Earthquake		Fissure			Dig			Magnitude		Bulldoze
+		Spikes			Toxic Spikes		Sticky Web		Tectonic Rage
 *	Hidden Power instead becomes a random type
 *	Vacuum Wave becomes Dark-type
 *	Energy Ball becomes Psychic-type
@@ -3819,6 +3830,7 @@ Field Effect Listing
 		Ripen			Sun Shade		Divine			Alphabetization		Power Spot
 		Gulp Missile		Earthinize		Cultivate		Eternal Light		Storm Prediction
 		Sun Devourer		Moon Caller		Seasonal Heart		Empyrean		Light Geometry
+		Starlight Armor
 *	Air Lock removes weather instead of nullifying it
 *	Bad Dreams is activated
 *	The following abilities instead boost the power of affected moves x1.5:
@@ -3827,7 +3839,6 @@ Field Effect Listing
 *	Unseen Fist additionally copies Infiltrator's effect
 *	The healing effects of Black Light Absorption are doubled
 :::MOVE MODIFIERS:::
-*	Light moves decrease in power x0.3
 *	The following moves increase in power x1.2 and never miss:
 		Dark Pulse		Night Daze		Night Slash		Black Hole Eclipse
 *	The following moves increase in power x1.5:
@@ -3844,16 +3855,16 @@ Field Effect Listing
 *	Secret Power may lower the target's Sp. Def
 *	Terrain Pulse increases in power x2 and becomes Dark-type
 *	Night Shade's damage increases x1.5
-*	The following moves fails upon use:
-		Light Screen		Synthesis		Morning Sun		Moonlight		Geomancy
-		Spotlight		Baneful Bunker		Crafty Shield		Detect			King's Shield
-		Mat Block		Obstruct		Protect			Quick Guard		Spiky Shield
-		Wide Guard
+*	Light moves as well as the following moves fail upon use:
+		Geomancy		Baneful Bunker		Crafty Shield		Wide Guard		Spiky Shield
+		Detect			King's Shield		Mat Block		Obstruct		Protect
+		Quick Guard
 *	Enables the use of Nightmare
 *	Tail Glow's stat-changing effect is decreased by 2 stages
 *	Oblivion Wing increases in power x1.5 and gains additional Dark-type
 *	Nature's Madness instead deals 1/3 max HP damage
 *	Expanding Force instead hits both opposing Pokemon
+*	Synthesis instead heals 1/4 max HP
 :::ITEM MODIFIERS:::
 *	Magical Seed creates Trick Room
 *	The effects of the following items are nullified:
@@ -3909,6 +3920,7 @@ Field Effect Listing
 *	Snap Freeze instead deals 1/3 max HP upon activation
 *	Iceberg Titan instead boosts Sp. Def x1.5 and damage from affected moves x1.5
 *	Dwindling Flame causes the Pokemon to deal 1 tier of damage less than it normally would
+*	Rampant Fury additionally boosts the power of recoil moves x1.5
 :::MOVE MODIFIERS:::
 *	The following moves gain additional Ice-type and increase in power x1.2:
 		Surf			Muddy Water		Dark Pulse		Bubble			Bubble Beam
@@ -4015,7 +4027,8 @@ Field Effect Listing
 *	Animate instead makes affected moves Ghost-type
 *	Unnerve instead prevents all item usage
 *	Unseen Archer is instead activated at above 1/2 max HP
-*	Upon entry, Scarecrow makes all adjacent opponents scared of the Pokemon until they land a damaging move on it
+*	Upon entry, the following abilities make all adjacent opponents scared of the Pokemon until they land a damaging move on it:
+		Scarecrow		Bone Armor		Frighten
 :::MOVE MODIFIERS:::
 *   	The base Accuracy of the following moves are increased to 100:
 		Will-O-Wisp		Swagger
@@ -4430,8 +4443,7 @@ Field Effect Listing
 *	Nature Power becomes Teatime
 *	Terrain Pulse increases in power x2
 *	Astonish increases in power x1.2
-*	Recoil moves as well as the following moves have x2/3 base Accuracy:
-		Thrash			Outrage			Raging Fury
+*	Recoil moves x2/3 base Accuracy
 *	High Jump Kick becomes Jump Kick
 *	The following moves instead heal 1/4 max HP:
 		Morning Sun		Synthesis		Moonlight
@@ -4518,6 +4530,7 @@ Field Effect Listing
 *	Brutality additionally boosts damage against Pokemon with status conditions x4/3
 *	The damage boost of moves affected by Shifu is instead x0.2 for each consecutive use
 *	Pack Tactics additionally affects allies that do not share a type with the Pokemon with the ability
+*	Rampant Fury additionally boosts the power of recoil moves x1.5
 :::MOVE MODIFIERS:::
 *	Recoil moves deal x1.5 damage
 *	Contact moves have their power multiplied by the quotient of the user's height and target's height (minimum x0.75, maximum x1.5)
@@ -4742,7 +4755,7 @@ Field Effect Listing
 		Intimidate		Rivalry			Unnerve			Rattled			Dark Aura
 		Refrigerate		Berserk			Shadow Shield		Stamina			Paining Paralysis
 		Strong Will		Vital Spirit		Vitalic Aura		Frighten		Pure Lethality
-		Awaken			Compulsion		Frantic			Unruly
+		Awaken			Compulsion		Frantic			Unruly			Rampant Fury
 *	Pickpocket additionally gives moves a 10% chance to Flinch
 *	Cloud Nine removes weather instead of nullifying it
 *	The following abilities are disabled for grounded Pokemon:
