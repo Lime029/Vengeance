@@ -2119,16 +2119,16 @@ Abilities = SERENEGRACE,OWNTEMPO
 HiddenAbility = TECHNICIAN,PUNKROCK
 #-------------------------------
 [GENESECT,1]
-FormName = Shock Drive
+FormName = Shock
 #-------------------------------
 [GENESECT,2]
-FormName = Burn Drive
+FormName = Burn
 #-------------------------------
 [GENESECT,3]
-FormName = Chill Drive
+FormName = Chill
 #-------------------------------
 [GENESECT,4]
-FormName = Douse Drive
+FormName = Douse
 #-------------------------------
 [GRENINJA,1]
 FormName = Ash
@@ -2140,32 +2140,32 @@ BattlerEnemyX = 1
 BattlerEnemyY = 21
 #-------------------------------
 [VIVILLON,1]
-FormName = Tile Pattern
+FormName = Tile
 #-------------------------------
 [VIVILLON,2]
-FormName = Fade Pattern
+FormName = Fade
 #-------------------------------
 [VIVILLON,3]
-FormName = Warm Pattern
+FormName = Warm
 #-------------------------------
 [VIVILLON,4]
-FormName = Frost Pattern
+FormName = Frost
 #-------------------------------
 [VIVILLON,5]
-FormName = Blood Pattern
+FormName = Blood
 #-------------------------------
 [VIVILLON,6]
-FormName = Garufa Pattern
+FormName = Garufa
 BattlerEnemyX = 2
 #-------------------------------
 [VIVILLON,7]
-FormName = Chess Pattern
+FormName = Chess
 #-------------------------------
 [VIVILLON,8]
-FormName = Striped Pattern
+FormName = Striped
 #-------------------------------
 [VIVILLON,9]
-FormName = Shag Pattern
+FormName = Shag
 #-------------------------------
 [FLABEBE,1]
 FormName = Blue
