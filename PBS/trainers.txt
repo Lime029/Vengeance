@@ -2121,7 +2121,7 @@ Pokemon = VENIPEDE,13
 Pokemon = BEEDRILL,14
 #-------------------------------
 [SCHOOLKID_M,Johannes]
-Pokemon = SWIRLIX,11
+Pokemon = SWIRLIX,12
 Pokemon = PURRLOIN,11
 Pokemon = AMAURA,13
 #-------------------------------
@@ -2210,6 +2210,11 @@ Pokemon = MOTHIM,20
 Pokemon = RATICATE,20
 Pokemon = TREVENANT,23
 Pokemon = ARIADOS,23
+#-------------------------------
+[BLANK,Froslass]
+Pokemon = FROSLASS,30
+    Moves = FROSTBREATH,HEX,PROTECT,DOUBLETEAM
+    AbilityIndex = 0
 #-------------------------------
 # Sensu Meadow
 #-------------------------------

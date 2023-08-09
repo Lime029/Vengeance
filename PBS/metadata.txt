@@ -482,7 +482,7 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 62,14,56
-Weather = Rain,20,Snow,5
+Weather = Rain,20
 MapPosition = 0,5,8
 SnapEdges = false
 BattleBack = BewitchedWoods
@@ -562,3 +562,9 @@ BattleBack = Jungle
 Outdoor = false
 MapPosition = 0,5,8
 BattleBack = Jungle
+#-------------------------------
+[100]
+# Darkleaf Woods
+Weather = Fog,100
+MapPosition = 0,5,7
+BattleBack = Subzero

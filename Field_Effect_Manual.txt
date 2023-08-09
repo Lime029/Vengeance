@@ -4187,7 +4187,7 @@ Field Effect Listing
 *	The following abilities have their activation chance doubled:
 		Effect Spore		Poison Point		Cursed Body		Poison Touch		Hypnotic Aura
 		Magic Wand
-*	Natural Cure heals status at the end of the turn
+*	Natural Cure heals status at the end of the round
 *	Flower Veil additionally affects Pokemon that aren't Grass-type
 *	The following abilities are activated:
 		Overgrow		Leaf Guard		Grass Pelt		Power Construct		Unseen Archer
@@ -4203,7 +4203,7 @@ Field Effect Listing
 *	Magic Guard additionally boosts Sp. Def upon entry
 *	Flower Gift is activated an additional time
 *	Bad Dreams damages for twice as much when activated
-*	Sap Sipper randomly heals or damages the Pokemon for 1/16 max HP at the end of each turn 
+*	Sap Sipper randomly heals or damages the Pokemon for 1/16 max HP at the end of each round
 *	Dark-types are no longer immune to Prankster moves
 *	Aroma Veil additionally makes opposing Pokemon using contact moves have a 30% chance to fall asleep afterwards
 *	Cheek Pouch additionally raises a random stat upon activation
