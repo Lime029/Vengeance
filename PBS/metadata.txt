@@ -565,6 +565,6 @@ BattleBack = Jungle
 #-------------------------------
 [100]
 # Darkleaf Woods
-Weather = Fog,100
+Outdoor = false
 MapPosition = 0,5,7
 BattleBack = Subzero

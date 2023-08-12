@@ -577,7 +577,7 @@
 577,ORANBERRY1,Oran Berry,Oran Berries,5,10,"It may be used or held by a Pokémon to heal the user by just 10 HP. It can't be used on a Pokémon in battle.",1,0,5,
 578,LUMBERRY1,Lum Berry,Lum Berries,5,80,"It may be used or held by a Pokémon to recover from any status problem. It can't be used on a Pokémon in battle.",1,0,5,
 579,SITRUSBERRY1,Sitrus Berry,Sitrus Berries,5,100,"It may be used or held by a Pokémon to heal the user's HP a little. It can't be used on a Pokémon in battle.",1,0,5,
-580,TM125,TM125,TM125s,4,10000,"A wondrous wall of light is put up to reduce damage from special attacks for five turns.",3,0,0,LIGHTSCREEN
+580,TM102,TM102,TM102s,4,3000,"The user attacks the target with its psychic power. This move's power goes up and damages all opposing Pokémon on Psychic Terrain.",3,0,0,EXPANDINGFORCE
 581,LEPPABERRY1,Leppa Berry,Leppa Berries,5,100,"It may be used or held by a Pokémon to restore a move's PP by 10. It can't be used on a Pokémon in battle.",1,0,5,
 582,REDORB,Red Orb,Red Orbs,1,1000,"A shiny red orb that is said to have a legend tied to it. It's known to have a deep connection to the Hoenn Region.",0,0,0,
 583,BLUEORB,Blue Orb,Blue Orbs,1,1000,"A shiny blue orb that is said to have a legend tied to it. It's known to have a deep connection to the Hoenn Region.",0,0,0,
@@ -638,7 +638,7 @@
 638,SUNFLUTE,Sun Flute,Sun Flutes,8,0,"It is said that the tones it produces were offered up as an expression of gratitude to the Legendary Pokémon of the Sun.",2,0,6,
 639,TERRAINEXTENDER,Terrain Extender,Terrain Extenders,1,0,"An item to be held by a Pokémon. It extends the duration of the terrain caused by the holder's move or ability.",0,0,0,
 640,YELLOWNECTAR,Yellow Nectar,Yellow Nectar,8,0,"A flower nectar obtained from Melemele Island in the Alola region. It changes the form of certain Pokémon.",5,0,0,
-641,TM124,TM124,TM124s,4,3000,"The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",3,0,0,VACUUMWAVE
+641,TM103,TM103,TM103s,4,4000,"The user hardens its body's surface like iron, sharply raising its Defense stat.",3,0,0,IRONDEFENSE
 642,BUGINIUMZ,Buginium Z,,8,0,"It converts Z-Power into crystals that upgrade Bug-type moves to Bug-type Z-Moves.",5,0,14,
 643,ZPOWERRING,Z-Power Ring,Z-Power Rings,8,0,"A mysterious ring that enables Pokémon to use Z-Power if they are holding a compatible Z-Crystal.",0,0,6,
 644,DARKINIUMZ,Darkinium Z,,8,0,"It converts Z-Power into crystals that upgrade Dark-type moves to Dark-type Z-Moves.",5,0,14,
@@ -764,28 +764,28 @@
 764,BLASTOISINITEZ,Blastoisinite Z,Blastoisinite Zs,1,1000,"One of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 765,GENGARITEZ,Gengarite Z,Gengarite Zs,1,1000,"One of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 766,VENOMOTHITE,Venomothite,Venomothites,1,1000,"One of the mysterious Mega Stones. Have Venomoth hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
-767,TM112,TM112,TM112s,4,100000,"The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",3,0,0,BOUNCE
+767,TM104,TM104,TM104s,4,3000,"The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",3,0,0,PLUCK
 768,MARACTITE,Maractite,Maractites,1,1000,"One of the mysterious Mega Stones. Have Maractus hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
-769,TM113,TM113,TM113s,4,3000,"Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",3,0,0,GRASSYGLIDE
-770,TM114,TM114,TM114s,4,3000,"The user flies up into the sky and then strikes its target on the next turn.",3,0,0,FLY
+769,TM105,TM105,TM105s,4,6000,"The user attacks with a ray of light that sparkles as if it were made of gemstones.",3,0,0,POWERGEM
+770,TM106,TM106,TM106s,4,80000,"The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.",3,0,0,OVERHEAT
 771,FROSLASSITE,Froslassite,Froslassites,1,1000,"One of the mysterious Mega Stones. Have Froslass hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 772,SUDOWOODITE,Sudowoodite,Sudowoodites,1,1000,"One of the mysterious Mega Stones. Have Sudowoodo hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 773,ALOLANMUKITE,Alolan Mukite,Alolan Mukites,1,1000,"One of the mysterious Mega Stones. Have Alolan Muk hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 774,ALOLANNINETALITE,Alolan Ninetalite,Alolan Ninetalites,1,1000,"One of the mysterious Mega Stones. Have Alolan Ninetales hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
-775,TM115,TM115,TM115s,4,3000,"The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",3,0,0,PHANTOMFORCE
+775,TM107,TM107,TM107s,4,16000,"The user fights the target up close without guarding itself. This also lowers the user's Defense and Sp. Def stats.",3,0,0,CLOSECOMBAT
 776,CHIMECHONITE,Chimechonite,Chimechonites,1,1000,"One of the mysterious Mega Stones. Have Chimecho hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 777,CLEFABLENITE,Clefablenite,Clefablenites,1,1000,"One of the mysterious Mega Stones. Have Clefable hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 778,DECIDUITE,Deciduite,Deciduites,1,1000,"One of the mysterious Mega Stones. Have Decidueye hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
-779,TM116,TM116,TM116s,4,10000,"The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",3,0,0,ENERGYBALL
+779,TM108,TM108,TM108s,4,6000,"The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn.",3,0,0,BLAZEKICK
 780,DODRIONITE,Dodrionite,Dodrionites,1,1000,"One of the mysterious Mega Stones. Have Dodrio hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
-781,TM117,TM117,TM117s,4,10000,"The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",3,0,0,ICEBEAM
-782,TM118,TM118,TM118s,4,10000,"The user launches a weak jolt of electricity that paralyzes the target.",3,0,0,THUNDERWAVE
-783,TM119,TM119,TM119s,4,16000,"The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",3,0,0,FLAREBLITZ
+781,TM109,TM109,TM109s,4,3000,"The user blasts the target with a gust of repulsive wind. This may also raise all the user's stats at once.",3,0,0,OMINOUSWIND
+782,TM110,TM110,TM110s,4,6000,"The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",3,0,0,UPROAR
+783,TM111,TM111,TM111s,4,3000,"The user attacks with electric voltage rising from the ground. This move's power doubles when the target is on Electric Terrain.",3,0,0,RISINGVOLTAGE
 784,EMPOLEONITE,Empoleonite,Empoleonites,1,1000,"One of the mysterious Mega Stones. Have Empoleon hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
-785,TM120,TM120,TM120s,4,4000,"The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle.",3,0,0,TOXICSPIKES
-786,TM121,TM121,TM121s,4,3000,"The user fires a beam of steel that it collected from its entire body. This also damages the user.",3,0,0,STEELBEAM
-787,TM122,TM122,TM122s,4,3000,"The user attacks with a sinister beam of light. This may also confuse the target.",3,0,0,SIGNALBEAM
-788,TM123,TM123,TM123s,4,6000,"The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",3,0,0,GRASSKNOT
+785,TM112,TM112,TM112s,4,100000,"The user bounces up high, then drops on the target on the second turn. This may also leave the target with paralysis.",3,0,0,BOUNCE
+786,TM113,TM113,TM113s,4,3000,"Gliding on the ground, the user attacks the target. This move always goes first on Grassy Terrain.",3,0,0,GRASSYGLIDE
+787,TM114,TM114,TM114s,4,3000,"The user flies up into the sky and then strikes its target on the next turn.",3,0,0,FLY
+788,TM115,TM115,TM115s,4,3000,"The user vanishes somewhere, then strikes the target on the next turn. This move hits even if the target protects itself.",3,0,0,PHANTOMFORCE
 789,INCINEROARITE,Incineroarite,Incineroarites,1,1000,"One of the mysterious Mega Stones. Have Incineroar hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 790,INFERNAPITE,Infernapite,Infernapites,1,1000,"One of the mysterious Mega Stones. Have Infernape hold it, and this stone will enable it to Mega Evolve in battle.",0,0,12,
 791,REVERSECANDY,Reverse Candy,Reverse Candies,2,50,"A candy that decreases a Pokémon's level by 1.",1,0,0,
@@ -834,16 +834,16 @@
 834,PWTPAGER,Tournament Pager,Tournament Pagers,8,0,"A device that allows you to add other trainers so that you can compete against them in the PWT.",0,0,6,
 835,GALARICATWIG,Galarica Twig,Galarica Twigs,1,40,"A twig from a species of tree called Galarica that grows in certain areas around the Galar region.",0,0,0,
 836,GALARICACUFF,Galarica Cuff,Galarica Cuffs,1,6000,"A cuff made from woven-together Galarica Twigs. Giving it to Galarian Slowpoke makes the Pokémon very happy.",1,0,7,
-837,TM102,TM102,TM102s,4,3000,"The user attacks the target with its psychic power. This move's power goes up and damages all opposing Pokémon on Psychic Terrain.",3,0,0,EXPANDINGFORCE
-838,TM103,TM103,TM103s,4,4000,"The user hardens its body's surface like iron, sharply raising its Defense stat.",3,0,0,IRONDEFENSE
-839,TM104,TM104,TM104s,4,3000,"The user pecks the target. If the target is holding a Berry, the user eats it and gains its effect.",3,0,0,PLUCK
-840,TM105,TM105,TM105s,4,6000,"The user attacks with a ray of light that sparkles as if it were made of gemstones.",3,0,0,POWERGEM
-841,TM106,TM106,TM106s,4,80000,"The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.",3,0,0,OVERHEAT
-842,TM107,TM107,TM107s,4,16000,"The user fights the target up close without guarding itself. This also lowers the user's Defense and Sp. Def stats.",3,0,0,CLOSECOMBAT
-843,TM108,TM108,TM108s,4,6000,"The user launches a kick that lands a critical hit more easily. This may also leave the target with a burn.",3,0,0,BLAZEKICK
-844,TM109,TM109,TM109s,4,3000,"The user blasts the target with a gust of repulsive wind. This may also raise all the user's stats at once.",3,0,0,OMINOUSWIND
-845,TM110,TM110,TM110s,4,6000,"The user attacks in an uproar for three turns. During that time, no Pokémon can fall asleep.",3,0,0,UPROAR
-846,TM111,TM111,TM111s,4,3000,"The user attacks with electric voltage rising from the ground. This move's power doubles when the target is on Electric Terrain.",3,0,0,RISINGVOLTAGE
+837,TM116,TM116,TM116s,4,10000,"The user draws power from nature and fires it at the target. This may also lower the target's Sp. Def stat.",3,0,0,ENERGYBALL
+838,TM117,TM117,TM117s,4,10000,"The target is struck with an icy-cold beam of energy. This may also leave the target frozen.",3,0,0,ICEBEAM
+839,TM118,TM118,TM118s,4,10000,"The user launches a weak jolt of electricity that paralyzes the target.",3,0,0,THUNDERWAVE
+840,TM119,TM119,TM119s,4,16000,"The user cloaks itself in fire and charges the target. This also damages the user quite a lot. This attack may leave the target with a burn.",3,0,0,FLAREBLITZ
+841,TM120,TM120,TM120s,4,4000,"The user lays a trap of poison spikes at the feet of the opposing team. The spikes will poison opposing Pokémon that switch into battle.",3,0,0,TOXICSPIKES
+842,TM121,TM121,TM121s,4,3000,"The user fires a beam of steel that it collected from its entire body. This also damages the user.",3,0,0,STEELBEAM
+843,TM122,TM122,TM122s,4,3000,"The user attacks with a sinister beam of light. This may also confuse the target.",3,0,0,SIGNALBEAM
+844,TM123,TM123,TM123s,4,6000,"The user snares the target with grass and trips it. The heavier the target, the greater the move's power.",3,0,0,GRASSKNOT
+845,TM124,TM124,TM124s,4,3000,"The user whirls its fists to send a wave of pure vacuum at the target. This move always goes first.",3,0,0,VACUUMWAVE
+846,TM125,TM125,TM125s,4,10000,"A wondrous wall of light is put up to reduce damage from special attacks for five turns.",3,0,0,LIGHTSCREEN
 847,POTION1,Potion,Potions,2,17,"A spray-type medicine for wounds. It restores the HP of one Pokémon by just 20 points. It can't be used in battle.",1,0,0,
 848,SUPERPOTION1,Super Potion,Super Potions,2,72,"A spray-type medicine for wounds. It restores the HP of one Pokémon by 60 points. It can't be used in battle.",1,0,0,
 849,HYPERPOTION1,Hyper Potion,Hyper Potions,2,255,"A spray-type medicine for wounds. It restores the HP of one Pokémon by 120 points. It can't be used in battle.",1,0,0,
@@ -962,3 +962,8 @@
 962,TM148,TM148,TM148s,4,3000,"The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",3,0,0,ECHOEDVOICE
 963,TM149,TM149,TM149s,4,16000,"The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",3,0,0,DARKPULSE
 964,TM150,TM150,TM150s,4,800,"The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",3,0,0,NIGHTSHADE
+965,COFFEE,Komala Coffee,Komala Coffees,2,52,"A refreshing cup of coffee that restores 50 HP and cures Sleep. It can't be used in battle.",1,0,0
+966,TM69,TM69,TM69s,4,3000,"The additional effects of this attack depend upon where it was used.",3,0,0,SECRETPOWER
+967,TM43,TM043,TM043s,4,3000,"The user frightens the target with a scary face to harshly lower its Speed stat.",3,0,0,SCARYFACE
+968,TM94,TM043,TM043s,4,3000,"The user frightens the target with a scary face to harshly lower its Speed stat.",3,0,0,SCARYFACE
+969,TM79,TM043,TM043s,4,3000,"The user frightens the target with a scary face to harshly lower its Speed stat.",3,0,0,SCARYFACE
