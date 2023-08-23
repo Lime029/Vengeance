@@ -962,8 +962,3 @@
 962,TM148,TM148,TM148s,4,3000,"The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",3,0,0,ECHOEDVOICE
 963,TM149,TM149,TM149s,4,16000,"The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",3,0,0,DARKPULSE
 964,TM150,TM150,TM150s,4,800,"The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",3,0,0,NIGHTSHADE
-965,COFFEE,Komala Coffee,Komala Coffees,2,52,"A refreshing cup of coffee that restores 50 HP and cures Sleep. It can't be used in battle.",1,0,0
-966,TM69,TM69,TM69s,4,3000,"The additional effects of this attack depend upon where it was used.",3,0,0,SECRETPOWER
-967,TM43,TM043,TM043s,4,3000,"The user frightens the target with a scary face to harshly lower its Speed stat.",3,0,0,SCARYFACE
-968,TM94,TM043,TM043s,4,3000,"The user frightens the target with a scary face to harshly lower its Speed stat.",3,0,0,SCARYFACE
-969,TM79,TM043,TM043s,4,3000,"The user frightens the target with a scary face to harshly lower its Speed stat.",3,0,0,SCARYFACE
