@@ -895,3 +895,5 @@
 875,TRAILBLAZE,Trailblaze,01F,50,GRASS,Physical,100,20,100,NearOther,0,abef,"The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat."
 876,CHILLINGWATER,Chilling Water,044,50,WATER,Special,100,20,100,NearOther,0,bef,"The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat."
 877,SNOWSCAPE,Snowscape,1B8,0,ICE,Status,0,10,0,BothSides,0,,"The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types."
+878,METAMORPHOSIS,Metamorphosis,1B9,0,BUG,Status,0,10,0,User,0,d,"The user undergoes a transformation that increases its highest stat and decreases its lowest stat."
+879,CIRCUITBREAKER,Circuit Breaker,045,95,ELECTRIC,Physical,100,15,30,NearOther,0,abef,"The user bashes the target with high-voltage electricity, aiming to disrupt its inner flow. This may also lower the target's Sp. Atk stat."

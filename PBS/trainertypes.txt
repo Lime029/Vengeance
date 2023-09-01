@@ -718,3 +718,4 @@
 716,GENTLEMAN_8,Gentleman,200,Battle Trainer 4,,,Male,,
 717,GENTLEMAN_9,Gentleman,200,Battle Trainer 4,,,Male,,
 718,COOK,Cook,40,Battle Trainer 2,,,Male,,
+719,TRAINER_Frederick,Pokémon Trainer,100,Battle Trainer Important,,,Male,,

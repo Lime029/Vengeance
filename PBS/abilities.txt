@@ -451,3 +451,4 @@
 452,TROOPLEADER,Troop Leader,"Allies throw berries at opponents after consumption."
 453,NIRVANA,Nirvana,"Ignores own negative stat changes."
 454,ABSOFUSION,Absofusion,"Adds fused Pokémon's secondary type as tirtiary type."
+455,FLICKERINGSPORES,Flickering Spores,"Light moves prepare for sleep and confusion by contact."
