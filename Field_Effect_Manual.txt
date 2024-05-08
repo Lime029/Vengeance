@@ -40,11 +40,9 @@ of whether it is immune to the attack
 	Signal Beam		Dragon Pulse		Dark Pulse		Flash Cannon		Simple Beam
 	Charge Beam		Light of Ruin		Moongeist Beam		Eternabeam		Steel Beam
 	Meteor Beam		Prismatic Laser		Dragon Energy		Solar Beam		Water Gun
-- The following moves are considered as "wind moves":
-	Whirlwind		Gust			Razor Wind		Hurricane		Twister
-	Silver Wind		Ominous Wind		Tailwind		Fairy Wind		Icy Wind
-	Aeroblast		Air Cutter		Air Slash		Bleakwind Storm		Vacuum Wave
-	Sandsear Storm		Wildbolt Storm		Leaf Tornado		Springtide Storm
+- The following moves additionally count as wind moves:
+	Razor Wind		Silver Wind		Ominous Wind		Leaf Tornado		Vacuum Wave
+	Aeroblast		Air Cutter		Air Slash
 - The following moves are considered as "piercing moves":
 	Horn Attack		Fury Attack		Horn Drill		Poison Sting		Twineedle
 	Pin Missile		Peck			Drill Peck		Spike Cannon		Leech Life
@@ -117,6 +115,7 @@ on the Sky Field field effect
 - Overcoat additionally makes the Pokémon immune to the effects of entry hazards
 - Deep Sea Tooth additionally works on Huntail
 - Deep Sea Scale additionally works on Gorebyss
+- Lucky Punch additionally works on Blissey
 - The following moves are additionally considered punching moves:
 	Sucker Punch		Crabhammer		Wood Hammer		Dragon Hammer
 - Mind Blown is additionally considered a bomb move

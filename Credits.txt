@@ -281,6 +281,8 @@ Scripting:
 - mej71
 - Tastyredtomato
 - bo4p5687
+- King_Waluigi
+- ThatWelshOne_
 
 PBS:
 - Pokemon Essentials Team
