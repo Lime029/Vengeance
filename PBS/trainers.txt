@@ -2092,7 +2092,7 @@ Pokemon = MAGNEMITE,13
 Pokemon = DEWOTT,17
 #-------------------------------
 [SUPERNERD,Sheldon]
-Pokemon = STANTLER,15
+Pokemon = SHIELDON,18
 #-------------------------------
 [VETERAN_F,Helka]
 Pokemon = CUBONE,14
