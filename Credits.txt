@@ -145,6 +145,8 @@ Trainer Overworld Sprites:
 - Somersault
 - TinSil
 - REDBOY265
+- DiegoWT
+- Bonzeet
 
 Music:
 - GlitchxCity
