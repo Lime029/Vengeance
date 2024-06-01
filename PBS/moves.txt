@@ -757,7 +757,7 @@
 738,FISHIOUSREND,Fishious Rend,178,85,WATER,Physical,100,10,0,NearOther,0,abef,"Rends the target with its hard gills. Power doubles if the user moves before the target."
 739,LIFEDEW,Life Dew,17E,0,WATER,Status,0,10,0,UserAndAllies,0,d,"The user scatters mysterious water around and restores the HP of itself."
 740,SURGINGSTRIKES,Surging Strikes,188,25,WATER,Physical,100,5,0,NearOther,0,abef,"Strikes the target thrice, with mastery of the Water style. Always results in a critical hit."
-741,FLIPTURN,Flip Turn,0EE,60,WATER,Physical,100,20,0,NearOther,0,abef,"After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
+741,FLIPTURN,Flip Turn,0EE,60,WATER,Physical,100,20,0,NearOther,0,abefq,"After making its attack, the user rushes back to switch places with a party Pokémon in waiting."
 #-------------------------------
 742,MIRRORLAUNCH,Mirror Launch,0EE,70,STEEL,Special,100,20,0,NearOther,0,bef,"The user shoots at a mirror, hitting the target while also reflecting back at the user, forcing it to switch out."
 743,NEUROTOXIN,Neurotoxin,19A,80,POISON,Special,100,20,0,NearOther,0,bef,"The user secretes a potent neurotoxin that advances the target's poison condition."
@@ -864,7 +864,7 @@
 844,SANDSEARSTORM,Sandsear Storm,00A,100,GROUND,Special,80,10,20,AllNearFoes,0,befs,"The user attacks by wrapping opposing Pokémon in fierce winds and searingly hot sand. This may also leave them with a burn."
 845,SHELTER,Shelter,02F,0,STEEL,Status,0,10,0,User,0,d,"The user makes its skin as hard as an iron shield, sharply boosting its Defense stat."
 846,SPRINGTIDESTORM,Springtide Storm,042,100,FAIRY,Special,80,5,30,AllNearFoes,0,befs,"The user attacks by wrapping opposing Pokémon in fierce winds brimming with love and hate. This may also lower their Attack stats."
-847,STONEAXE,Stone Axe,105,65,ROCK,Physical,90,15,0,NearOther,0,abefhp,"The user swings its stone axes at the target, aiming to land a critical hit. Stone splinters left behind by this attack float around the target."
+847,STONEAXE,Stone Axe,105,65,ROCK,Physical,90,15,0,NearOther,0,abefp,"The user swings its stone axes at the target. Stone splinters left behind by this attack float around the target."
 848,TAKEHEART,Take Heart,1B0,0,PSYCHIC,Status,0,10,0,User,0,d,"The user lifts its spirits, curing its own status conditions and boosting its Sp. Atk and Sp. Def stats."
 849,TRIPLEARROWS,Triple Arrows,1B1,90,FIGHTING,Physical,100,10,0,NearOther,0,befhqt,"The user kicks, then fires three arrows. This move has a heightened chance of landing a critical hit and may also lower the target’s Defense stat or make it flinch."
 850,VICTORYDANCE,Victory Dance,1B2,0,FIGHTING,Status,0,10,0,User,0,do,"The user performs an intense dance to usher in victory, boosting its Attack, Defense, and Speed stats."

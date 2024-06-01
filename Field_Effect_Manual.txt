@@ -34,7 +34,7 @@ of whether it is immune to the attack
 	Stomp			Double Kick		Mega Kick		Jump Kick		Rolling Kick
 	Low Kick		High Jump Kick		Triple Kick		Blaze Kick		Low Sweep
 	High Horsepower		Lunge			Trop Kick		Thunderous Kick		Triple Axel
-	Triple Arrows
+	Triple Arrows		Flip Turn
 - The following moves are considered as "beam moves":
 	Ice Beam		Psybeam			Bubble Beam		Aurora Beam		Hyper Beam
 	Signal Beam		Dragon Pulse		Dark Pulse		Flash Cannon		Simple Beam
@@ -981,6 +981,8 @@ Field Effect Listing
 *	Pokémon in an Aqua Ring are immune to the field damage
 *	No Pokémon can be Frozen
 *	Hail is terminated
+*	The Sp. Def of Rock Pokémon increases x1.5
+*	The Defense of Fire Pokémon increases x1.2
 	
 #--------------------------- 8. Swamp Field [SWF] --------------------------------#
 "Beware the swamp creature!"
@@ -1091,6 +1093,7 @@ Field Effect Listing
 *	Grounded Pokémon that without Water, Poison, or Ground typing are knocked out at the end of each round if their Speed stat is minimized
 *	Rain instead lasts for 8 turns
 *	Burns are cured at the end of each round for grounded Pokémon
+*	The Sp. Def of grounded Ground Pokémon increases x1.5
 
 #--------------------------- 9. Rainbow Field [RBF] --------------------------------#
 "A colorful prism surrounds the field."
@@ -1387,6 +1390,7 @@ Field Effect Listing
 		Purify			Seed Flare
 :::OTHER EFFECTS:::
 *	All Pokémon are poisoned at the end of each round
+*	The Sp. Def of Poison Pokémon increases x1.5
 
 #--------------------------- 12. Desert Field [DEF] --------------------------------#
 "The desert is hot and dry."
@@ -1600,6 +1604,7 @@ Field Effect Listing
 :::OTHER EFFECTS:::
 *	Pokémon no longer take damage from Burns
 *	Confused Pokémon have their Accuracy halved when using contact moves
+*	Ice Pokémon have their Defense increased x1.5
 
 #--------------------------- 14. Rocky Field [ROF] --------------------------------#
 "Jagged rocks cover the field."
@@ -1666,7 +1671,7 @@ Field Effect Listing
 #--------------------------- 15. Forest Field [FOF] --------------------------------#
 "Trees surround the battlefield."
 :::TYPE MODIFIERS:::
-*	Grass moves increase in base power x1.5
+*	Grass moves increase in base power x1.2
 *	Special Bug moves increase in base power x1.5 and deal damage to both opposing Pokémon if they usually hit one target
 *	Slicing moves gain additional Grass-type and increase power x1.5
 :::ABILITY MODIFIERS:::
@@ -1683,8 +1688,7 @@ Field Effect Listing
 *	Pokémon with Flame Body additionally deal x1.5 damage with Fire moves
 *	Run Away additionally boosts Evasion upon entry
 *	Airborne Pokémon with Keen Eye have perfect Accuracy
-*	The following abilities additionally boost Attack upon entry:
-		Hyper Cutter
+*	Hyper Cutter additionally boosts Attack upon entry
 *	Gluttony additionally doubles the effects of berries
 *	Honey Gather additionally restores 1/16 max HP at the end of each round
 *	Flower Veil additionally affects Pokémon that aren't Grass-type
@@ -1741,8 +1745,7 @@ Field Effect Listing
 *	Spider Web additionally sets up a Sticky Web on the target's side
 *	Guardian of Alola additionally boosts Defense and Sp. Def
 *	Terrain Pulse increases in power x2 and becomes Grass-type
-*	The stat-changing effects of the following moves are nullified:
-		Chlorblast		Leaf Storm
+*	The stat-changing effects of Leaf Storm are nullified
 :::ITEM MODIFIERS:::
 *	Telluric Seed boosts Evasion and applies Ingrain to the holder
 *	The stat-changing effects of the following items are amplified by 1 stage:
@@ -1761,6 +1764,7 @@ Field Effect Listing
 *	Psychic Surge transforms the field into the Bewitched Woods temporarily
 *	Cut transforms the field into a Grassy Terrain
 :::OTHER EFFECTS:::
+*	Grass Pokémon have their Defense increased x1.5
 
 #--------------------------- 16. Volcanic Top Field [VTF] --------------------------------#
 "The volcano gurgles with magma."
@@ -3140,6 +3144,7 @@ Field Effect Listing
 *	The critical hit rate is increased by one stage for each of the attacker's increases in Evasion/Accuracy, and the target's decreases in Evasion/Accuracy
 *	Missing a Physical contact attack causes 1/4 max HP recoil damage
 *	Confused Pokémon have their Accuracy halved
+*	Steel Pokémon have their Sp. Def increased x1.5
 
 #--------------------------- 31. Fairy Tale Field [FTF] --------------------------------#
 "A land where every fantasy becomes reality..."
@@ -4321,6 +4326,7 @@ Field Effect Listing
 		Effectiveness from Fire moves against the Pokémon is doubled, and removes the effect after being hit by one
 		After the Pokémon is damaged by a Water move, lowers Sp. Atk, Sp. Def, and Speed, and removes the effect
 		The Pokémon's attacking stat is increased x1.3 when using special moves or moves that apply the Mark of the Devil to the user
+*	Grass Pokémon have their Sp. Def increased x1.5
 
 #--------------------------- 43. Sky Field [SKF] --------------------------------#
 "The clear sky is visible above the clouds."
@@ -4673,6 +4679,7 @@ Field Effect Listing
 *	Ice Pokémon have their Defense and Sp. Def increased x1.5 when defending against contact moves
 *	Damage from Burn is halved
 *	Damage from Hail is doubled
+*	Grass Pokémon have their Defense increased x1.5
 
 #--------------------------- 47. Jungle [JNG] --------------------------------#
 "In the jungle, the mighty jungle..."
