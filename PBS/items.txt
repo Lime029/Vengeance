@@ -962,3 +962,5 @@
 962,TM148,TM148,TM148s,4,3000,"The user attacks the target with an echoing voice. If this move is used consecutively by any Pokémon, its power is boosted.",3,0,0,ECHOEDVOICE
 963,TM149,TM149,TM149s,4,16000,"The user releases a horrible aura imbued with ill intent. This may also make the target flinch.",3,0,0,DARKPULSE
 964,TM150,TM150,TM150s,4,800,"The user makes the target see a frightening mirage. It inflicts damage equal to the user's level.",3,0,0,NIGHTSHADE
+965,MININGKIT,Mining Kit,Mining Kits,8,0,"A hammer and pickaxe for unearthing lost goods.",0,0,6,
+966,VISITORPASS,Visitor Pass,Visitor Passes,8,0,"A pass allowing free access to Darkleaf Academy. It has no expiration date.",0,0,6,

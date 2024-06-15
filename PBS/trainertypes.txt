@@ -758,3 +758,4 @@
 756,VETERAN2_M,Veteran,88,Battle Trainer 4,,,Male,,
 757,VETERAN2_F,Veteran,88,Battle Trainer 4,,,Female,,
 758,VETERAN3_M,Veteran,88,Battle Trainer 4,,,Male,,
+759,TRAINER_Walter,Pokémon Trainer,100,Battle Trainer Important,,,Male,,
