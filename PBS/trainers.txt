@@ -2554,3 +2554,40 @@ Pokemon = BEEDRILL,18
 Pokemon = HERACROSS,20
     Moves = AERIALACE,BULLETSEED,ROCKSMASH,BUGBITE
     AbilityIndex = 2
+# Darkleaf Gym
+#-------------------------------
+# Darkleaf Academy
+#-------------------------------
+[RIVAL_Cole,Cole]
+Pokemon = SHELMET,20
+    Moves = CUT,FURYCUTTER,PECK,FEATHERDANCE
+    AbilityIndex = 1
+Pokemon = SUDOWOODO,20
+    Moves = SLAM,CURSE,ROCKTOMB,HAMMERARM
+    AbilityIndex = 1
+Pokemon = DEERLING,20
+    Moves = SECRETPOWER,SANDATTACK,SEEDBOMB,FEINTATTACK
+    AbilityIndex = 2
+    Form = 3
+Pokemon = ORICORIO,21
+    Item = SITRUSBERRY
+    Moves = PLUCK,ROUND,HIDDENPOWERWAT,UTURN
+    AbilityIndex = 0
+#-------------------------------
+[TRAINER_Frederick,Frederick]
+Pokemon = PINCURCHIN,19
+    Moves = THUNDERSHOCK,WATERGUN,SUCKERPUNCH,PECK
+    AbilityIndex = 2
+Pokemon = CHINCHOU,19
+    Moves = CONFUSERAY,BUBBLEBEAM,ELECTROBALL,SOAK
+    AbilityIndex = 0
+Pokemon = NOSEPASS,20
+    Moves = ROCKTHROW,SPARK,DOUBLEEDGE,MAGNITUDE
+    AbilityIndex = 3
+Pokemon = VOLTORB,19
+    Moves = ELECTROBALL,BULLETSEED,WORRYSEED,ROLLOUT
+    AbilityIndex = 3
+    Form = 1
+Pokemon = ROTOM,21
+    Moves = HEX,ELECTROBALL,CONFUSERAY,ELECTRICTERRAIN
+    AbilityIndex = 0

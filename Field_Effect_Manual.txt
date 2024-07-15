@@ -361,6 +361,8 @@ Field Effect Listing
 		Eruption		Lava Plume		Flame Burst		Incinerate		Searing Shot
 		Fire Pledge		Inferno Overdrive	Burn Up			Magma Storm		Inferno
 *	Rototiller transforms the field into a Flower Garden
+*	The following moves will transform the field into the Swamp Field after three uses:
+		Muddy Water		Surf			Hydro Vortex		Oceanic Operetta
 :::OTHER EFFECTS:::
 *	Grounded Pokémon without Overcoat or Heavy-Duty Boots restore 1/16 max HP at the end of each round
 *	Spikes deal half damage to affected Pokémon
@@ -2994,7 +2996,7 @@ Field Effect Listing
 		Mystical Fire		Magical Leaf		Judgment		Sacred Fire		Ancient Power
 		Aura Sphere		Round			Echoed Voice		Fire Pledge		Water Pledge
 		Grass Pledge		Sacred Sword		Relic Song		Aura Wheel		Mystical Power
-		Chi Blast
+		Chi Blast		Extreme Speed
 *	The following moves instead restore 3/4 max HP:
 		Wish			Heal Pulse
 *	Miracle Eye additionally sharply boosts the user's Sp. Atk
@@ -3347,6 +3349,7 @@ Field Effect Listing
 *	Rock Peak Titan's Defense boost is increased to x1.5
 *	Dragon Orb Titan instead boosts the power of affected moves x1.5 and reduces damage done to the Pokémon x0.5
 *	The damage boost of moves affected by Shifu is instead x0.2 for each consecutive use
+*	Shed Skin's activation chance is doubled
 :::MOVE MODIFIERS:::
 *	Sound-based moves gain additional Dragon-type and increase in power x1.5
 *	The following moves increase in power x2:
@@ -4470,7 +4473,7 @@ Field Effect Listing
 *	Nature Power becomes Teatime
 *	Terrain Pulse increases in power x2
 *	Astonish increases in power x1.2
-*	Recoil moves x2/3 base Accuracy
+*	Recoil moves have their base Accuracy multiplied x2/3
 *	High Jump Kick becomes Jump Kick
 *	The following moves instead heal 1/4 max HP:
 		Morning Sun		Synthesis		Moonlight

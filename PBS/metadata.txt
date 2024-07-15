@@ -537,6 +537,13 @@ Weather = Rain,25
 MapPosition = 0,5,7
 BattleBack = BewitchedWoods
 #-------------------------------
+[095]
+# Darkleaf Academy
+Outdoor = false
+Bicycle = false
+MapPosition = 0,5,8
+BattleBack = Indoor1
+#-------------------------------
 [096]
 # Darkleaf Gym
 Outdoor = false
@@ -544,7 +551,7 @@ MapPosition = 0,5,8
 BattleBack = Indoor1
 #-------------------------------
 [097]
-# Darkleaf Cave - 1F
+# Darkleaf Cave
 Outdoor = false
 ShowArea = true
 Bicycle = true
@@ -568,3 +575,11 @@ BattleBack = Jungle
 Outdoor = false
 MapPosition = 0,5,7
 BattleBack = Subzero
+#-------------------------------
+[101]
+# Darkleaf Academy
+Outdoor = false
+ShowArea = false
+Bicycle = false
+MapPosition = 0,5,8
+BattleBack = Indoor1
