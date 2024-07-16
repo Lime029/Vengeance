@@ -128,7 +128,8 @@ Dancer, Metronome, etc.)
 no targets:
 	Steel Beam		Mind Blown
 - Single-target moves that ignore redirection additionally can target non-adjacent
-Pokémon (like with Stalwart, Snipe Shot, etc.)
+Pokémon (like with Stalwart, Snipe Shot, etc.), and Long Reach additionally applies
+this functionality for contact moves
 - Moves that lock the user into them and cause confusion after 2-3 turns are additionally
 considered recoil moves
 - Moves that force the user to recharge afterwards are additionally considered recoil
